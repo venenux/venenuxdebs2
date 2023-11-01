@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 30 Jan 2017 17:11:12 -0430
+Source: apt-conf-vnx
+Binary: apt-conf-vnx
+Architecture: source all
+Version: 0.4.1
+Distribution: unstable
+Urgency: medium
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ apt-conf-vnx - preferencias iniciales para sistema de paquetes de software Venen
+Changes: 
+ apt-conf-vnx (0.4.1) unstable; urgency=medium
+ .
+   * reconfigure, now last of debian that uses HAL and SysV-init, all archived:
+     + all the repositories are on archive.debian.org
+     + reconfigure priority to use it
+     + bypass the older release and gpg keys not valid anymore
+     + set squeeze and complete venenux 0.X series as archived! now!
+   * debian/postinst:
+     + fix autoconfigures repository for garbages and testing versions of venenux wrong detected
+     + autoconfiguring now the repositories for the older supported debian releases of venenux
+   * apt:
+     + fix repositories ping priority and uses event if not valid when acquire
+Checksums-Sha1: 
+ d07d323762f811cd455dab053f1f28aab3d1f633 789 apt-conf-vnx_0.4.1.dsc
+ 0175353de34fb7188041b9444387b09b90f0ff53 108692 apt-conf-vnx_0.4.1.tar.gz
+ 844d15daf89c794fb88a4a0f4967677292ea96c4 13796 apt-conf-vnx_0.4.1_all.deb
+Checksums-Sha256: 
+ d36757f0438f6e52cb3e0ed80da45e45a9f436a4af11d247048599a2f75d9c8c 789 apt-conf-vnx_0.4.1.dsc
+ 521b1f0ff3833f4d8c4bc23a7ecfcb88958cfe93afb6e4b1bb332808f56d33d9 108692 apt-conf-vnx_0.4.1.tar.gz
+ 3d506bbb91f63791257839a53d2d210ea1e47111b18fd352d95e5e6f885cd8b1 13796 apt-conf-vnx_0.4.1_all.deb
+Files: 
+ bbb2cd42acc54f7aa290745bdbecec68 789 admin important apt-conf-vnx_0.4.1.dsc
+ 598ea116324d7fb42f3827fc3c150394 108692 admin important apt-conf-vnx_0.4.1.tar.gz
+ 0d7e5d8c51265826305a8dc3702171c6 13796 admin important apt-conf-vnx_0.4.1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAliPs88ACgkQz+9Ts05YtsQmvQCgmFRY8d2+Sy9mt43hML0ErRha
+e14An2z2uCRE+B2tvZGqSDN+AUwqjWQ+
+=oIzk
+-----END PGP SIGNATURE-----

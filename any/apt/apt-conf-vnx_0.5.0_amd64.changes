@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 30 Jan 2023 17:11:12 -0430
+Source: apt-conf-vnx
+Binary: apt-conf-vnx
+Architecture: source all
+Version: 0.5.0
+Distribution: unstable
+Urgency: medium
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description:
+ apt-conf-vnx - preferencias iniciales para sistema de paquetes de software Venen
+Changes:
+ apt-conf-vnx (0.5.0) unstable; urgency=medium
+ .
+   * reconfigure, now last of debian that uses HAL and SysV-init, all archived:
+     + all the repositories are on archive.debian.org
+     + reconfigure priority to use it
+     + bypass the older release and gpg keys not valid anymore
+   * debian/postinst:
+     + fix autoconfigures repository for garbages and testing versions of venenux wrong detected
+     + autoconfiguring now the repositories for the older supported debian releases of venenux
+   * debian/source:
+     + force gzip/bzip2 compatible compresion format
+   * apt:
+     + fix repositories ping priority and uses event if not valid when acquire
+Checksums-Sha1:
+ 9db59de9dd664be0da3baac75ae25ccdba977e2d 541 apt-conf-vnx_0.5.0.dsc
+ ebdc8ac87919c64410e398aceac13a04e0611dc6 107905 apt-conf-vnx_0.5.0.tar.gz
+ fa76062a1a37012c6e357b8ed504a3fb17c86881 13232 apt-conf-vnx_0.5.0_all.deb
+ aecd65b4bdd6a344b1bc949aa6465418d3027bd7 5065 apt-conf-vnx_0.5.0_amd64.buildinfo
+Checksums-Sha256:
+ dd2772b542c30799ed7fb13401aea2cca2e160fdfcbff8ef4c837cf08218f739 541 apt-conf-vnx_0.5.0.dsc
+ 5420a22ff6bc1b33a130f560a7a75b9bab16e8e15915310fc70119102ab23fd0 107905 apt-conf-vnx_0.5.0.tar.gz
+ baaa8eda4b4cf3765b1710d8469a9484d21636a8375ed7f90cdf9adbcde2793f 13232 apt-conf-vnx_0.5.0_all.deb
+ cc402f856a2377f2ac57a0c81263a279905ec2a4e5ae3ef9be712aa6b4b7b689 5065 apt-conf-vnx_0.5.0_amd64.buildinfo
+Files:
+ 6523710f5de992e66a9c6e2fd82e1d28 541 admin important apt-conf-vnx_0.5.0.dsc
+ 5c52e9b7d7daf228d26b3e12d21cd438 107905 admin important apt-conf-vnx_0.5.0.tar.gz
+ 856ac099c1ea3162212873c8b7da14da 13232 admin important apt-conf-vnx_0.5.0_all.deb
+ 3aaafaf07283f2fc06b0d7db8f769378 5065 admin important apt-conf-vnx_0.5.0_amd64.buildinfo
