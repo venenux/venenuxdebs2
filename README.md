@@ -1,6 +1,7 @@
-# venenux repositories for older releases
+# venenux repositories of packages for not so older releases
 
-VenenuX repositories for first generation of modern computers, means this repository its for 64bits systems and older debians/venenux.
+VenenuX repositories for second, thirth and fourth generation of modern computers, means 
+its for 32bit systems and older Debian's/VenenuX's, mostly, Debian 7, Debian 8 and Debian 9.
 
 **Do you want more modern ones? theck http://venenux.github.io/venenux3/ repository for Debian 10/11/12!**
 
@@ -65,6 +66,8 @@ always supported older distros:
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for jessie and stretch on amd64 |
 | nodejs             | 9 or 11   | 9 or 11   |           | like have a 32bit nodejs, cos today there no 32bit builds of |
 | brave-keyring      |   x       |     x     |     x     | need for manual brave install on our customized repos  |
+| google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
+| slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
 
 Those package are only in the `stable` branch component, not in `main` one of the repository index debian packages.
 

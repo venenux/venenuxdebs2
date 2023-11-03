@@ -1,7 +1,7 @@
 # venenux repositories for older releases
 
 PLEAE READ [README.md](README.md), this is a VenenuX repositories for first generation of modern computers, 
-means this repository its for 64bit systems and older debians/venenux.
+means its for 32bit and 64bit systems and not so older Debian's/VenenuX's, mostly, Debian 7, Debian 8 and Debian 9.
 
 **Do you want more modern ones? theck http://venenux.github.io/venenux2/ repository for Debian 10/11/12!**
 
@@ -34,7 +34,7 @@ debians or at https://build.opensuse.org/project/subprojects/home:vengnuli
 after cloning the repo just get into the directory and then run in root repository:
 `for dist in wheezy jessie stretch; do for ar in i386 amd64; do dpkg-scanpackages -a $ar -m $dist > dists/wheezy/main/binary-$ar/Packages; done; done`
 and later you can generate the index compresed with
-`for dist in wheezy jessie stretch; do for ar in i386; do gzip -c dists/$dist/main/binary-$ar/Packages > dists/$dist/main/binary-$ar/Packages.gz; done; done`
+`for dist in wheezy jessie stretch; do for ar in i386 amd64; do gzip -c dists/$dist/main/binary-$ar/Packages > dists/$dist/main/binary-$ar/Packages.gz; done; done`
 
 This is basically for each distro (wheezy, jessie stretch) do a dpkg-scanpackages toa specific architecture, 
 by example for i386 packages over wheezy index will be :
