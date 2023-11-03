@@ -122,6 +122,29 @@ SHA256: 0e5c33f32d908a6846b890c5d225f1a0cdebe96fea02879b776fa02877714dd2
 Priority: optional
 Description: Brave Browser keyring and repository files
 
+Package: cowsay
+Version: 3.03+dfsg1-11
+Architecture: all
+Maintainer: Francois Marier <francois@debian.org>
+Installed-Size: 66
+Depends: perl
+Recommends: xcowsay
+Suggests: filters
+Filename: any/venenux/cowsay_3.03+dfsg1-11_all.deb
+Size: 22542
+MD5sum: 24ad727ccd047b503581bc4db70e2a1d
+SHA1: 88dff9a1fc0696661e8c9333ffd512dd3a211d0f
+SHA256: e9956618462f5a6ec46665d3b52337b1965b57cfd3b10a2122eb1a0a9c610c18
+Section: games
+Priority: optional
+Homepage: http://www.nog.net/~tony/warez
+Description: configurable talking cow
+ Cowsay (or cowthink) will turn text into happy ASCII cows, with
+ speech (or thought) balloons. If you don't like cows, ASCII art is
+ available to replace it with some other creatures (Tux, the BSD
+ daemon, dragons, and a plethora of animals, from a turkey to
+ an elephant in a snake).
+
 Package: nodejs
 Version: 11.15.0-1nodesource1
 Architecture: amd64
@@ -219,4 +242,27 @@ Priority: optional
 Homepage: http://www.slimjet.com
 Description: Fast, smart and powerful browser based on Blink
  Slimjet is a fast, smart and powerful web browser based on the Blink engine. It is built on top of the Chromium open source project, on which Google chrome is also based. Slimjet integrates a lot of powerful and convenient features to help users maximize their online productivity. Slimjet also includes many options and settings so that users can customize the browser to best suit their own personal preference.
+
+Package: venenux-defaults
+Version: 1.0
+Architecture: all
+Maintainer: VeGNUli <vegnuli@gmail.com>
+Installed-Size: 12504
+Depends: librsvg2-common, apt-conf-vnx
+Suggests: venenux-defaults-desktop, venenux-multimedia-devels | venenux-multimedia-codecs
+Provides: mintsystem, venenux-art-wallpaper-theme, venenux-manifiesto
+Filename: any/venenux/venenux-defaults_1.0_all.deb
+Size: 10244076
+MD5sum: 58290807f7ff0ed326d9771a44913414
+SHA1: ffec0d529165f061e3dd4950b090456f8b21ab35
+SHA256: 8483364e5cce977e8e591245ef3ad0f1cef56e95fdcaa37ad3d6b530de7fce1d
+Section: x11
+Priority: optional
+Description: VNXDE Debian Desktop VenenuX
+ This package contains various miscellaneous files which are used by
+ Debian Desktop installations.  Currently, it provides some
+ VenenuX-related artwork and themes, .desktop files containing links to
+ VenenuX related material (suitable for placement on a user's desktop),
+ and other common files between the available desktop environments
+ such as LXDE, XFCE4 and RazorQt.
 
