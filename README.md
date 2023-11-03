@@ -17,10 +17,10 @@ Just add to sources list using your name distro:
 
 | Release | Repo entry in source.list |
 | ------- | ------------------------------------------------------------- |
-| wheezy  | `deb https://venenux.github.io/vnxrepo1/ wheezy main`    |
-| jessie  | `deb https://venenux.github.io/vnxrepo1/ jessie main`    |
-| stretch | `deb https://venenux.github.io/vnxrepo1/ stretch main`   |
-| extra   | `deb https://venenux.github.io/vnxrepo1/ any main`       |
+| wheezy  | `deb https://venenux.github.io/venenux2/ wheezy main`    |
+| jessie  | `deb https://venenux.github.io/venenux2/ jessie main`    |
+| stretch | `deb https://venenux.github.io/venenux2/ stretch main`   |
+| extra   | `deb https://venenux.github.io/venenux2/ any main`       |
 
 ## How to avoid or use the https
 
@@ -69,7 +69,7 @@ always supported older distros:
 | google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
 | slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
 
-Those package are only in the `stable` branch component, not in `main` one of the repository index debian packages.
+Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
 ##  Why this repository and why older distro
 

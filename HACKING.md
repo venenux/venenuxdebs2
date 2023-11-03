@@ -3,7 +3,7 @@
 PLEAE READ [README.md](README.md), this is a VenenuX repositories for first generation of modern computers, 
 means its for 32bit and 64bit systems and not so older Debian's/VenenuX's, mostly, Debian 7, Debian 8 and Debian 9.
 
-**Do you want more modern ones? theck http://venenux.github.io/venenux2/ repository for Debian 10/11/12!**
+**Do you want more modern ones? theck http://venenux.github.io/venenux3/ repository for Debian 10/11/12!**
 
 ## Supported Debians
 
