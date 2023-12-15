@@ -3,7 +3,7 @@
 VenenuX repositories for second, thirth and fourth generation of modern computers, means 
 its for 32bit systems and older Debian's/VenenuX's, mostly, Debian 7, Debian 8 and Debian 9.
 
-**Do you want more modern ones? theck http://venenux.github.io/venenux3/ repository for Debian 10/11/12!**
+**Do you want more modern ones? theck http://venenux.github.io/venenuxdebs3/ repository for Debian 10/11/12!**
 
 ## Supported Debians
 
@@ -17,10 +17,12 @@ Just add to sources list using your name distro:
 
 | Release | Repo entry in source.list |
 | ------- | ------------------------------------------------------------- |
-| wheezy  | `deb https://venenux.github.io/venenux2/ wheezy main`    |
-| jessie  | `deb https://venenux.github.io/venenux2/ jessie main`    |
-| stretch | `deb https://venenux.github.io/venenux2/ stretch main`   |
-| extra   | `deb https://venenux.github.io/venenux2/ any main`       |
+| wheezy  | `deb https://venenux.github.io/venenuxdebs2/ wheezy main`    |
+| jessie  | `deb https://venenux.github.io/venenuxdebs2/ jessie main`    |
+| stretch | `deb https://venenux.github.io/venenuxdebs2/ stretch main`   |
+| extra   | `deb https://venenux.github.io/venenuxdebs2/ any main`       |
+
+Autoconfiguration can be made for more repos by using the package: [any/apt/apt-conf-vnx_0.5.0_all.deb](any/apt/apt-conf-vnx_0.5.0_all.deb)
 
 ## How to avoid or use the https
 
@@ -62,12 +64,13 @@ always supported older distros:
 
 | Package            | wheezy    | jessie    | stretch   | notes    |
 | ------------------ | --------- | --------- | --------- | -------- |
-| anydesk            |           |           | 2.3.9     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
+| anydesk            | 2.3.9/6.0 | 6.0.0     | 6.0.1     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for jessie and stretch on amd64 |
-| nodejs             | 9 or 11   | 9 or 11   |           | like have a 32bit nodejs, cos today there no 32bit builds of |
+| nodejs             | 9 or 11   | 9 or 11   | 9 or 16   | like have a 32bit nodejs, cos today there no 32bit builds of |
 | brave-keyring      |   x       |     x     |     x     | need for manual brave install on our customized repos  |
 | google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
 | slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
+
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 

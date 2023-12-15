@@ -32,9 +32,9 @@ debians or at https://build.opensuse.org/project/subprojects/home:vengnuli
 #### regenerate index packages
 
 after cloning the repo just get into the directory and then run in root repository:
-`for dist in wheezy jessie stretch; do for ar in i386 amd64; do dpkg-scanpackages -a $ar -m $dist > dists/wheezy/main/binary-$ar/Packages; done; done`
+`for dist in any wheezy jessie stretch; do for ar in i386 amd64; do dpkg-scanpackages -a $ar -m $dist > dists/wheezy/main/binary-$ar/Packages; done; done`
 and later you can generate the index compresed with
-`for dist in wheezy jessie stretch; do for ar in i386 amd64; do gzip -c dists/$dist/main/binary-$ar/Packages > dists/$dist/main/binary-$ar/Packages.gz; done; done`
+`for dist in any wheezy jessie stretch; do for ar in i386 amd64; do gzip -c dists/$dist/main/binary-$ar/Packages > dists/$dist/main/binary-$ar/Packages.gz; done; done`
 
 This is basically for each distro (wheezy, jessie stretch) do a dpkg-scanpackages toa specific architecture, 
 by example for i386 packages over wheezy index will be :

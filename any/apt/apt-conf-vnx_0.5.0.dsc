@@ -9,8 +9,8 @@ Build-Depends: debhelper
 Package-List:
  apt-conf-vnx deb admin important arch=all
 Checksums-Sha1:
- ebdc8ac87919c64410e398aceac13a04e0611dc6 107905 apt-conf-vnx_0.5.0.tar.gz
+ 8b389659fb6234cdf8d12215a43b7901cd67b691 108085 apt-conf-vnx_0.5.0.tar.gz
 Checksums-Sha256:
- 5420a22ff6bc1b33a130f560a7a75b9bab16e8e15915310fc70119102ab23fd0 107905 apt-conf-vnx_0.5.0.tar.gz
+ c176a3ff2f0e085ecf18b4299c4a6b84957b899ffef3fad30918417c034927ef 108085 apt-conf-vnx_0.5.0.tar.gz
 Files:
- 5c52e9b7d7daf228d26b3e12d21cd438 107905 apt-conf-vnx_0.5.0.tar.gz
+ bd3ae46ecb6355de575f92d8858ac19d 108085 apt-conf-vnx_0.5.0.tar.gz
