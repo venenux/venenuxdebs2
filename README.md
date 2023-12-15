@@ -70,7 +70,7 @@ always supported older distros:
 | brave-keyring      |   x       |     x     |     x     | need for manual brave install on our customized repos  |
 | google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
 | slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
-
+| codium             |  1.35     |  1.35     |  1.35     |  las version for i386     |
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
