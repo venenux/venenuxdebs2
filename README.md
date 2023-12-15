@@ -71,8 +71,9 @@ always supported older distros:
 | google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
 | slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
 | codium             |  1.35     |  1.35     |  1.35     |  las version for i386     |
+| yarn               | 1.29      | 1.29      | 1.29      | working    |
 | nerolinux          | 4.0.0     | 4.0.0     | 4.0.0     | nerolinux key provided in telegram, or inside venenux debian |
-
+| samsung drivers    | 2         | 2         | 2         | archived of the universal sansung dreivers for older printers |
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
