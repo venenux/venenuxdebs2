@@ -71,6 +71,8 @@ always supported older distros:
 | google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
 | slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
 | codium             |  1.35     |  1.35     |  1.35     |  las version for i386     |
+| nerolinux          | 4.0.0     | 4.0.0     | 4.0.0     | nerolinux key provided in telegram, or inside venenux debian |
+
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
