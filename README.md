@@ -64,7 +64,7 @@ always supported older distros:
 
 | Package            | wheezy    | jessie    | stretch   | notes    |
 | ------------------ | --------- | --------- | --------- | -------- |
-| anydesk            | 2.3.9/6.0 | 6.0.0     | 6.0.1     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
+| anydesk            | 6.0.0     | 6.0.0     | 6.0.0     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for jessie and stretch on amd64 |
 | nodejs             | 9 or 11   | 9 or 11   | 9 or 16   | like have a 32bit nodejs, cos today there no 32bit builds of |
 | brave-keyring      |   x       |     x     |     x     | need for manual brave install on our customized repos  |
