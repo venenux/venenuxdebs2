@@ -1,0 +1,314 @@
+Package: linux-headers-4.7.0-7.1-liquorix-686
+Source: linux-liquorix
+Version: 4.7-7mx150+3
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 53311
+Depends: libc6 (>= 2.7), gcc-4.9
+Conflicts: r8168-dkms
+Filename: jessie/linux-liquorix/linux-headers-4.7.0-7.1-liquorix-686_4.7-7mx150+3_i386.deb
+Size: 7264244
+MD5sum: e549e7315123902cfcd11485d5a79204
+SHA1: 88918201629b5e162799d2d735a1e9b89e20161b
+SHA256: 4f51222a77f3e3c094f46082b69ea7f3a0ada124e786242574aad3d2bca3848c
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.7.0-7.1-liquorix-686
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.7.0-7.1-liquorix-686, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.7.0-7.1-liquorix-686, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.7.0-7.1-liquorix-686 package.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-headers-4.7.0-7.1-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.7-7mx150+3
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 53415
+Depends: libc6 (>= 2.7), gcc-4.9
+Conflicts: r8168-dkms
+Filename: jessie/linux-liquorix/linux-headers-4.7.0-7.1-liquorix-686-pae_4.7-7mx150+3_i386.deb
+Size: 7264052
+MD5sum: e06cf7b28b3574cde5c7af3b77d71657
+SHA1: 3c0a18ccd8cb52a761f45642f77427fc1a31814e
+SHA256: 51137277ac51db9dd2bb001e62601bd5cd8eea2cd4b009d958e4ec725680428c
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.7.0-7.1-liquorix-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.7.0-7.1-liquorix-686-pae, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.7.0-7.1-liquorix-686-pae, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.7.0-7.1-liquorix-686-pae package.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-headers-4.8.0-2.1-liquorix-686
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 54423
+Depends: libc6 (>= 2.7), gcc-4.9
+Conflicts: r8168-dkms
+Filename: jessie/linux-liquorix/linux-headers-4.8.0-2.1-liquorix-686_4.8-2mx150+2_i386.deb
+Size: 7436360
+MD5sum: db6fb960ef00c97d5470bb8a48473504
+SHA1: 726182c45ef032c0e6bb3d597bdddbb8ca828ca7
+SHA256: 6ba7eee73483a32791dfbad59cfb1379cc3c385f314d240488c5763cc801dc8b
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.8.0-2.1-liquorix-686
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.8.0-2.1-liquorix-686, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.8.0-2.1-liquorix-686, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.8.0-2.1-liquorix-686 package.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-headers-4.8.0-2.1-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 54527
+Depends: libc6 (>= 2.7), gcc-4.9
+Conflicts: r8168-dkms
+Filename: jessie/linux-liquorix/linux-headers-4.8.0-2.1-liquorix-686-pae_4.8-2mx150+2_i386.deb
+Size: 7437988
+MD5sum: 2f5c55408a56026329a596ac50631abd
+SHA1: edf5083866408a7f133e05c84ac0175364eae6eb
+SHA256: 42df7024dbaf74f5074d68091cae0c35a82949cc1e012aef6a62b3cbc51204e8
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.8.0-2.1-liquorix-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.8.0-2.1-liquorix-686-pae, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.8.0-2.1-liquorix-686-pae, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.8.0-2.1-liquorix-686-pae package.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-headers-liquorix-686
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 163
+Depends: linux-headers-4.8.0-2.1-liquorix-686 (= 4.8-2mx150+2)
+Filename: jessie/linux-liquorix/linux-headers-liquorix-686_4.8-2mx150+2_i386.deb
+Size: 143006
+MD5sum: 0d9fd85be501134cb64644c987ed43c3
+SHA1: 7c220bb4bd74cf425ff68607305bfa369c829708
+SHA256: 925f45c4828c917966d0f560c4dd1bde8c63a63017305d6947ac061a8a9be364
+Section: metapackages
+Priority: extra
+Homepage: http://www.liquorix.net/
+Description: Linux headers for liquorix on modern PCs
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with Intel Pentium Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom;
+ AMD Geode LX/NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C3 "Nehemiah" or C7 processors machines for
+ liquorix.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-headers-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 163
+Depends: linux-headers-4.8.0-2.1-liquorix-686-pae (= 4.8-2mx150+2)
+Filename: jessie/linux-liquorix/linux-headers-liquorix-686-pae_4.8-2mx150+2_i386.deb
+Size: 142908
+MD5sum: d22ef28e7aeeb2c76c619bead405ad49
+SHA1: 3a557707512996893655516aa35b1352cb9f262c
+SHA256: f253668f6b255bc4efe8da98c35ed0d2b290f940b9c4c16b10d9fb11006e362e
+Section: metapackages
+Priority: extra
+Homepage: http://www.liquorix.net/
+Description: Linux headers for liquorix on modern PCs
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with one or more processors supporting PAE machines for liquorix.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-4.7.0-7.1-liquorix-686
+Source: linux-liquorix
+Version: 4.7-7mx150+3
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 138514
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.7, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.7.0-7.1-liquorix-686
+Filename: jessie/linux-liquorix/linux-image-4.7.0-7.1-liquorix-686_4.7-7mx150+3_i386.deb
+Size: 37791956
+MD5sum: 9edc9d80f07936b49099ffb0ae9a9cd7
+SHA1: cc4295824232ef533767e3b41b9df359e58bdfc8
+SHA256: 9ef934e1c8a954e8391b1cf83e0f6de4be58c2401cfcd2de7f111f5c8bde407f
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.7 for modern PCs
+ The Linux kernel 4.7 and modules for use on PCs with Intel Pentium
+ Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom; AMD Geode LX/NX, Athlon
+ (K7), Duron, Opteron, Sempron, Turion or Phenom; Transmeta Efficeon; VIA
+ C3 "Nehemiah" or C7 processors.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-4.7.0-7.1-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.7-7mx150+3
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 138861
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.7, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.7.0-7.1-liquorix-686-pae
+Filename: jessie/linux-liquorix/linux-image-4.7.0-7.1-liquorix-686-pae_4.7-7mx150+3_i386.deb
+Size: 37963252
+MD5sum: 441c44aa0415b19a71b6a926f017d2b9
+SHA1: 2f9ba5460f17c5ff3e2179059f0974e8278782a1
+SHA256: 1d3a5bea5850456d8a0782e2d5f01ce4b604404ede5e1485f55aeeeeefc2897a
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.7 for modern PCs
+ The Linux kernel 4.7 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension) This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-4.8.0-2.1-liquorix-686
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 140376
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.8, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.8.0-2.1-liquorix-686
+Filename: jessie/linux-liquorix/linux-image-4.8.0-2.1-liquorix-686_4.8-2mx150+2_i386.deb
+Size: 38313008
+MD5sum: 83df10e6e6dd54fe04f73a3f53ab673f
+SHA1: b1d3a8e7a50e6083e6b6d82ca9f0bc5552d8f1ed
+SHA256: ba4b3581172f90ae6698e8ce5bc5d246e7f93aa3b4baaffa7be4449d2c2d28a6
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.8 for modern PCs
+ The Linux kernel 4.8 and modules for use on PCs with Intel Pentium
+ Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom; AMD Geode LX/NX, Athlon
+ (K7), Duron, Opteron, Sempron, Turion or Phenom; Transmeta Efficeon; VIA
+ C3 "Nehemiah" or C7 processors.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-4.8.0-2.1-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 140724
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.8, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.8.0-2.1-liquorix-686-pae
+Filename: jessie/linux-liquorix/linux-image-4.8.0-2.1-liquorix-686-pae_4.8-2mx150+2_i386.deb
+Size: 38493386
+MD5sum: bc24fb0e7dcbc392eea80a2392ece87d
+SHA1: c076af1b5677deaa82919135ab584673501e24f3
+SHA256: 3ba7640df1149618764d5fe99b2662333e2c7986c996a84a708c0de612568d3d
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.8 for modern PCs
+ The Linux kernel 4.8 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension) This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-liquorix-686
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 163
+Depends: linux-image-4.8.0-2.1-liquorix-686 (= 4.8-2mx150+2)
+Recommends: linux-headers-liquorix-686 (= 4.8-2mx150+2)
+Filename: jessie/linux-liquorix/linux-image-liquorix-686_4.8-2mx150+2_i386.deb
+Size: 143018
+MD5sum: 4b714fe67c453cccdee07334463963bc
+SHA1: 47f9f2f27dd1e0cb1701ac6681d5540dbd6d09c4
+SHA256: 5476fc8e0c60234009b9c6511cea37582f285d19912b08c056541fb1ef88152c
+Section: metapackages
+Priority: extra
+Homepage: http://www.liquorix.net/
+Description: Linux image for liquorix on modern PCs
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with Intel Pentium Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom;
+ AMD Geode LX/NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C3 "Nehemiah" or C7 processors machines for
+ liquorix.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: i386
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 163
+Depends: linux-image-4.8.0-2.1-liquorix-686-pae (= 4.8-2mx150+2)
+Recommends: linux-headers-liquorix-686-pae (= 4.8-2mx150+2)
+Filename: jessie/linux-liquorix/linux-image-liquorix-686-pae_4.8-2mx150+2_i386.deb
+Size: 142910
+MD5sum: a972472c5f75d696a572b04fd8866fef
+SHA1: bf1baac0f2188f34247150db3ce9e12d1fbe20d6
+SHA256: 4c19366ffbb2249225c30a904d8e68048ca461b15092cc2452a83738887f7f05
+Section: metapackages
+Priority: extra
+Homepage: http://www.liquorix.net/
+Description: Linux image for liquorix on modern PCs
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with one or more processors supporting PAE machines for liquorix.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+

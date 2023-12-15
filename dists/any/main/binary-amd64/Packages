@@ -1,4 +1,21 @@
 Package: anydesk
+Version: 6.0.1
+Architecture: amd64
+Maintainer: Markus Plichta <mplichta@anydesk.com>
+Installed-Size: 12990
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.20.1), libstdc++6 (>= 4.1.1), libx11-6, libxcb-shm0, libxcb1, libpango-1.0-0, libcairo2, libxrandr2 (>= 1.3), libx11-xcb1, libxtst6, libxfixes3, libxdamage1, libxkbfile1, libgtkglext1
+Recommends: libglx-mesa0, xdg-utils
+Filename: any/anydesk/anydesk_6.0.1-1_amd64.deb
+Size: 5197638
+MD5sum: 03d9e09116d70b9324fec106424d2f75
+SHA1: 5e9cdae15fcfe9ad1a3f7af41e5adb12f0bf7d24
+SHA256: d1a576d6e757a7f82b10e6e3c27d19cb84c25e4add8fe50545d23ea1688df485
+Section: network
+Priority: optional
+Homepage: https://www.anydesk.com/
+Description: AnyDesk is the fastest remote desktop software on the market. It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
+
+Package: anydesk
 Version: 6.2.1
 Architecture: amd64
 Maintainer: AnyDesk Software GmbH <linux-support@anydesk.com>
@@ -17,53 +34,6 @@ Description: The fastest remote desktop software on the market.
   It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
 
 Package: apt-conf-vnx
-Version: 0.4.1
-Architecture: all
-Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
-Installed-Size: 69
-Depends: lsb-release, gnupg, apt
-Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archive-keyrings, massenkoh-keyrings, venenux-piccoro-keyrings
-Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
-Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
-Filename: any/apt/apt-conf-vnx_0.4.1_all.deb
-Size: 13796
-MD5sum: 0d7e5d8c51265826305a8dc3702171c6
-SHA1: 844d15daf89c794fb88a4a0f4967677292ea96c4
-SHA256: 3d506bbb91f63791257839a53d2d210ea1e47111b18fd352d95e5e6f885cd8b1
-Section: admin
-Priority: important
-Description: preferencias iniciales para sistema de paquetes de software VenenuX
- This added default sources repository and configs for aptitude software package system.
- Esto agrega preferencias iniciales y onfiguraciones para aptitude el sistema de paquetes de programas.
- .
- Venenux emplea como sistema de paquetes de software y programas el programa aptitude,
- que maneja en una interfaz tanto de comandos como interfaz de usuario las relaciones y
- registros del software por medio de los paquetes debian. Es el mejor sistema de manejo
- de software en Debian y es el oficial para VenenuX.
- .
- Este paquete hace lo siguiente:
-  * establece configuraciones para el sistema de paqueteria,
-    impidiendo que usuarios inexpertos instalen mucha basura que perjudicaria el soporte.
-  * prioritiza la instalacion de software de paquetes desde los repositorios
-    ya actualizados de venenux, para las versiones tanto viejas como nuevas
-  * agrega la llaves de trabajo de paqueteria,
-    que permiten verificar y autenticar el software de nuestros desarrolladores.
-  * agrega por defecto repositorios especiales, comunes para todas las distribuciones
-    y para todas las versiones de venenux dado asi paquetes al dia a estas.
-  * agrega repositorios estables de backports como repositorios normales ya que
-    estos poseen paquetes mas actuales en la rama estable de debian
-  * fuerza la nuevas configuraciones desde lo paquetes de lo repositorios,
-    esto significa que si un novato intenta actualizar un servidor, perdera su configuracion
-    dado que los paquetes nuevos pueden diferir en configuraciones establecemos la nuevas siempre.
- .
- En debian apt es un sistema demasiado facilista que no permite una buena administracion.
- apt 0.7 se convirtio en aptitude y con este paquete se devuelve su antiguo funcionamiento.
- apt 0.7 basically transforms apt into aptitude, revert to traditional apt
- behaviour as far as that is possible by disabling, among others, the
- automatic installation of recommends (and suggests), as well as disabling
- and hiding the autoremove functionality.
-
-Package: apt-conf-vnx
 Version: 0.5.0
 Architecture: all
 Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
@@ -73,10 +43,10 @@ Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archiv
 Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
 Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
 Filename: any/apt/apt-conf-vnx_0.5.0_all.deb
-Size: 13232
-MD5sum: 856ac099c1ea3162212873c8b7da14da
-SHA1: fa76062a1a37012c6e357b8ed504a3fb17c86881
-SHA256: baaa8eda4b4cf3765b1710d8469a9484d21636a8375ed7f90cdf9adbcde2793f
+Size: 13568
+MD5sum: ed01db46ff1c763cfd5f7258719d276f
+SHA1: 8982b1eefdb2d44b035e08e7422fa953a6650b6f
+SHA256: 4133045bc8330f5fcc44383df5d6e635028147cc2de1530c748d964d2f10b441
 Section: admin
 Priority: important
 Description: preferencias iniciales para sistema de paquetes de software VenenuX
@@ -122,6 +92,26 @@ SHA256: 0e5c33f32d908a6846b890c5d225f1a0cdebe96fea02879b776fa02877714dd2
 Priority: optional
 Description: Brave Browser keyring and repository files
 
+Package: codium
+Version: 1.35.1-1560422401
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 189058
+Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1
+Conflicts: visual-studio-codium
+Replaces: visual-studio-codium
+Provides: visual-studio-codium
+Filename: any/codium/codium_1.35.1-1560422401_amd64.deb
+Size: 47708364
+MD5sum: beab75e9540ed94f844cf06ee566328d
+SHA1: 40a08d6e65b9c303289d8958426bbe8d96eddf03
+SHA256: 35fbd8d6738a9736578c5ce3df2a964994df5a2ea9fd66d1c4b0fed6d6e01814
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
 Package: cowsay
 Version: 3.03+dfsg1-11
 Architecture: all
@@ -145,6 +135,46 @@ Description: configurable talking cow
  daemon, dragons, and a plethora of animals, from a turkey to
  an elephant in a snake).
 
+Package: la-capitaine-cursor-theme
+Version: 2.1-1-0.1~mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 1947
+Depends: gnome-themes-standard (>= 3.18.0)
+Filename: any/thememac/la-capitaine-cursor-theme_2.1-1-0.1~mx17+1_all.deb
+Size: 151970
+MD5sum: 65cbef631e2c072343076d873c74aa32
+SHA1: fa56d9a30aaef5359f52a7c657e0b4eb5664917c
+SHA256: 2a2a0a74c1415d563e11a4783f3e9e97db707c3281ad693512c0d687a1c30b54
+Section: x11
+Priority: optional
+Homepage: https://github.com/keeferrourke/capitaine-cursors
+Description: cursor theme inspired by macOS and based on KDE Breeze
+ The source files were made in Inkscape, and the theme was designed to pair well
+ with the la-capitaine-icon-theme.
+Original-Maintainer: Igor Dyatlov <dyatlov.igor@gmail.com>
+
+Package: la-capitaine-icon-theme
+Version: 0.6.0-2-0.1~mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 24265
+Depends: gnome-themes-standard, gtk-update-icon-cache
+Filename: any/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
+Size: 1427564
+MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
+SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
+SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
+Section: gnome
+Priority: optional
+Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
+Description: icon pack designed to integrate with most desktop environments
+ .
+ The set of icons takes inspiration from the latest iterations of macOS
+ and Google's Material Design through the use of visually pleasing gradients,
+ shadowing, and simple icon geometry.
+Original-Maintainer: Igor Dyatlov <dyatlov.igor@gmail.com>
+
 Package: nodejs
 Version: 11.15.0-1nodesource1
 Architecture: amd64
@@ -159,34 +189,6 @@ Size: 16162138
 MD5sum: 29b8992be2ad56eec075734d891dfd85
 SHA1: 222e49fbbb28b262e20cb944289e37668b627821
 SHA256: b5b43e843fed6117ba8fea91f796888453832c3d6d8e90eaf6d57216ecb67df4
-Section: web
-Priority: optional
-Homepage: https://nodejs.org
-Description: Node.js event-based server-side javascript engine
- Node.js is similar in design to and influenced by systems like
- Ruby's Event Machine or Python's Twisted.
- .
- It takes the event model a bit further - it presents the event
- loop as a language construct instead of as a library.
- .
- Node.js is bundled with several useful libraries to handle server tasks :
- System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
- HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
-
-Package: nodejs
-Version: 9.11.2-1nodesource1
-Architecture: amd64
-Maintainer: Chris Lea <chl@nodesource.com>
-Installed-Size: 60999
-Depends: libc6 (>= 2.7), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.4.0), python-minimal, ca-certificates
-Conflicts: nodejs-dev, nodejs-legacy, npm
-Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
-Provides: nodejs-dev, nodejs-legacy, npm
-Filename: any/nodejs/nodejs_9.11.2-1nodesource1_amd64.deb
-Size: 12849426
-MD5sum: f3d0654d42cc9380017e892c8303c528
-SHA1: d78873fd578a1124d152f7a59dde2ee55532285c
-SHA256: 217bda8c0cab1902f4d65c7558fd89e05586c423e02281b666ce2078bb76ea95
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -224,6 +226,731 @@ Description: Fast and secure remote access system
  transform your machine into a server in the cloud or a remote
  desktop client according to your needs.
 
+Package: samsungmfp-common
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-common-install
+Filename: any/samsungdrivers/samsungmfp-common_2-2_all.deb
+Size: 714
+MD5sum: 7967095677bb67f15a74f0f10cabc61a
+SHA1: b21a869338cc84f2137eb6a4386e0b2327ce1d98
+SHA256: f0a10701e9a401e8f6b53a54b1b4bd231092ea9d0c26fdad6b1f79204a658663
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-common-install (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-common
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 36
+Suggests: samsungmfp-driver-install
+Conflicts: samsungmfp-data (<= 3.00.90-2), samsungmfp-data-legacy (<= 3.00.37-8)
+Replaces: samsungmfp-data (<= 3.00.90-2), samsungmfp-data-legacy (<= 3.00.37-8)
+Filename: any/samsungdepends/samsungmfp-common_4.00.35-2_all.deb
+Size: 4284
+MD5sum: 6c260fffbb390011738a13c188f7c271
+SHA1: 6725801a134fcbbff7732f1330e25f5697be3497
+SHA256: 758f94084c734257c5f88d060ce1b7bcac7d8f7a67c7bb1943c19d765b63a16a
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (common files)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides common files for all smfp packages.
+
+Package: samsungmfp-common
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 36
+Suggests: samsungmfp-driver-install
+Conflicts: samsungmfp-data (<= 3.00.90-2), samsungmfp-data-legacy (<= 3.00.37-8)
+Replaces: samsungmfp-data (<= 3.00.90-2), samsungmfp-data-legacy (<= 3.00.37-8)
+Filename: any/samsungdepends/samsungmfp-common_4.00.39-1_all.deb
+Size: 4680
+MD5sum: 036f9059db91783fb28e97ac81df29ce
+SHA1: 9d85d120d0aea178b4991829e771954bf5d688de
+SHA256: 7b6d02730a9a05f0e2dd9de5ec9214650e34d7b8ea2beb858bbf11c3c559e791
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (common files)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides common files for all smfp packages.
+
+Package: samsungmfp-configurator-data
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-configurator-install
+Filename: any/samsungdrivers/samsungmfp-configurator-data_2-2_all.deb
+Size: 712
+MD5sum: 370c6550106ad0c19e6af075dfb29771
+SHA1: 65eaee4f15b7ee86803acb2d094ee5dde5b2be4f
+SHA256: 2366f8b28bb4c5201a95ad5385a70ef439d4d4f9d585445ec731e2845e471534
+Section: utils
+Priority: extra
+Description: transitional package for suld-configurator-install (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-configurator-data
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 584
+Depends: samsungmfp-common (= 4.00.35-2)
+Suggests: samsungmfp-configurator-qt4 | samsungmfp-configurator-qt3
+Breaks: samsungmfp-configurator-qt4 (<= 3.00.90-2), samsungmfp-configurator-qt3 (<= 3.00.90-2)
+Replaces: samsungmfp-legacy-configurator-data
+Filename: any/samsungdepends/samsungmfp-configurator-data_4.00.35-2_all.deb
+Size: 178966
+MD5sum: 60a37af8ccca38749193d9600c578361
+SHA1: 81d5ba69952ccbc36be9f05fa5a0a5ba60080aa8
+SHA256: 43a875cd7e50268b87e8e6363530af41182a5b1f6a3dbf3a251f16f5b28f4b26
+Section: utils
+Priority: extra
+Description: Samsung Unified Driver Configurator (data)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  The Samsung Unified Configurator is a control interface for printers and multifunction printers, providing tools for printer configuration and scanning.  This package contains required documentation and support files.
+
+Package: samsungmfp-configurator-data
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 580
+Depends: samsungmfp-common (= 4.00.39-1)
+Suggests: samsungmfp-configurator-qt4 | samsungmfp-configurator-qt3
+Breaks: samsungmfp-configurator-qt4 (<= 3.00.90-2), samsungmfp-configurator-qt3 (<= 3.00.90-2)
+Replaces: samsungmfp-legacy-configurator-data
+Filename: any/samsungdepends/samsungmfp-configurator-data_4.00.39-1_all.deb
+Size: 182562
+MD5sum: bca3ed316e7a157c3b8f5a5af442b6e4
+SHA1: 6ceac36cb42390c7e2e6ca9eec29b07af608f69c
+SHA256: 44ab38d31911414685ae2f24d246d2a0e345e1ddf10b08016df772bedfae229d
+Section: utils
+Priority: extra
+Description: Samsung Unified Driver Configurator (data)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  The Samsung Unified Configurator is a control interface for printers and multifunction printers, providing tools for printer configuration and scanning.  This package contains required documentation and support files.
+
+Package: samsungmfp-configurator-qt3
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-configurator-1-qt3
+Filename: any/samsungdrivers/samsungmfp-configurator-qt3_2-2_all.deb
+Size: 716
+MD5sum: a991be373864b86d9c286f356d35a01e
+SHA1: a113de0d258abc2709efebaf98db167e8cd0076d
+SHA256: e8e436990c121b7a8dbafc7eaa5f99c8305665f6d1342158908f8e9c12b86c9c
+Section: utils
+Priority: extra
+Description: transitional package for suld-configurator-1-qt3 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-configurator-qt4
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-configurator-1-qt4
+Filename: any/samsungdrivers/samsungmfp-configurator-qt4_2-2_all.deb
+Size: 720
+MD5sum: a8147170ae4de115c918eabff41ab185
+SHA1: bb0bb42748c20dd3f51ecf9706bb9e6f49a71ff4
+SHA256: 14827c4dc2169849c581f7aeccd26721c180709274c65c25c633f73ca0ab7d7e
+Section: utils
+Priority: extra
+Description: transitional package for suld-configurator-1-qt4 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-data
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-ppd-1
+Filename: any/samsungdrivers/samsungmfp-data_2-2_all.deb
+Size: 706
+MD5sum: 6c33169e793d9b1d8caaf9d5ee8d495c
+SHA1: bcb0640defbe351493a1940e4f7f1a9ef2ef5fc0
+SHA256: fb90c509e6f3415bdd4bc7c7f30b55067cb81499f299945ed7f99cf8ff06d0b5
+Section: utils
+Priority: extra
+Description: transitional package for suld-ppd-1 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-data
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 35076
+Depends: samsungmfp-common (= 4.00.35-2)
+Suggests: samsungmfp-driver-install
+Conflicts: samsungmfp-data-legacy
+Replaces: samsungmfp-data-legacy
+Filename: any/samsungdepends/samsungmfp-data_4.00.35-2_all.deb
+Size: 12276020
+MD5sum: ff99cf56f381120868a1da4cb9ab5e0f
+SHA1: 882751b0b3501faa2f4a6b402ce2fdd4dd48b075
+SHA256: 137bb5825874942cd406e55ecef2c5c11e83f7799f2e2a26300d5abd4c0dce2e
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (data)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides the common ppd and cms files necessary to install a Samsung printer for use.
+
+Package: samsungmfp-data
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 32036
+Depends: samsungmfp-common (= 4.00.39-1)
+Suggests: samsungmfp-driver-install
+Conflicts: samsungmfp-data-legacy
+Replaces: samsungmfp-data-legacy
+Filename: any/samsungdepends/samsungmfp-data_4.00.39-1_all.deb
+Size: 12869970
+MD5sum: f9988e7157ca5f0fe453240f156c2d79
+SHA1: a6d6ec1ca89491cd9dd82dd01cc1d3fe07108a53
+SHA256: 13d5d9cc9ac5fe912bb32956c58354c74fe2736ac695a30cbe0d72566e637b66
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (data)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides the common ppd and cms files necessary to install a Samsung printer for use.
+
+Package: samsungmfp-data-legacy
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-ppd-1
+Filename: any/samsungdrivers/samsungmfp-data-legacy_2-2_all.deb
+Size: 714
+MD5sum: 6c6cff247364c2563f98e9ea7689f8e4
+SHA1: 652482ab45d852aae359a7abc8ee252a6a007f0b
+SHA256: 61dc5e8bfa869f8198a37457644cfe02d86da9b5d02113fd43469d7df445b3dc
+Section: utils
+Priority: extra
+Description: transitional package for suld-ppd-1 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-data-legacy
+Version: 3.00.37-10
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 14772
+Depends: samsungmfp-common (= 4.00.35-2)
+Suggests: samsungmfp-driver-legacy
+Conflicts: samsungmfp-data
+Replaces: samsungmfp-data, samsungmfp-legacy-data
+Filename: any/samsungdepends/samsungmfp-data-legacy_3.00.37-10_all.deb
+Size: 5487740
+MD5sum: 033a035f03a58dcb81c52ce72d1456fb
+SHA1: 301da61d07b96b48a235e374c17a573656f8d6b8
+SHA256: faf5c69d65ab11d69612cc46f2234208aad1a88709f2a11c708da16a2e46c19f
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (legacy data)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides the common ppd and cms files necessary to install a Samsung printer for use.  The files provided here are based on the official 3.00.37 (mid-2008) driver release.  It should only be necessary to install this package if you require the legacy driver and one of the more recent data packages does not work.
+
+Package: samsungmfp-data-legacy
+Version: 3.00.37-11
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 14772
+Depends: samsungmfp-common (= 4.00.39-1)
+Suggests: samsungmfp-driver-legacy
+Conflicts: samsungmfp-data
+Replaces: samsungmfp-data, samsungmfp-legacy-data
+Filename: any/samsungdepends/samsungmfp-data-legacy_3.00.37-11_all.deb
+Size: 5487698
+MD5sum: 3291d6cb819ce9a9877b0f371dc532c6
+SHA1: f8a80a2dd1f65cb5c5a86bd50467cb0a35d859e3
+SHA256: 31af6d03926402394ac6511be1bcd26d138504e887a598a92203b0d1358d2f70
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (legacy data)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides the common ppd and cms files necessary to install a Samsung printer for use.  The files provided here are based on the official 3.00.37 (mid-2008) driver release.  It should only be necessary to install this package if you require the legacy driver and one of the more recent data packages does not work.
+
+Package: samsungmfp-driver
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-4.00.39
+Filename: any/samsungdrivers/samsungmfp-driver_2-2_all.deb
+Size: 714
+MD5sum: a41d9ef3b0bff54b496db46df5f1fc14
+SHA1: a269d662bcb0cf752a3707359b319489d8cb86dd
+SHA256: 99bc9a025d606a162a748f5aa4b82befbddf21334d540d88c69573964f1e279a
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-4.00.39 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: samsungmfp-driver-4.00.35, samsungmfp-data, samsungmfp-common (= 4.00.35-2)
+Filename: any/samsungdepends/samsungmfp-driver_4.00.35-2_all.deb
+Size: 754
+MD5sum: fb892925fc69754dda99256871a3fc70
+SHA1: c68da3ce1b905634647682d562c42ff351d4326c
+SHA256: d4281be1c726fc581635e7091c61e05fab96fbd35a00da7ee1807076c5e23050
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (latest driver dependency package)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package depends on the latest version of the driver.
+
+Package: samsungmfp-driver
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: samsungmfp-driver-4.00.39, samsungmfp-data, samsungmfp-common (= 4.00.39-1)
+Filename: any/samsungdepends/samsungmfp-driver_4.00.39-1_all.deb
+Size: 762
+MD5sum: 13d84979085bbe29b26705d16e912802
+SHA1: c509f0793597d0cfe7ca0fd61ac3272875cc1d4c
+SHA256: 8ee5bb0c52767980a11d286dc65a21519d21758ea6aa7a8f964611e111e9598f
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (latest driver dependency package)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package depends on the latest version of the driver.
+
+Package: samsungmfp-driver-3.00.65
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-3.00.65
+Filename: any/samsungdrivers/samsungmfp-driver-3.00.65_2-2_all.deb
+Size: 710
+MD5sum: abba2270a819c7c93b3fda262418fef0
+SHA1: 6347d64d1a6f495f813e20425ab216b0ebfa5bb4
+SHA256: 55fb74220e5468d470b75bd6534e6b0e62a96dcdc0bda18026ec9904e4a7e310
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-3.00.65 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver-3.00.90
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-3.00.90
+Filename: any/samsungdrivers/samsungmfp-driver-3.00.90_2-2_all.deb
+Size: 708
+MD5sum: c7f9870e234f60d898bbcf2e1ef50b94
+SHA1: 2d5eb64aed27147300fe880ca3f9789243694bbc
+SHA256: c437fcad3fb972e26b5e6fd712231acb9385e960a4309f42c56a5082e2c38822
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-3.00.90 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver-4.00.35
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-4.00.35
+Filename: any/samsungdrivers/samsungmfp-driver-4.00.35_2-2_all.deb
+Size: 708
+MD5sum: f7679b9b4154fc6712e56ea0ca9b0327
+SHA1: f0e23b174d548eaac2fae6415b10a0511ab6295a
+SHA256: 6a4fba646efa736f4c23e68cbac78491e3bfa5e13e699f57049b32b01c635d5f
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-4.00.35 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver-4.00.36
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-4.00.36
+Filename: any/samsungdrivers/samsungmfp-driver-4.00.36_2-2_all.deb
+Size: 710
+MD5sum: c68569e7966e4ff6b8add588ccce3387
+SHA1: 40afefc93858e9911b323a57dbebb33c7093b5f0
+SHA256: 00b00c91b6a5dc5dce354fd7133597f4fa6befe8602970da81c4419ebd7a6156
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-4.00.36 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver-4.00.39
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-4.00.39
+Filename: any/samsungdrivers/samsungmfp-driver-4.00.39_2-2_all.deb
+Size: 708
+MD5sum: 1abc0a0e80de2ffbe59bffb11a918683
+SHA1: 5bdf47e62781a2ffbd5692cfeb514cb72df4f582
+SHA256: 0e454794ec4ff13e6acf16722613ff14d4fa001d0d6dc768c46088fa1a841256
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-4.00.39 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver-legacy
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-3.00.37
+Filename: any/samsungdrivers/samsungmfp-driver-legacy_2-2_all.deb
+Size: 714
+MD5sum: e2db991b51ac8eaa8ae471effd9acf6e
+SHA1: f5b30abc63e80c1838e88619d0a2f59b649aa870
+SHA256: b8f10579d51ba90e5be957a73b3cbf62da1cc6d65d4a149bc0805b5cf6a7ac94
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-3.00.37 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver-pdf-fix
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-printer-pdf-fix
+Filename: any/samsungdrivers/samsungmfp-driver-pdf-fix_2-2_all.deb
+Size: 712
+MD5sum: b30a9c58e704be8d926af7d18284d120
+SHA1: ffc301ce7115b461250c1cd710e0de864627325f
+SHA256: 8368b328f78cf37f2d46daffc1378c8da2d0f36e2d031a0c8677ae8e9b63689b
+Section: utils
+Priority: extra
+Description: transitional package for suld-printer-pdf-fix (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-driver-pdf-fix
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 56
+Depends: samsungmfp-driver-install, poppler-utils (>= 0.18.1), samsungmfp-common (= 4.00.35-2)
+Filename: any/samsungdepends/samsungmfp-driver-pdf-fix_4.00.35-2_all.deb
+Size: 2300
+MD5sum: 7b38c1086693356c55e33f27e9b76a50
+SHA1: e8be4ff199132864131f1e0af4d0bd3ab8ed97ce
+SHA256: 39fbeb0642b9fb744dc90a1b6dba12bc100928398f6ebd5588201a323f72d2dc
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (possible printer fix - read description carefully)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides a work around for erratic printing behavior that tends to manifest itself with CUPS 1.5.2 or later (for example, Ubuntu 12.04 Precise, Debian 7.0 Wheezy).  Manifestations that this may correct are an inability to print some or all pdf files while non-pdf files work correctly, extremely slow printing, or the printer refusing to print more than one document without being reset.  This may also address issues of "damaged" pdf output with missing characters, etc., but only in specific situations.  This package installs a work-around for the pdf/postscript converts by using cairo to generate the postscript or SPL-C output needed for the Samsung printers.  Print quality may suffer, and this package could potentially break your ability to print anything at all, and it may interfere with printing to non-Samsung printers (in which case just uninstall it).  Future updates to CUPS, poppler, ghostscript, or the Samsung driver could all render this fix worthless.  Credit for developing the fix goes to b1b1 in the Ubuntu Forums.  See http://www.bchemnet.com/suldr/printing.html for more information.
+
+Package: samsungmfp-driver-pdf-fix
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 56
+Depends: samsungmfp-driver-install, poppler-utils (>= 0.18.1), samsungmfp-common (= 4.00.39-1)
+Filename: any/samsungdepends/samsungmfp-driver-pdf-fix_4.00.39-1_all.deb
+Size: 2306
+MD5sum: 123776bf19a590aa73828a20c7766e0a
+SHA1: 6e18e4e44a6b29de0aae6164265ff074b4cd73fb
+SHA256: 5f0001371443b7328c6ae1e7e6488b237771a096bb96803bedeb6cdaa3d26f3e
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (possible printer fix - read description carefully)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides a work around for erratic printing behavior that tends to manifest itself with CUPS 1.5.2 or later (for example, Ubuntu 12.04 Precise, Debian 7.0 Wheezy).  Manifestations that this may correct are an inability to print some or all pdf files while non-pdf files work correctly, extremely slow printing, or the printer refusing to print more than one document without being reset.  This may also address issues of "damaged" pdf output with missing characters, etc., but only in specific situations.  This package installs a work-around for the pdf/postscript converts by using cairo to generate the postscript or SPL-C output needed for the Samsung printers.  Print quality may suffer, and this package could potentially break your ability to print anything at all, and it may interfere with printing to non-Samsung printers (in which case just uninstall it).  Future updates to CUPS, poppler, ghostscript, or the Samsung driver could all render this fix worthless.  Credit for developing the fix goes to b1b1 in the Ubuntu Forums.  See http://www.bchemnet.com/suldr/printing.html for more information.
+
+Package: samsungmfp-libmfp
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-install
+Filename: any/samsungdrivers/samsungmfp-libmfp_2-2_all.deb
+Size: 708
+MD5sum: 4959ad662a6bd37047bdc1356118f922
+SHA1: a5e756692098236cb0143fe051748e28c561cf42
+SHA256: cab044e023cd5f5739c874e259ccae23371ca9d5a38fc67c16864ddd34c0fba4
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-install (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-lpr
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-slpr
+Filename: any/samsungdrivers/samsungmfp-lpr_2-2_all.deb
+Size: 704
+MD5sum: cc79740b2177c3e339565e2df33122bb
+SHA1: 8da70035c10034bb028e7afedf5f70452a514662
+SHA256: 4925c0e62f01da9ca812e0b18016918a314e91e6a73b7652fe958b22ea03f225
+Section: utils
+Priority: extra
+Description: transitional package for suld-slpr (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-lpr
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 24
+Depends: samsungmfp-configurator-qt4 | samsungmfp-configurator-qt3, samsungmfp-common (= 4.00.35-2)
+Replaces: samsungmfp-legacy-lpr
+Filename: any/samsungdepends/samsungmfp-lpr_4.00.35-2_all.deb
+Size: 1166
+MD5sum: 26d7abd5619a1af52ced6d1a958f2ecd
+SHA1: fec36f9700f20b7d32d3a5b1c935ac913745aebe
+SHA256: 871295ba3ffdb3a5885de411a84344337d9bf1fc5c6d23b84299a3963b40913f
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (lpr link)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides the a link to override the standard system lpr in favor of the Samsung lpr (slpr, provided in samsungmfp-configurator).  The link does not modify the original lpr, which can still be invoked by directly calling /usr/bin/lpr or other explict paths.  The slpr provides additional control of print output (e.g., multiple pages per page), but requires a graphical interface and so is inappropriate for many terminal and server applications.  Installation of this package may interfere with printing capabilities from certain programs (in particular, some versions of Adobe Reader), usually manifesting as a silent print failure.
+
+Package: samsungmfp-lpr
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 24
+Depends: samsungmfp-configurator-qt4 | samsungmfp-configurator-qt3, samsungmfp-common (= 4.00.39-1)
+Replaces: samsungmfp-legacy-lpr
+Filename: any/samsungdepends/samsungmfp-lpr_4.00.39-1_all.deb
+Size: 1170
+MD5sum: 054772fad12733e36e7c38b1850422ca
+SHA1: 3aa6127642eef54742873a9f687fa9bf60425802
+SHA256: 794dcf6ebde1666c271a7b9245db8e423a96e3855d76e85ace82d48f454ea611
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (lpr link)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides the a link to override the standard system lpr in favor of the Samsung lpr (slpr, provided in samsungmfp-configurator).  The link does not modify the original lpr, which can still be invoked by directly calling /usr/bin/lpr or other explict paths.  The slpr provides additional control of print output (e.g., multiple pages per page), but requires a graphical interface and so is inappropriate for many terminal and server applications.  Installation of this package may interfere with printing capabilities from certain programs (in particular, some versions of Adobe Reader), usually manifesting as a silent print failure.
+
+Package: samsungmfp-network
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-network-2
+Filename: any/samsungdrivers/samsungmfp-network_2-2_all.deb
+Size: 706
+MD5sum: f2005126fcfcdb27d006e93e899aaf30
+SHA1: 2f4307b23494b5c8e61544e64e5a5959994a3aec
+SHA256: fec3f174d96a72318baec6c384aee35849bc129690c7cc944850581e5553f2b6
+Section: utils
+Priority: extra
+Description: transitional package for suld-network-2 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-network-legacy
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-network-1
+Filename: any/samsungdrivers/samsungmfp-network-legacy_2-2_all.deb
+Size: 710
+MD5sum: fbaaba620a493c3a5579a1259e75134a
+SHA1: a92a36f5f3cefb7534a8e954798ce04478c96400
+SHA256: b9d298a4a3003e8f673f0c5162dd92fa56e796dbe4b7a3b476f47243aff4604b
+Section: utils
+Priority: extra
+Description: transitional package for suld-network-1 (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-parallel
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-parallel
+Filename: any/samsungdrivers/samsungmfp-parallel_2-2_all.deb
+Size: 704
+MD5sum: cf34e8b3a7b70c2367e14064fa40b970
+SHA1: c80db154e0216774f3c91a32f9c2ca27037cfaa8
+SHA256: 8625cbe3f9ca0dd9f5f4ec057c82525e1f7ae38427ddb059de31fddfc9ad454f
+Section: utils
+Priority: extra
+Description: transitional package for suld-parallel (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-scanner
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-install
+Filename: any/samsungdrivers/samsungmfp-scanner_2-2_all.deb
+Size: 710
+MD5sum: c0e6f31aca2549f779c1033458f8e936
+SHA1: 1a603a115f38632521af4d110738d21671727672
+SHA256: daf6f53a09a9969b28514327c3486975392b8d65a968ae184f2e6c1737c18ca2
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-install (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-scanner
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 48
+Depends: samsungmfp-driver-install, samsungmfp-common (= 4.00.35-2)
+Conflicts: samsungmfp-driver-legacy (<= 3.00.37-8), samsungmfp-driver-3.00.65 (<= 3.00.90-2), samsungmfp-driver (<= 3.00.90-2)
+Replaces: samsungmfp-legacy-scanner, samsungmfp-driver-legacy (<= 3.00.37-8), samsungmfp-driver-3.00.65 (<= 3.00.90-2), samsungmfp-driver (<= 3.00.90-2)
+Filename: any/samsungdepends/samsungmfp-scanner_4.00.35-2_all.deb
+Size: 1984
+MD5sum: 63caa48d3e4614594cc68d820783f9f9
+SHA1: f957ab9ff5c3ea92638c34f3b8287316f8e2a7a8
+SHA256: a00f8fffe885ca2d161ccc5b5eb0f9c65349f0257731064d20fb6d437dd988a5
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (enable scanning)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package activates the scanning driver for multifunction printers.  Users need to be added to the lp group to access the scanner.
+
+Package: samsungmfp-scanner-sane-fix
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-common
+Filename: any/samsungdrivers/samsungmfp-scanner-sane-fix_2-2_all.deb
+Size: 718
+MD5sum: 64f0f1478b52eb1c3238e6f2be1dd964
+SHA1: 3a73bee11edf08f02de82f55fd303a602b8b986b
+SHA256: 62679e3bedf9afcddd484e74ef1f14f260fcca52d674efc4217924e9b2546b43
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-common (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-scanner-sane-fix
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 64
+Depends: samsungmfp-scanner, libsane (<= 1.0.22-3), samsungmfp-common (= 4.00.35-2)
+Conflicts: samsungmfp-scanner-sane-fix-multiarch
+Replaces: samsungmfp-scanner-sane-fix-multiarch
+Filename: any/samsungdepends/samsungmfp-scanner-sane-fix_4.00.35-2_all.deb
+Size: 2532
+MD5sum: 5e73b8837e737124345b37b5a600fcba
+SHA1: 15d1d890d4f71d83a9b8d18d35b0b49192e26514
+SHA256: 4327166578c51dcc92fde5008615b936779e4fa2ff93b605141a3129294af4b6
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (possible scanner fix - read description carefully)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides a fix for supported scanners that are not actually recognized by sane.  Success will vary depending on the version of libsane that you have installed (newer is better) and your printer model.  The printer must be connected by USB for this package to have any effect (parallel or network connected printers will not be affected).  See http://www.bchemnet.com/suldr/scanning.html for more information.  This version attempts to force support for the following printers (and will have no effect with any other models): CLX-2160, CLX-3170FN, CLX-3175FW, CLX-3185 (CLX-3185FN), SCX-3205W, SCX-4100, SCX-4200, SCX-4216F, SCX-4300, SCX-4500, SCX-4500W, SCX-4521F, SCX-4600, SCX-4623, SCX-4623FW, SCX-4725FN, SCX-4824, SCX-4825FN, SCX-4x28 series (SCX-4828FN).
+
+Package: samsungmfp-scanner-sane-fix-multiarch
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-driver-common
+Filename: any/samsungdrivers/samsungmfp-scanner-sane-fix-multiarch_2-2_all.deb
+Size: 726
+MD5sum: 8029e5cf227b7795b019e69603598d04
+SHA1: aa90e596eb65589a59837f3f2c393aaa95e0d8ef
+SHA256: 0add71dbfd490d10b904e7b11d98796eb21e5058905e4c941e9f618736bc51cf
+Section: utils
+Priority: extra
+Description: transitional package for suld-driver-common (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-scanner-sane-fix-multiarch
+Version: 4.00.35-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 76
+Depends: samsungmfp-scanner, libsane (>= 1.0.22-4), samsungmfp-common (= 4.00.35-2)
+Conflicts: samsungmfp-scanner-sane-fix
+Replaces: samsungmfp-scanner-sane-fix
+Filename: any/samsungdepends/samsungmfp-scanner-sane-fix-multiarch_4.00.35-2_all.deb
+Size: 2396
+MD5sum: 37fea246011d0f03ce322630a1bd509d
+SHA1: da68f8965dcdefee58ace2da4810dd82c5003b8e
+SHA256: bbd73fc6b007040ab04883a7e113a128c1ae97a7882f2b5d56b085522844ea5e
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (possible scanner fix - read description carefully)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides a fix for supported scanners that are not actually recognized by sane.  Success will vary depending on the version of libsane that you have installed (newer is better) and your printer model.  The printer must be connected by USB for this package to have any effect (parallel or network connected printers will not be affected).  See http://www.bchemnet.com/suldr/scanning.html for more information.  This version attempts to force support for the following printers (and will have no effect with any other models): CLX-2160, CLX-3185 (CLX-3185FN), SCX-3200, SCX-3205W, SCX-4100, SCX-4216F, SCX-4521F, SCX-4x28 series (SCX-4828FN).
+
+Package: samsungmfp-scanner-usblp-fix
+Version: 2:2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 12
+Depends: suld-scanner-usblp-fix
+Filename: any/samsungdrivers/samsungmfp-scanner-usblp-fix_2-2_all.deb
+Size: 714
+MD5sum: 702ded1e9df756ef04007c2f5e70b018
+SHA1: 426b6d6e07223596d00f488c3b4b6015da749c54
+SHA256: 476fc8750660865a6ddd819206e452ff28f82236311db580bd49768d86ac4c35
+Section: utils
+Priority: extra
+Description: transitional package for suld-scanner-usblp-fix (may be safely removed)
+ This is a dummy transitional package to reflect package renaming. It
+ may be safely removed after the installation is complete.
+
+Package: samsungmfp-scanner-usblp-fix
+Version: 4.00.35-2.1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 60
+Depends: samsungmfp-scanner, samsungmfp-common (= 4.00.35-2)
+Filename: any/samsungdepends/samsungmfp-scanner-usblp-fix_4.00.35-2.1_all.deb
+Size: 2404
+MD5sum: a3e5956a2087e4f8f5eff9afa68c98ca
+SHA1: ef341f4ae718138a6f88a97e2971decfb4e3ffbf
+SHA256: 3cbf44e5e70c0d239bacd3de5f84dadf0da042a1261b785c37ed76cecc825f3b
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (possible scanner fix - read description carefully)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides a fix for the blacklisting of the usblp module beginning with CUPS 1.5.0 (for example, Ubuntu 11.10 Oneric & later, Debian 7.0 Wheezy & later).  This manifests itself as being able to print to a USB-connected printer (not connected over a network), but not being able to detect the scanner, even though the user is in the lp group.  This fix forces the usblp module to load, which may solve the problem.  However, in some unpredictable cases this module will disable printing to USB-connected printers, including the working Samsung printer.  No lasting harm will come from trying this fix, but to avoid other problems it is highly recommended that you install it only when the conditions are met, and that you leave it installed only if it actually solves your problem.  Credit goes to vyvee in the Ubuntu Forums for developing the fix.
+
+Package: samsungmfp-scanner-usblp-fix
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 32
+Depends: samsungmfp-scanner, samsungmfp-common (= 4.00.39-1)
+Filename: any/samsungdepends/samsungmfp-scanner-usblp-fix_4.00.39-1_all.deb
+Size: 2266
+MD5sum: d0f1fb5eeed5188f2e35e0626f1e0958
+SHA1: 6a191af27bf8f11834dc99c9f94aecdb9d5941dd
+SHA256: b0d110832b31b08855e4a860608ba2119eabc3c617ca171ea4ffac951966b2f4
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (possible scanner fix - read description carefully)
+ The Samsung Unified Linux Drivers provide access to all functions of Samsung (and related) printers, including the scanning features of multifunction printers.  This package provides a fix for the blacklisting of the usblp module beginning with CUPS 1.5.0 (for example, Ubuntu 11.10 Oneric & later, Debian 7.0 Wheezy & later).  This manifests itself as being able to print to a USB-connected printer (not connected over a network), but not being able to detect the scanner, even though the user is in the lp group.  This fix forces the usblp module to load, which may solve the problem.  However, in some unpredictable cases this module will disable printing to USB-connected printers, including the working Samsung printer.  No lasting harm will come from trying this fix, but to avoid other problems it is highly recommended that you install it only when the conditions are met, and that you leave it installed only if it actually solves your problem.  Credit goes to vyvee in the Ubuntu Forums for developing the fix.
+
 Package: slimjet
 Version: 29.0.3.0
 Architecture: amd64
@@ -242,6 +969,358 @@ Priority: optional
 Homepage: http://www.slimjet.com
 Description: Fast, smart and powerful browser based on Blink
  Slimjet is a fast, smart and powerful web browser based on the Blink engine. It is built on top of the Chromium open source project, on which Google chrome is also based. Slimjet integrates a lot of powerful and convenient features to help users maximize their online productivity. Slimjet also includes many options and settings so that users can customize the browser to best suit their own personal preference.
+
+Package: suld-driver-common-1
+Version: 1-6
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 124
+Depends: debconf | debconf-2.0
+Conflicts: suld-driver-common-install, suld-driver2-common-install
+Breaks: samsungmfp-common (<< 2:1), samsungmfp-scanner-sane-fix (<< 2:1), samsungmfp-scanner-sane-fix-multiarch (<< 2:1), samsungmfp-scanner (<< 2:1)
+Replaces: suld-driver-common-install, suld-driver2-common-install, samsungmfp-common, samsungmfp-scanner-sane-fix, samsungmfp-scanner-sane-fix-multiarch, samsungmfp-scanner
+Provides: suld-driver-common-install
+Filename: any/samsungdrivers/suld-driver-common-1_1-6_all.deb
+Size: 16078
+MD5sum: 73886544fa80a47827d58b4a744b307b
+SHA1: c8fbacc91e8c52bdea7ae18677bbea41fc59145a
+SHA256: 5159fb699a9fb55539f574b8213b83044a1799fc2098e1f7c669729c42a280cc
+Section: utils
+Priority: extra
+Homepage: http://www.bchemnet.com/suldr/
+Description: Samsung Unified Linux Driver (common files)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides common files for all driver versions.
+
+Package: suld-driver2-common-1
+Version: 1-4
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 132
+Depends: debconf | debconf-2.0
+Conflicts: suld-driver2-common-install, suld-driver-common-install
+Replaces: suld-driver2-common-install, suld-driver-common-install
+Provides: suld-driver2-common-install
+Filename: any/samsungdrivers/suld-driver2-common-1_1-4_all.deb
+Size: 16180
+MD5sum: fd4667692f074ad5f2667d9b591adf10
+SHA1: 961757ed1c55cb9273bd5009d4339a8168980dcd
+SHA256: b89782b24f3d857e99de42f4a244090274bd58b4001f7d5224a14c8f05df8a44
+Section: utils
+Priority: extra
+Homepage: http://www.bchemnet.com/suldr/
+Description: Samsung Unified Linux Driver2 (common files)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides common files for all driver2 versions.
+
+Package: suld-parallel
+Version: 1-2
+Architecture: amd64
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 36
+Depends: suld-driver-install
+Breaks: samsungmfp-parallel (<< 2:1)
+Replaces: samsungmfp-parallel
+Filename: any/samsungdrivers/suld-parallel_1-2_all.deb
+Size: 2452
+MD5sum: c3ec18dc22118e9a5e1296176e3bf508
+SHA1: cd09cb464a74fb2c06aeac69c69afbbd4e457817
+SHA256: ecc5c4c81e8512af9b6fbfa1e8bd7b3230ba627b39126a669e19a25e50ebfa7f
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (parallel port activation)
+ The Samsung Unified Linux Driver provide access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides the scripts needed to activate support of the
+ parallel port daemon in the printer driver. This package should not
+ be installed unless you actually have a Samsung printer connected to
+ the parallel port, as in some cases there can be unintended side
+ effects on port behavior from this package, especially if no parallel
+ port exists on the machine.
+ .
+ The system may need to be rebooted for the Samsung drivers to
+ recognize the parallel port.
+
+Package: suld-ppd-1
+Version: 4.00.39-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 32040
+Conflicts: suld-ppd-install
+Breaks: samsungmfp-data (<< 2:1), samsungmfp-data-legacy (<< 2:1)
+Replaces: suld-ppd-install, samsungmfp-data, samsungmfp-data-legacy
+Provides: suld-ppd-install
+Filename: any/samsungdrivers/suld-ppd-1_4.00.39-1_all.deb
+Size: 12871634
+MD5sum: 7fbeaa18bb7f882e56616fb47b712779
+SHA1: 28075cdccce5c4a021162aa0993d9278cc37a071
+SHA256: 8dbe21b8b67273bcdebb0622c732b556647da236cf9cdc8e424e18fc31d0699b
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (ppd files)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides the common ppd and cms files necessary for
+ controlling the printing functions of Samsung printers.
+ .
+ This version of the package provides support for all older Samsung
+ printers, at the expense of slightly older ppd files and a lack of
+ support for some newer models.  See
+ http://www.bchemnet.com/suldr/supported.html for more details.
+
+Package: suld-ppd-2
+Version: 4.01.17-3
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 19972
+Conflicts: suld-ppd-install
+Breaks: samsungmfp-data (<< 2:1), samsungmfp-data-legacy (<< 2:1)
+Replaces: suld-ppd-install, samsungmfp-data, samsungmfp-data-legacy
+Provides: suld-ppd-install
+Filename: any/samsungdrivers/suld-ppd-2_4.01.17-3_all.deb
+Size: 3353100
+MD5sum: 7c60fa3d40f92b5138e399734dc5b9a4
+SHA1: 2010170fddcb049c9b91f613fdf65574a9755adc
+SHA256: 0a51fde590ea71eae5f08e3c6b1d4f50c21a2d775645d9afd330010f5067452a
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (ppd files)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides the common ppd and cms files necessary for
+ controlling the printing functions of Samsung printers.
+ .
+ This version of the package provides the most up-to-date ppd files,
+ but has dropped support for some older Samsung printers. See
+ http://www.bchemnet.com/suldr/supported.html for more details.
+
+Package: suld-ppd-3
+Version: 1:1.00.06-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 21464
+Conflicts: suld-ppd-install
+Breaks: samsungmfp-data (<< 2:1), samsungmfp-data-legacy (<< 2:1)
+Replaces: suld-ppd-install, samsungmfp-data, samsungmfp-data-legacy
+Provides: suld-ppd-install
+Filename: any/samsungdrivers/suld-ppd-3_1_1.00.06-1_all.deb
+Size: 3399998
+MD5sum: 7001d9a6f8d5ec86271b1cdcfff0ddd7
+SHA1: 0952f8c5e4f4591d3e0956dffed5c25340d0e0c8
+SHA256: d13901c490da040abbfb825744f31f0e5a3e14c0c0b3d656fc08348163a64d3e
+Section: utils
+Priority: extra
+Homepage: http://www.bchemnet.com/suldr/
+Description: Samsung Unified Linux Driver2 (ppd files)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides the common ppd and cms files necessary for
+ controlling the printing functions of Samsung printers, compatible
+ with driver2 v1.00.06.
+ .
+ This version of the package provides the most up-to-date ppd files,
+ but has dropped support for some older Samsung printers. See
+ http://www.bchemnet.com/suldr/supported.html for more details.
+
+Package: suld-ppd-4
+Version: 1.00.29-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 23552
+Conflicts: suld-ppd-install
+Breaks: samsungmfp-data (<< 2:1), samsungmfp-data-legacy (<< 2:1)
+Replaces: suld-ppd-install, samsungmfp-data, samsungmfp-data-legacy
+Provides: suld-ppd-install
+Filename: any/samsungdrivers/suld-ppd-4_1.00.29-1_all.deb
+Size: 3543070
+MD5sum: 8301ba94ab39e2452a45e3191fdbdae0
+SHA1: cf27441deef82773d9ce071929fff69486590461
+SHA256: 6ea213672a6b33384ace4a99b529b4dea1ac6fdca82e3af7f588ec9c644b1056
+Section: utils
+Priority: extra
+Homepage: http://www.bchemnet.com/suldr/
+Description: Samsung Unified Linux Driver2 (ppd files)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides the common ppd and cms files necessary for
+ controlling the printing functions of Samsung printers, compatible
+ with driver2 versions 1.00.21 and higher.
+ .
+ This version of the package provides the most up-to-date ppd files,
+ but has dropped support for some older Samsung printers. See
+ http://www.bchemnet.com/suldr/supported.html for more details.
+
+Package: suld-printer-pdf-fix
+Version: 1-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 56
+Depends: suld-driver-install, poppler-utils (>= 0.18.1)
+Breaks: samsungmfp-driver-pdf-fix (<< 2:1)
+Replaces: samsungmfp-driver-pdf-fix
+Filename: any/samsungdrivers/suld-printer-pdf-fix_1-1_all.deb
+Size: 2242
+MD5sum: 7d75a85a72441da2ef019df40b361d9e
+SHA1: 30aec4482089692ebf53b8429cd885330f5defea
+SHA256: 8e1b6efc04ec6792575681cda9e07034db2b2f842f2518d5e8b69f5d99e7e5c0
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (possible printer fix - read description carefully)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides a work around for erratic printing behavior that
+ tends to manifest itself with CUPS 1.5.2 or later (for example, Ubuntu
+ 12.04 Precise, Debian 7.0 Wheezy). Manifestations that this may correct
+ are an inability to print some or all pdf files while non-pdf files work
+ correctly, extremely slow printing, or the printer refusing to print
+ more than one document without being reset. This may also address issues
+ of "damaged" pdf output with missing characters, etc., but only in
+ specific situations.
+ .
+ This package installs a work-around for the pdf/postscript converter by
+ using cairo to generate the postscript or SPL-C output needed for the
+ Samsung printers. Print quality may suffer, and this package could
+ potentially break your ability to print anything at all, and it may
+ interfere with printing to non-Samsung printers (in which case just
+ uninstall it). Future updates to CUPS, poppler, ghostscript, or the
+ Samsung driver could all render this fix worthless. See
+ http://www.bchemnet.com/suldr/printing.html for more information.
+
+Package: suld-scanner-usblp-fix
+Version: 1-3
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 36
+Depends: suld-driver-install | suld-driver2-install
+Breaks: samsungmfp-scanner-usblp-fix (<< 2:1)
+Replaces: samsungmfp-scanner-usblp-fix
+Filename: any/samsungdrivers/suld-scanner-usblp-fix_1-3_all.deb
+Size: 2306
+MD5sum: a1822f0dc1974cb88488cf224b95c9b0
+SHA1: 0c6f8b175ee553392d50b0f85afe05a8d1cbc14a
+SHA256: 5e5cb1d6767f847b2f28ada328c452cd088f03fa9f5757d759712a9c223d2939
+Section: utils
+Priority: extra
+Homepage: http://www.bchemnet.com/suldr/
+Description: Samsung Unified Linux Driver (possible scanner fix - read description carefully)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides a fix for the blacklisting of the usblp module
+ beginning with CUPS 1.5.0 (for example, Ubuntu 11.10 Oneric & later,
+ Debian 7.0 Wheezy & later). This manifests itself as being able to
+ print to a USB-connected printer (not connected over a network), but not
+ being able to detect the scanner, even though the user is in the lp
+ group.  This fix forces the usblp module to load, which may solve the
+ problem. However, in some unpredictable cases this module will disable
+ printing to USB-connected printers, including the working Samsung printer.
+ .
+ No lasting harm will come from trying this fix, but to avoid other
+ problems it is highly recommended that you install it only when the
+ conditions are met, and that you leave it installed only if it actually
+ solves your problem.
+
+Package: suld-scantopc
+Version: 0.4.5-4
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/> [angelnu, totally-king]
+Installed-Size: 148
+Depends: python (>= 2.7), python (<< 3.0), python-imaging-sane (>= 1.1.7) | python-sane (>= 1.1.7), python-pypdf (>= 1.13), python-pysnmp4, python-six, suld-driver-install | suld-driver2-install
+Breaks: samsungmfp-scantopc
+Replaces: samsungmfp-scantopc
+Filename: any/samsungdrivers/suld-scantopc_0.4.5-4_all.deb
+Size: 23032
+MD5sum: a396a648a05dddbf665481ac502bad7e
+SHA1: 2089f50cce4db86afce774aadfa7e6633626b2bf
+SHA256: 4aec547106061c223251d6546c76a443444fbd3de73eb6743af30f5d5087b335
+Section: utils
+Priority: extra
+Homepage: http://www.bchemnet.com/suldr/forum/index.php?topic=73.0
+Description: Samsung Scanner Server
+ Server application to enable 'Scan to PC' functionality of Samsung
+ multi function printers (MFPs)  on Linux. The MFP needs to be connected
+ over a network. And scanning with SANE (e.g. via XSANE or scanimage)
+ should already work.  This package installs the background server,
+ which will allow scans by pressing the appropriate button on the
+ scanner.
+
+Package: suld-scantopc-gui
+Version: 0.4.5-2
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/> [totally-king]
+Installed-Size: 364
+Depends: python (>= 2.7), python (<< 3.0), suld-scantopc (>= 0.3), python-appindicator (>= 0.4.92), libappindicator3-1 (>= 0.4.92), python-notify (>= 0.1.1), python-gi (>= 3.0), nautilus, sudo
+Breaks: samsungmfp-scantopc-gui
+Replaces: samsungmfp-scantopc-gui
+Filename: any/samsungdrivers/suld-scantopc-gui_0.4.5-2_all.deb
+Size: 83450
+MD5sum: 4a908b96f65de8b8aa21cbf22e6e48a7
+SHA1: d50c6cb220844fb7f09354fdea264da4f6c87e53
+SHA256: c5a18d0f768bd0fd4f159121f340f707effc040abcc57ee6ec40befca273b65e
+Section: utils
+Priority: extra
+Homepage: http://www.bchemnet.com/suldr/forum/index.php?topic=73.0
+Description: Samsung Scanner Server GUI
+ An Ubuntu Application Indicator (a graphical user interface, GUI) for
+ the server app used for the 'Scan to PC' function of Samsung multi
+ function printers (MFPs) in suld-scantopc. It has some convenient
+ buttons and issues informational notification bubbles about incoming scan
+ files. Note: This is intended for notebook/desktop PC users that do not
+ want the backend server to always run but rather started and stopped
+ together with the GUI (so the GUI must be running to use 'Scan to PC').
+
+Package: suld-slpr
+Version: 1-1
+Architecture: all
+Maintainer: Samsung Unified Linux Driver Repository <http://www.bchemnet.com/suldr/>
+Installed-Size: 24
+Depends: suld-configurator-1-qt4 | suld-configurator-1-qt3
+Breaks: samsungmfp-lpr (<< 2:1)
+Replaces: samsungmfp-lpr
+Filename: any/samsungdrivers/suld-slpr_1-1_all.deb
+Size: 1252
+MD5sum: 70db03fcbecf86c5cd9de8897751c5ec
+SHA1: 6ed3b89241995925096a3224cad3184890d60686
+SHA256: 2e03870bd90762423c5d4af24bf51516c4489683ce63c9a5b8b977174fc5768d
+Section: utils
+Priority: extra
+Description: Samsung Unified Linux Driver (slpr link)
+ The Samsung Unified Linux Driver provides access to all functions of
+ Samsung (and related) printers, including the scanning features of
+ multifunction printers.
+ .
+ This package provides the a link to override the standard system lpr in
+ favor of the Samsung lpr (slpr, provided in suld-configurator-1).
+ The link does not modify the original lpr, which can still be invoked by
+ directly calling /usr/bin/lpr or other explict paths. The slpr provides
+ additional control of print output (e.g., multiple pages per page), but
+ requires a graphical interface and so is inappropriate for many terminal
+ and server applications. Installation of this package may interfere with
+ printing capabilities from certain programs (in particular, some
+ versions of Adobe Reader), usually manifesting as a silent print failure.
+ .
+ The slpr utility was eliminated by Samsung in 2013, and so is not
+ available in more recent Configurator releases (for example, in
+ suld-configurator-2).
 
 Package: venenux-defaults
 Version: 1.0
@@ -265,4 +1344,62 @@ Description: VNXDE Debian Desktop VenenuX
  VenenuX related material (suitable for placement on a user's desktop),
  and other common files between the available desktop environments
  such as LXDE, XFCE4 and RazorQt.
+
+Package: yarn
+Version: 1.19.2-1
+Architecture: all
+Maintainer: Yarn Developers <yarn@dan.cx>
+Installed-Size: 5272
+Recommends: nodejs
+Conflicts: nodejs (<< 4.0.0), cmdtest
+Filename: any/yarn/yarn_1.19.2_all.deb
+Size: 890338
+MD5sum: 44c8c11b3159f101f921293278e30143
+SHA1: e16be93bd8d2f97e9f9110a95c2a233ca08eb92d
+SHA256: 43843ff86a0248bd9a683cb2fe56da515dbf973b638351ce33a277b6dbf522f7
+Section: devel
+Priority: optional
+Homepage: https://yarnpkg.com/
+Description: Fast, reliable, and secure dependency management.
+ Yarn: Fast, reliable, and secure dependency management.
+ .
+ Fast: Yarn caches every package it downloads so it never needs to again. It
+ also parallelizes operations to maximize resource utilization so install times
+ are faster than ever.
+ .
+ Reliable: Using a detailed, but concise, lockfile format, and a deterministic
+ algorithm for installs, Yarn is able to guarantee that an install that worked
+ on one system will work exactly the same way on any other system.
+ .
+ Secure: Yarn uses checksums to verify the integrity of every installed package
+ before its code is executed.
+
+Package: yarn
+Version: 1.22.19-1
+Architecture: all
+Maintainer: Yarn Developers <yarn@dan.cx>
+Installed-Size: 5288
+Recommends: nodejs
+Conflicts: nodejs (<< 4.0.0), cmdtest
+Filename: any/yarn/yarn_1.22.19_all.deb
+Size: 892548
+MD5sum: 0e51db0be105335002edde38fac3ec06
+SHA1: d43bf2c6895e0b00cffb27d8b77e3230519e43dd
+SHA256: 666cc8c015bb9e36236fc355816711fbc88bbba97ce8344d3ea2a36debcf7424
+Section: devel
+Priority: optional
+Homepage: https://yarnpkg.com/
+Description: Fast, reliable, and secure dependency management.
+ Yarn: Fast, reliable, and secure dependency management.
+ .
+ Fast: Yarn caches every package it downloads so it never needs to again. It
+ also parallelizes operations to maximize resource utilization so install times
+ are faster than ever.
+ .
+ Reliable: Using a detailed, but concise, lockfile format, and a deterministic
+ algorithm for installs, Yarn is able to guarantee that an install that worked
+ on one system will work exactly the same way on any other system.
+ .
+ Secure: Yarn uses checksums to verify the integrity of every installed package
+ before its code is executed.
 

@@ -1,0 +1,413 @@
+Package: containerd.io
+Version: 1.2.13-2
+Architecture: amd64
+Maintainer: Containerd team <help@containerd.io>
+Installed-Size: 96953
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.14), libseccomp2 (>= 2.3.0)
+Conflicts: containerd, runc
+Replaces: containerd, runc
+Provides: containerd, runc
+Filename: jessie/docker/containerd.io_1.2.13-2_amd64.deb
+Size: 21392850
+MD5sum: ff7ea03dd94cf3a4c5ed5dc71a135e46
+SHA1: 15735428de32cf7e0e2890aaa021c6e0d551e961
+SHA256: c2f6d8070ccf3813644cd465c2640c0e8f2967ecd01ccecbdcfa4b2acc9c9c92
+Section: devel
+Priority: optional
+Homepage: https://containerd.io
+Description: An open and reliable container runtime
+
+Package: containerd.io
+Version: 1.2.6-3
+Architecture: amd64
+Maintainer: Containerd team <help@containerd.io>
+Installed-Size: 95603
+Depends: libc6 (>= 2.17), libseccomp2 (>= 2.3.0)
+Conflicts: containerd, runc
+Replaces: containerd, runc
+Provides: containerd, runc
+Filename: jessie/docker/containerd.io_1.2.6-3_amd64.deb
+Size: 22610446
+MD5sum: 032bc450224b31b17f88230bc430e00b
+SHA1: a6c9c3014dfe65b685a7e835253a32b5784d5365
+SHA256: 7191efbaf8f915b0a5ac8100b2f1911ab5a2b9d50019a58c8d3e182cb3295fcb
+Section: devel
+Priority: optional
+Homepage: https://containerd.io
+Description: An open and reliable container runtime
+
+Package: docker-ce
+Version: 17.12.0~ce-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 148302
+Depends: iptables, init-system-helpers (>= 1.18~), libapparmor1 (>= 2.6~devel), libc6 (>= 2.17), libdevmapper1.02.1 (>= 2:1.02.90), libltdl7 (>= 2.4.2), libsystemd0
+Recommends: aufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, xz-utils
+Conflicts: docker (<< 1.5~), docker-ee, docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Replaces: docker-engine
+Filename: jessie/docker/docker-ce_17.12.0~ce-0~debian_amd64.deb
+Size: 30206248
+MD5sum: 0e2e405d17cbf165a493cab428b59da3
+SHA1: 6fb1ed08ac476a2b1ebd676adb53cd032e0fd1a8
+SHA256: d27a7996242906501fab98943cb406016d9bd7c44445cdea7d7286bda520ba51
+Section: admin
+Priority: optional
+Homepage: https://dockerproject.org
+Description: Docker: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest EC2 compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce
+Version: 17.12.1~ce-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 148330
+Depends: iptables, init-system-helpers (>= 1.18~), libc6 (>= 2.17), libdevmapper1.02.1 (>= 2:1.02.90), libltdl7 (>= 2.4.2), libsystemd0
+Recommends: aufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, xz-utils
+Conflicts: docker (<< 1.5~), docker-ee, docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Replaces: docker-engine
+Filename: jessie/docker/docker-ce_17.12.1~ce-0~debian_amd64.deb
+Size: 25047346
+MD5sum: 8ac5cbe268deb0030544f1f7df697baf
+SHA1: 18938382f0b1176a6eb7152f1fa848f05820c435
+SHA256: 48317f3ca3246edd8031c0304c55055a4a6f23f63448fd454b36907f318bd839
+Section: admin
+Priority: optional
+Homepage: https://dockerproject.org
+Description: Docker: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest EC2 compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce
+Version: 18.06.2~ce~3-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 196121
+Depends: iptables, init-system-helpers (>= 1.18~), libc6 (>= 2.17), libdevmapper1.02.1 (>= 2:1.02.90), libltdl7 (>= 2.4.2), libsystemd0
+Recommends: aufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, pigz, xz-utils
+Conflicts: docker (<< 1.5~), docker-ee, docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Replaces: docker-engine
+Filename: jessie/docker/docker-ce_18.06.2~ce~3-0~debian_amd64.deb
+Size: 39686058
+MD5sum: d1205ea4d2ccfa30eabdb32128f65041
+SHA1: 1a2500311230aff37aa81dd1292a88302fb0a2e1
+SHA256: 77ce4267f77cf001b5c8a2d3845dee07c11b223cf13674a96794407b8d34f8fd
+Section: admin
+Priority: optional
+Homepage: https://www.docker.com
+Description: Docker: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest cloud compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce
+Version: 18.06.3~ce~3-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 196121
+Depends: iptables, init-system-helpers (>= 1.18~), libc6 (>= 2.17), libdevmapper1.02.1 (>= 2:1.02.90), libltdl7 (>= 2.4.2), libsystemd0
+Recommends: aufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, pigz, xz-utils
+Conflicts: docker (<< 1.5~), docker-ee, docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Replaces: docker-engine
+Filename: jessie/docker/docker-ce_18.06.3~ce~3-0~debian_amd64.deb
+Size: 39704654
+MD5sum: 1c12794f2c24ab9f663d1ba5ada4833f
+SHA1: 058bcd4b055560866b8cad978c7aa224694602da
+SHA256: 19aeb2d165053055b53c1de414af0f5108ce8fb786b17874f65eb5e6dea90592
+Section: admin
+Priority: optional
+Homepage: https://www.docker.com
+Description: Docker: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest cloud compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce
+Version: 2:18.09.0~ce~0.4.tp4-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 79399
+Depends: docker-ce-cli, containerd.io, iptables, libc6 (>= 2.3.2)
+Recommends: abufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, pigz, xz-utils
+Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Replaces: docker-engine
+Filename: jessie/docker/docker-ce_18.09.0~ce~0.4.tp4-0~debian_amd64.deb
+Size: 18672390
+MD5sum: 6a22c4cd729aac0281e7f3d2513b29f7
+SHA1: 44b17969c7486669c5ca40ae74a682e3d6e5dda3
+SHA256: aaba4cbc374cf582562c978982b544d3a8de17bdd6259bcebb58488717f45505
+Section: admin
+Priority: optional
+Homepage: https://docker.com
+Description: Docker: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest EC2 compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce
+Version: 3:18.09.0~ce~0.5.tp5-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 79329
+Depends: docker-ce-cli, containerd.io, iptables, libseccomp2 (>= 2.3.0), libc6 (>= 2.3.2)
+Recommends: abufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, pigz, xz-utils
+Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Replaces: docker-engine
+Filename: jessie/docker/docker-ce_18.09.0~ce~0.5.tp5-0~debian_amd64.deb
+Size: 18661630
+MD5sum: 450932423e56570d33b28d37c0dafbc3
+SHA1: 18f171cd4c37b89fb671fa12230cb913915df8f9
+SHA256: 9d8d69296a95b081a9b6c96d489af90a17985169faabc88b64af44195ac6ea89
+Section: admin
+Priority: optional
+Homepage: https://docker.com
+Description: Docker: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest EC2 compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce-cli
+Source: docker-ce
+Version: 2:18.09.0~ce~0.4.tp4-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 70189
+Depends: libc6 (>= 2.3.2), libltdl7 (>= 2.4.2)
+Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Filename: jessie/docker/docker-ce-cli_18.09.0~ce~0.4.tp4-0~debian_amd64.deb
+Size: 12981050
+MD5sum: accb7b258291eb57ac028167e29124d3
+SHA1: e0f5d29ec52cf9fff4d11c58f9ddbbb5c7522345
+SHA256: cc2b212d341deff206e65507ad71131694a726df27e69a424c5f63ffde1dab16
+Section: admin
+Priority: optional
+Homepage: https://docker.com
+Description: Docker CLI: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest EC2 compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce-cli
+Source: docker-ce
+Version: 3:18.09.0~ce~0.5.tp5-0~debian
+Architecture: amd64
+Maintainer: Docker <support@docker.com>
+Installed-Size: 69926
+Depends: libc6 (>= 2.3.2), libltdl7 (>= 2.4.2)
+Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Filename: jessie/docker/docker-ce-cli_18.09.0~ce~0.5.tp5-0~debian_amd64.deb
+Size: 12912088
+MD5sum: 22798bcfbf23781f72c790d52c65fb3b
+SHA1: 9f2d3b3093b4cd794ebc99c7a717d9dc3962afa1
+SHA256: 3d30e0e4413dafbf2297946906b6fecd4907e3eb97cd5ead1f715d4fd73da8de
+Section: admin
+Priority: optional
+Homepage: https://docker.com
+Description: Docker CLI: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest EC2 compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: linux-headers-4.7.0-7.1-liquorix-amd64
+Source: linux-liquorix
+Version: 4.7-7mx150+3
+Architecture: amd64
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 53982
+Depends: libc6 (>= 2.14), gcc-4.9
+Conflicts: r8168-dkms
+Filename: jessie/linux-liquorix/linux-headers-4.7.0-7.1-liquorix-amd64_4.7-7mx150+3_amd64.deb
+Size: 7284234
+MD5sum: 68dc61253dd61556c23a6e498e270e21
+SHA1: d273548d985e7f3ab14038e0608749200bb62026
+SHA256: 058d78575083a3b4b6ca2d37f75de6476d45fd6fee8f8fb1c5d80aa18f729593
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.7.0-7.1-liquorix-amd64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.7.0-7.1-liquorix-amd64, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.7.0-7.1-liquorix-amd64, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.7.0-7.1-liquorix-amd64 package.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-headers-4.8.0-2.1-liquorix-amd64
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: amd64
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 55077
+Depends: libc6 (>= 2.14), gcc-4.9
+Conflicts: r8168-dkms
+Filename: jessie/linux-liquorix/linux-headers-4.8.0-2.1-liquorix-amd64_4.8-2mx150+2_amd64.deb
+Size: 7443542
+MD5sum: 82bab69f1d5975c0ad362f03dbc75531
+SHA1: e395285cea3a40d48c652939facd3d28421bdd7e
+SHA256: 99dddb39b64e3a107e5160021c2c9a98d5cdf7aad16f715e719bd6eebef8ce17
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.8.0-2.1-liquorix-amd64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.8.0-2.1-liquorix-amd64, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.8.0-2.1-liquorix-amd64, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.8.0-2.1-liquorix-amd64 package.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-headers-liquorix-amd64
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: amd64
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 163
+Depends: linux-headers-4.8.0-2.1-liquorix-amd64 (= 4.8-2mx150+2)
+Filename: jessie/linux-liquorix/linux-headers-liquorix-amd64_4.8-2mx150+2_amd64.deb
+Size: 142890
+MD5sum: 600c17e90c83dd96955be4e7f7339b46
+SHA1: cec474fadd5b980d59cbcd5f0f39f819909d58d8
+SHA256: ccaa40b304ed8299f58bd4836199cef21a42b1bd4b47bf0770d8c8fbbc554a1c
+Section: metapackages
+Priority: extra
+Homepage: http://www.liquorix.net/
+Description: Linux headers for liquorix on 64-bit PCs
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with AMD64 or Intel 64 processors machines for liquorix.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-4.7.0-7.1-liquorix-amd64
+Source: linux-liquorix
+Version: 4.7-7mx150+3
+Architecture: amd64
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 183625
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free
+Suggests: linux-doc-4.7, crda, grub-pc | extlinux | grub-efi-amd64
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.7.0-7.1-liquorix-amd64
+Filename: jessie/linux-liquorix/linux-image-4.7.0-7.1-liquorix-amd64_4.7-7mx150+3_amd64.deb
+Size: 39110776
+MD5sum: 5c00b8e392419f84a6a73758c14355dd
+SHA1: 0877d2bccab36db9d68c3e90392e3f4a733d3fbe
+SHA256: 6e60b9371b7370d69739668706634bec39d76cd601c762df40a9e92693c50aef
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.7 for 64-bit PCs
+ The Linux kernel 4.7 and modules for use on PCs with AMD64 or Intel 64
+ processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-4.8.0-2.1-liquorix-amd64
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: amd64
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 186205
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free
+Suggests: linux-doc-4.8, crda, grub-pc | extlinux | grub-efi-amd64
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.8.0-2.1-liquorix-amd64
+Filename: jessie/linux-liquorix/linux-image-4.8.0-2.1-liquorix-amd64_4.8-2mx150+2_amd64.deb
+Size: 39677452
+MD5sum: 2672f00c090d71c7ea9dfa08123fb60e
+SHA1: c26a09735626ed1d34f52e13156a82ac63934d80
+SHA256: bc9b32674884f2b59bf2dcab44a5c8be1d0ee4eb55a1a56512ce392dff4cc468
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.8 for 64-bit PCs
+ The Linux kernel 4.8 and modules for use on PCs with AMD64 or Intel 64
+ processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+
+Package: linux-image-liquorix-amd64
+Source: linux-liquorix
+Version: 4.8-2mx150+2
+Architecture: amd64
+Bugs: mailto: v3g4n@mxlinux.org
+Maintainer: Mike Elstad (v3g4n) <v3g4n@mxlinux.org>
+Installed-Size: 163
+Depends: linux-image-4.8.0-2.1-liquorix-amd64 (= 4.8-2mx150+2)
+Recommends: linux-headers-liquorix-amd64 (= 4.8-2mx150+2)
+Filename: jessie/linux-liquorix/linux-image-liquorix-amd64_4.8-2mx150+2_amd64.deb
+Size: 142900
+MD5sum: 53c0e9ebf380c8a003a82951a5c70e18
+SHA1: 5cbe8fc4c78b3bc89e9485c1703e6f4543fae267
+SHA256: 5cef558cd9c7ca5ff84826c6edafe37305ce5c8aadb9725d1dd232c632ab98d3
+Section: metapackages
+Priority: extra
+Homepage: http://www.liquorix.net/
+Description: Linux image for liquorix on 64-bit PCs
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with AMD64 or Intel 64 processors machines for liquorix.
+Original-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+

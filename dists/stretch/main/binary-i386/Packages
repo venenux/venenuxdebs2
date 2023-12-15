@@ -1,0 +1,1064 @@
+Package: codium
+Version: 1.35.1-1560422388
+Architecture: i386
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 191716
+Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1
+Conflicts: visual-studio-codium
+Replaces: visual-studio-codium
+Provides: visual-studio-codium
+Filename: stretch/vscodium/codium_1.35.1-1560422388_i386.deb
+Size: 49555882
+MD5sum: 608c35953ec60ad105f984b46bd662d6
+SHA1: f8772d98e6aeb2f7124a043f959b9ae2a318c74c
+SHA256: f686471c9b13f26536875f12d0efb7a7cd3b32cfbe3fbf18eb14345f1991758c
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: hyperv-daemons
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 346
+Depends: lsb-base, libc6 (>= 2.4), init-system-helpers (>= 1.18~)
+Filename: stretch/linux-multimedia/hyperv-daemons_4.19.37-5mx17+1_i386.deb
+Size: 283318
+MD5sum: 87e4d5b923129dd60f2f859e0bb6330e
+SHA1: 118d6370e8ec0525dc31cf39bbac070e81d96d0d
+SHA256: f3d1bc865cf2118215dbeaedaab2657b123d4d3cf03fc50652a002e748d435d5
+Section: admin
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Support daemons for Linux running on Hyper-V
+ Suite of daemons for Linux guests running on Hyper-V, consisting of
+ hv_fcopy_daemon, hv_kvp_daemon and hv_vss_daemon.
+ .
+ hv_fcopy_daemon provides the file copy service, allowing the host to copy
+ files into the guest.
+ .
+ hv_kvp_daemon provides the key-value pair (KVP) service, allowing the host
+ to get and set the IP networking configuration of the guest.  (This
+ requires helper scripts which are not currently included.)
+ .
+ hv_vss_daemon provides the volume shadow copy service (VSS), allowing the
+ host to freeze the guest filesystems while taking a snapshot.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: libbpf-dev
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 362
+Depends: libbpf4.19 (= 4.19.37-5mx17+1)
+Filename: stretch/linux-multimedia/libbpf-dev_4.19.37-5mx17+1_i386.deb
+Size: 289932
+MD5sum: d851ec28e2b8f58bf94c8482ce2c4cd1
+SHA1: 307474e2f99d48313b201882ad7406f76c1fa6a2
+SHA256: 19086a597e65399da2744da3aeae556d12e80c3f3724e07f2f27004d7417d6e2
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: eBPF helper library (development files)
+ libbpf is a library for loading eBPF programs and reading and manipulating
+ eBPF objects from user-space.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: libbpf4.19
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 335
+Depends: libc6 (>= 2.9), libelf1 (>= 0.131)
+Filename: stretch/linux-multimedia/libbpf4.19_4.19.37-5mx17+1_i386.deb
+Size: 287480
+MD5sum: 157aa5d676f523f1823b5c6440506254
+SHA1: b4ca47427914654d2ba6872a6e1942d5ce6aacd1
+SHA256: 9d22a91450b2423db692a1551650d7a98ec05b8d0946d975287670652f3a70ea
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: eBPF helper library (shared library)
+ libbpf is a library for loading eBPF programs and reading and manipulating
+ eBPF objects from user-space.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: libcpupower-dev
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 284
+Depends: libcpupower1 (= 4.19.37-5mx17+1)
+Conflicts: libcpufreq-dev
+Replaces: libcpufreq-dev
+Provides: libcpufreq-dev
+Filename: stretch/linux-multimedia/libcpupower-dev_4.19.37-5mx17+1_i386.deb
+Size: 268516
+MD5sum: f9b3dbc4a901585812e9b6757f413203
+SHA1: 1b1fcd7d5a649da4fdfd8c0a408668e8a0c97ba7
+SHA256: 6343b5293221a108b5fb9701ad51baada00d5072efc46f93f43687cdb40e6fd1
+Section: libdevel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: CPU frequency and voltage scaling tools for Linux (development files)
+ This package contains the 'power/cpupower' headers and library shared
+ objects.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: libcpupower1
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 302
+Depends: libc6 (>= 2.4)
+Filename: stretch/linux-multimedia/libcpupower1_4.19.37-5mx17+1_i386.deb
+Size: 274512
+MD5sum: 09dd1b8867c2a57182b32d2c3ae92de3
+SHA1: e98dda2e84d869c854c6e362688b77dabc659344
+SHA256: 0de3dec12117ffd6cb24d7a65327cf55d6fb354905663b4418e14f898e717861
+Section: libs
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: CPU frequency and voltage scaling tools for Linux (libraries)
+ This package contains the shared library.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: liblockdep-dev
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 345
+Depends: liblockdep4.19 (= 4.19.37-5mx17+1)
+Filename: stretch/linux-multimedia/liblockdep-dev_4.19.37-5mx17+1_i386.deb
+Size: 291862
+MD5sum: ce6125478f8060ac4cf4c34beffa09fc
+SHA1: 18854e29732a4fc771c94a5fbef94c6a40db3af1
+SHA256: 627dec19d992618dacc13b7e35a4d65a5a52744df4d36500ea6f5c47b5420afe
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Runtime locking correctness validator (development files)
+ liblockdep is a library for programs that use the pthreads API, which can
+ be used to detect actual and potential deadlocks and other locking bugs.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: liblockdep4.19
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 319
+Depends: libc6 (>= 2.8)
+Filename: stretch/linux-multimedia/liblockdep4.19_4.19.37-5mx17+1_i386.deb
+Size: 284588
+MD5sum: badfb352ab3923fb5b741c35bb05091b
+SHA1: 5386885a8e92fad3938a390a27335fa19f165c14
+SHA256: eeed374a2f10b27590e316d5459516e42b3ac3b6b16126aaa69fa81a441097e7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Runtime locking correctness validator (shared library)
+ liblockdep is a library for programs that use the pthreads API, which can
+ be used to detect actual and potential deadlocks and other locking bugs.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-compiler-gcc-6-x86
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 273
+Depends: gcc-6 (>= 6.3)
+Filename: stretch/linux-multimedia/linux-compiler-gcc-6-x86_4.19.37-5mx17+1_i386.deb
+Size: 266648
+MD5sum: 0b20f0c343d5496a47236667e86d9632
+SHA1: 5fb1eda55ed172ca353a0908339527d009027964
+SHA256: 7ec7ba2bcd9de833cf104aa96f269af73083a58c7e9c82c0601ee06bfbd7264d
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Compiler for Linux on x86 (meta-package)
+ This package depends on GCC of the appropriate version and architecture
+ for Linux on amd64, i386 and x32.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-config-4.19
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 405
+Recommends: linux-source-4.19
+Filename: stretch/linux-multimedia/linux-config-4.19_4.19.37-5mx17+1_i386.deb
+Size: 397752
+MD5sum: 3d88c23328f6158073f5fd8757294024
+SHA1: 4a79399c3cf224db3ed5baaad6cd6a8c43ae9889
+SHA256: e50961df3421300e12590d0860788fc6ab3ec3a7951c30e74e290943b31669a4
+Section: kernel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Debian kernel configurations for Linux 4.19
+ This package contains the configuration files used to build the official
+ Debian kernel files, but without references to Debian's signing
+ certificates.
+ .
+ These can be used as a basis for configuring custom kernels.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-cpupower
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 565
+Depends: libc6 (>= 2.7), libcpupower1 (>= 4.7~rc2-1~exp1), libpci3 (>= 1:3.5.2-1)
+Filename: stretch/linux-multimedia/linux-cpupower_4.19.37-5mx17+1_i386.deb
+Size: 370238
+MD5sum: ff3b45e19416cea02baffdee5a8fff44
+SHA1: ddca4c585730964bb8aeae645bf374a02658bf78
+SHA256: 26d157431b722bfdb2f6e7970aea69351de49ea8b7522bb31d96e531af555c0a
+Section: admin
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: CPU power management tools for Linux
+ The cpupower command allows inspection and control of cpufreq and cpuidle
+ tunables for hardware that support these features.  It replaces
+ "cpufreq-info" and "cpufreq-set" in cpufrequtils.
+ .
+ The turbostat command reports topology, frequency, idle power-state
+ statistics, temperature and power consumption information as provided
+ by the CPU.
+ .
+ The x86_energy_perf_policy command sets a general policy on some Intel
+ CPU models for the relative importance of performance versus energy
+ savings.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-doc-4.19
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 61856
+Filename: stretch/linux-multimedia/linux-doc-4.19_4.19.37-5mx17+1_all.deb
+Size: 16267110
+MD5sum: 996a958d7e7b8b5b1b25336cecff2cc9
+SHA1: 923e365831d8d3409c174cc8b5df6b80daf1f7b6
+SHA256: fae71529e56aee5a14aac9669ab007837aa33533a62f2f2a17a94ee8f176ee1d
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Linux kernel specific documentation for version 4.19
+ This package provides the various README files and HTML documentation for
+ the Linux kernel version 4.19.  Plenty of information, including the
+ descriptions of various kernel subsystems, filesystems, driver-specific
+ notes and the like.  Consult the file
+ /usr/share/doc/linux-doc-4.19/Documentation/00-INDEX for the detailed
+ description of the contents.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-4.15.0-18.4-liquorix-686
+Source: linux-liquorix
+Version: 4.15-16.1~mx17+1
+Architecture: i386
+Maintainer: Mike Purtell <mmikeinsantarosa@mxlinux.org>
+Installed-Size: 49818
+Depends: libc6 (>= 2.7), libssl1.1 (>= 1.1.0), libelf-dev, gcc
+Conflicts: r8168-dkms
+Filename: stretch/linux-liquorix/linux-headers-4.15.0-18.4-liquorix-686_4.15-16.1~mx17+1_i386.deb
+Size: 8061770
+MD5sum: d238745bb45337a6263d7c107482cf56
+SHA1: c10bcb0c438a506bdcc5819661745104dfc76c33
+SHA256: 8ed98d8931d69e75577b9ba7390340b5b422918caccc76a15eba172369a5eaf2
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.15.0-18.4-liquorix-686
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.15.0-18.4-liquorix-686, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.15.0-18.4-liquorix-686, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.15.0-18.4-liquorix-686 package.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-headers-4.15.0-18.4-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.15-16.1~mx17+1
+Architecture: i386
+Maintainer: Mike Purtell <mmikeinsantarosa@mxlinux.org>
+Installed-Size: 49893
+Depends: libc6 (>= 2.7), libssl1.1 (>= 1.1.0), libelf-dev, gcc
+Conflicts: r8168-dkms
+Filename: stretch/linux-liquorix/linux-headers-4.15.0-18.4-liquorix-686-pae_4.15-16.1~mx17+1_i386.deb
+Size: 8069934
+MD5sum: d7a4813616c5ddc3a170f5ca0f9e578b
+SHA1: e7e3b6a84a3aedd357bfe34740c18f3af3a5c144
+SHA256: 6dd3c38b366569962bd21d61671a20a0382b5b4f7d51380c5e2f2bde4d0b1124
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.15.0-18.4-liquorix-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.15.0-18.4-liquorix-686-pae, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.15.0-18.4-liquorix-686-pae, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.15.0-18.4-liquorix-686-pae package.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-headers-4.18.0-20.3-liquorix-686
+Source: linux-liquorix
+Version: 4.18-28~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 51274
+Depends: libc6 (>= 2.8), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0), libelf-dev, gcc
+Conflicts: r8168-dkms
+Filename: stretch/linux-liquorix/linux-headers-4.18.0-20.3-liquorix-686_4.18-28~mx17+1_i386.deb
+Size: 8348946
+MD5sum: 1e3587fa99b294bfdf29021990cd413d
+SHA1: 4b29d760a02f05d7172cdd05421bdad6bbc34a47
+SHA256: 7b41227aeffef9dcc83147aea9d6fed70d724b99c15e0ee1a9e26ad516dc4db8
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.18.0-20.3-liquorix-686
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.18.0-20.3-liquorix-686, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.18.0-20.3-liquorix-686, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.18.0-20.3-liquorix-686 package.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-headers-4.18.0-20.3-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.18-28~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 51341
+Depends: libc6 (>= 2.8), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0), libelf-dev, gcc
+Conflicts: r8168-dkms
+Filename: stretch/linux-liquorix/linux-headers-4.18.0-20.3-liquorix-686-pae_4.18-28~mx17+1_i386.deb
+Size: 8355836
+MD5sum: 94c1de38c0ac1715ced1297dafcc898c
+SHA1: ec7e3d62f9c550245ca2a2d9e6ddbc7129aa4950
+SHA256: a77b495f8bf71074a6dc658a259ae39fb30a27a52de3bac88465026cbf3bd136
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 4.18.0-20.3-liquorix-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.18.0-20.3-liquorix-686-pae, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.18.0-20.3-liquorix-686-pae, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-4.18.0-20.3-liquorix-686-pae package.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-headers-4.19.0-5-686
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 4659
+Depends: linux-headers-4.19.0-5-common (= 4.19.37-5mx17+1), linux-kbuild-4.19 (>= 4.19.37-5mx17+1), libelf-dev, gcc-6
+Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-686_4.19.37-5mx17+1_i386.deb
+Size: 742036
+MD5sum: 24b214928543e1993d1a889e49ef2ef7
+SHA1: 1d0e18beaf2c6f8f21890693c29b0d710806540a
+SHA256: 271bf8273f7ecec09419b7e16f26441f30bbd382d8c564baa3d6000cd8c9622a
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Header files for Linux 4.19.0-5-686
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.19.0-5-686, generally used for building out-of-tree kernel
+ modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.19.0-5-686, and can be used for building modules
+ that load into the kernel provided by the linux-image-4.19.0-5-686
+ package.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-4.19.0-5-686-pae
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 4687
+Depends: linux-headers-4.19.0-5-common (= 4.19.37-5mx17+1), linux-kbuild-4.19 (>= 4.19.37-5mx17+1), libelf-dev, gcc-6
+Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-686-pae_4.19.37-5mx17+1_i386.deb
+Size: 742934
+MD5sum: a29d7c4924f28c0c2da434b69e6b7227
+SHA1: 44d293ba18c27f5f3b6454a7f2acfb767fd5fe41
+SHA256: 51eb52d1e26abb364cc6ed6b6bd56c41a86e351a49bc25b6afe8eba2ac591199
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Header files for Linux 4.19.0-5-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.19.0-5-686-pae, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.19.0-5-686-pae, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-4.19.0-5-686-pae package.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-4.19.0-5-all
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 273
+Depends: linux-headers-4.19.0-5-all-i386 (= 4.19.37-5mx17+1)
+Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-all_4.19.37-5mx17+1_i386.deb
+Size: 266664
+MD5sum: 5323363b9466800aeee1fd635d16df61
+SHA1: 3a2006aa82673dcdd6d6f0ec6a237979baef63b5
+SHA256: 0cbe6ad88c4a6efc86b1a8770903a0e00038877a8de5eb959bac746e75455554
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: All header files for Linux 4.19 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 4.19, generally used for building out-of-tree
+ kernel modules.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-4.19.0-5-all-i386
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 273
+Depends: linux-headers-4.19.0-5-686 (= 4.19.37-5mx17+1), linux-headers-4.19.0-5-686-pae (= 4.19.37-5mx17+1), linux-headers-4.19.0-5-rt-686-pae (= 4.19.37-5mx17+1)
+Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-all-i386_4.19.37-5mx17+1_i386.deb
+Size: 266688
+MD5sum: fff2147831c705f2daf4cff89a63885b
+SHA1: 910ad68782508f34c0c8b1cfdad856f628df1e79
+SHA256: 4ddcfb80d925ebcec0a67b2cf07dd401d4e252ee207009da286e565c7e44fb4b
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: All header files for Linux 4.19 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 4.19, generally used for building out-of-tree
+ kernel modules.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-4.19.0-5-common
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 49371
+Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-common_4.19.37-5mx17+1_all.deb
+Size: 8222100
+MD5sum: 597cc147ea33e8d72815d923c0c4f9bd
+SHA1: ab7a887ad0150ffc6914106e5b5a8bd121c20d64
+SHA256: a8b26b29e15d889b5a6af54f785c2f08e8daec1d84ecf03d49c0c353174cfe8d
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Common header files for Linux 4.19.0-5
+ This package provides the common kernel header files for Linux kernel
+ version 4.19.0-5, generally used for building out-of-tree kernel modules.
+ To obtain a complete set of headers you also need to install the
+ linux-headers-4.19.0-5-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-4.19.0-5-common-rt
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 36791
+Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-common-rt_4.19.37-5mx17+1_all.deb
+Size: 6434390
+MD5sum: 15e45635695302e1077f04f63fee3095
+SHA1: b549acac4d5ca73212f69cf4899b20a60f9b7aa4
+SHA256: 7e65009eba4d2deb5097d40e280d7678b7af806f13042d97af8a5a951126a134
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Common header files for Linux 4.19.0-5-rt
+ This package provides the common kernel header files for Linux kernel
+ version 4.19.0-5 with the PREEMPT_RT featureset, generally used for
+ building out-of-tree kernel modules.  To obtain a complete set of headers
+ you also need to install the linux-headers-4.19.0-5-(flavour) package,
+ matching the flavour of the kernel you intend the build for.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-4.19.0-5-rt-686-pae
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 4664
+Depends: linux-headers-4.19.0-5-common-rt (= 4.19.37-5mx17+1), linux-kbuild-4.19 (>= 4.19.37-5mx17+1), libelf-dev, gcc-6
+Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-rt-686-pae_4.19.37-5mx17+1_i386.deb
+Size: 741134
+MD5sum: 5a81632ce2e74d4ea37d069cf6b41d66
+SHA1: 10e0cc0fb3e2469ba64e9ae6b0368d934d8b1751
+SHA256: 3331fd7e2d438cb50bb6f4b0bed1832712025582acce599132c001734a792271
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Header files for Linux 4.19.0-5-rt-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 4.19.0-5-rt-686-pae, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-4.19.0-5-rt-686-pae, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-4.19.0-5-rt-686-pae package.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-headers-5.1.0-20.1-liquorix-686
+Source: linux-liquorix
+Version: 5.1-24~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 53961
+Depends: libc6 (>= 2.8), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0), libelf-dev, gcc
+Conflicts: r8168-dkms
+Filename: stretch/linux-liquorix/linux-headers-5.1.0-20.1-liquorix-686_5.1-24~mx17+1_i386.deb
+Size: 8735878
+MD5sum: 37a642b19e893faecc2d2d3872b3ee35
+SHA1: 3883a9e184f0af66722856f427f087a37bedb4de
+SHA256: 7350b6f0de9bec591102335a535d903f23b724fb813d790fe18d0c524b39f803
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 5.1.0-20.1-liquorix-686
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 5.1.0-20.1-liquorix-686, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-5.1.0-20.1-liquorix-686, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-5.1.0-20.1-liquorix-686 package.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-headers-5.1.0-20.1-liquorix-686-pae
+Source: linux-liquorix
+Version: 5.1-24~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 54036
+Depends: libc6 (>= 2.8), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0), libelf-dev, gcc
+Conflicts: r8168-dkms
+Filename: stretch/linux-liquorix/linux-headers-5.1.0-20.1-liquorix-686-pae_5.1-24~mx17+1_i386.deb
+Size: 8745440
+MD5sum: e456938cd1f9dd80716ea48a5baaef55
+SHA1: 3cc3918d3e1f826c04c7e955b9fcb523df485676
+SHA256: d009cfdfffc9145909e91230021e613c966e92bcb401168f523b8c3035698bbc
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Header files for Linux 5.1.0-20.1-liquorix-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 5.1.0-20.1-liquorix-686-pae, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-5.1.0-20.1-liquorix-686-pae, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-5.1.0-20.1-liquorix-686-pae package.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-image-4.15.0-18.4-liquorix-686
+Source: linux-liquorix
+Version: 4.15-16.1~mx17+1
+Architecture: i386
+Maintainer: Mike Purtell <mmikeinsantarosa@mxlinux.org>
+Installed-Size: 167967
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.15, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.15.0-18.4-liquorix-686
+Filename: stretch/linux-liquorix/linux-image-4.15.0-18.4-liquorix-686_4.15-16.1~mx17+1_i386.deb
+Size: 46742058
+MD5sum: e9770a8bf3a30df6169764f179fbb42e
+SHA1: d8e91e31a4a0951933e0f9dc1e9672a90d59727a
+SHA256: 500bc61b5a2509064987ea657b8e6e13e6f2b75e0cbe6daffad1145580197b5c
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.15 for modern PCs
+ The Linux kernel 4.15 and modules for use on PCs with Intel Pentium
+ Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom; AMD Geode LX/NX, Athlon
+ (K7), Duron, Opteron, Sempron, Turion or Phenom; Transmeta Efficeon; VIA
+ C3 "Nehemiah" or C7 processors.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-image-4.15.0-18.4-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.15-16.1~mx17+1
+Architecture: i386
+Maintainer: Mike Purtell <mmikeinsantarosa@mxlinux.org>
+Installed-Size: 169085
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.15, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.15.0-18.4-liquorix-686-pae
+Filename: stretch/linux-liquorix/linux-image-4.15.0-18.4-liquorix-686-pae_4.15-16.1~mx17+1_i386.deb
+Size: 47266862
+MD5sum: 5e268ecc050626157eb0f4a4eddd0d3e
+SHA1: fd3a19cb5fed4edfaa6432b4d8e32869b7e0b686
+SHA256: 415c71c7fcfd5a61b92f13f3ad9058501f48af694cd6bd991ba5869b16b11894
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.15 for modern PCs
+ The Linux kernel 4.15 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension) This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-image-4.18.0-20.3-liquorix-686
+Source: linux-liquorix
+Version: 4.18-28~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 220628
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.18, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.18.0-20.3-liquorix-686
+Filename: stretch/linux-liquorix/linux-image-4.18.0-20.3-liquorix-686_4.18-28~mx17+1_i386.deb
+Size: 47520396
+MD5sum: bef231225a1b4172b4a4f3b4987e13d4
+SHA1: 0cfe3cf1183285061141ce71ccb7887ae40b2642
+SHA256: 24c468db920f14884eb4321baf89392ecd60d0bf6a25af50c447228dd5355956
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.18 for modern PCs
+ The Linux kernel 4.18 and modules for use on PCs with Intel Pentium
+ Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom; AMD Geode LX/NX, Athlon
+ (K7), Duron, Opteron, Sempron, Turion or Phenom; Transmeta Efficeon; VIA
+ C3 "Nehemiah" or C7 processors.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-image-4.18.0-20.3-liquorix-686-pae
+Source: linux-liquorix
+Version: 4.18-28~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 221770
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-4.18, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-4.18.0-20.3-liquorix-686-pae
+Filename: stretch/linux-liquorix/linux-image-4.18.0-20.3-liquorix-686-pae_4.18-28~mx17+1_i386.deb
+Size: 47986562
+MD5sum: 0b3f38fefa43d5e0dac86a0e066d1482
+SHA1: f2b1ef6016b1cd7b21fe12965dd822fdd7316b30
+SHA256: 516ede4070ad16452b34160cb1ffe0b325ad4700d1d0a9159a39261ace50e9b8
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 4.18 for modern PCs
+ The Linux kernel 4.18 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension) This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-image-4.19.0-5-686-pae-unsigned
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 145618
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: firmware-linux-free, apparmor
+Suggests: linux-doc-4.19, debian-kernel-handbook, grub-pc | grub-efi-ia32 | extlinux
+Conflicts: linux-image-4.19.0-5-686-pae
+Breaks: initramfs-tools (<< 0.120+deb8u2), xserver-xorg-input-vmmouse (<< 1:13.0.99)
+Replaces: linux-image-4.19.0-5-686-pae
+Filename: stretch/linux-multimedia/linux-image-4.19.0-5-686-pae-unsigned_4.19.37-5mx17+1_i386.deb
+Size: 40561576
+MD5sum: e2fd87c298a88ff2eaeae16be2a06cac
+SHA1: 3890680c865c26227a1ad9d0fbcfa63888362162
+SHA256: 2329170403e1076ec975c0e47e0e555e0d3fd147a3109af0ae57058adfda0851
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux 4.19 for modern PCs
+ The Linux kernel 4.19 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension). This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-image-4.19.0-5-686-unsigned
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 144890
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: firmware-linux-free, apparmor
+Suggests: linux-doc-4.19, debian-kernel-handbook, grub-pc | grub-efi-ia32 | extlinux
+Conflicts: linux-image-4.19.0-5-686
+Breaks: initramfs-tools (<< 0.120+deb8u2), xserver-xorg-input-vmmouse (<< 1:13.0.99)
+Replaces: linux-image-4.19.0-5-686
+Filename: stretch/linux-multimedia/linux-image-4.19.0-5-686-unsigned_4.19.37-5mx17+1_i386.deb
+Size: 40247322
+MD5sum: 2a936022feaa6c5ff5c51b8f64e8039d
+SHA1: 5815ca3607bb0219c5d693cf867753a52cc514af
+SHA256: 60d26dc476fc82213928275bee32fa48d2b2a2a13f9fe6e01e1948d5a0bda5a6
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux 4.19 for older PCs
+ The Linux kernel 4.19 and modules for use on PCs with one or more
+ processors not supporting PAE.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-image-4.19.0-5-rt-686-pae-unsigned
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 146308
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: firmware-linux-free, apparmor
+Suggests: linux-doc-4.19, debian-kernel-handbook, grub-pc | grub-efi-ia32 | extlinux
+Conflicts: linux-image-4.19.0-5-rt-686-pae
+Breaks: initramfs-tools (<< 0.120+deb8u2), xserver-xorg-input-vmmouse (<< 1:13.0.99)
+Replaces: linux-image-4.19.0-5-rt-686-pae
+Filename: stretch/linux-multimedia/linux-image-4.19.0-5-rt-686-pae-unsigned_4.19.37-5mx17+1_i386.deb
+Size: 40600466
+MD5sum: 12308e869bf121fd5b1c0e6357ee0482
+SHA1: 3898317aa0b919653cba6aecfd2a39689d8ec20e
+SHA256: 719f78a6ad68d4ccaa5c5b82d9163f1c1f42d58e7d952117cca845833c19d2b5
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux 4.19 for modern PCs, PREEMPT_RT
+ The Linux kernel 4.19 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension). This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+ .
+ This kernel includes the PREEMPT_RT realtime patch set.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-image-5.1.0-20.1-liquorix-686
+Source: linux-liquorix
+Version: 5.1-24~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 225652
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-5.1, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-5.1.0-20.1-liquorix-686
+Filename: stretch/linux-liquorix/linux-image-5.1.0-20.1-liquorix-686_5.1-24~mx17+1_i386.deb
+Size: 49014618
+MD5sum: 0c8dc54da2115c62b8cb40ad00ce0f49
+SHA1: e41e9f53b11c1d4ee016b2f0504d20d9cb9b8154
+SHA256: 467197827dc3eba829740b047da3e9d654cb6d99dd844393c9ba0e3c0207d98b
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 5.1 for modern PCs
+ The Linux kernel 5.1 and modules for use on PCs with Intel Pentium
+ Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom; AMD Geode LX/NX, Athlon
+ (K7), Duron, Opteron, Sempron, Turion or Phenom; Transmeta Efficeon; VIA
+ C3 "Nehemiah" or C7 processors.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-image-5.1.0-20.1-liquorix-686-pae
+Source: linux-liquorix
+Version: 5.1-24~mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 226819
+Pre-Depends: debconf | debconf-2.0
+Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
+Recommends: firmware-linux-free, libc6-i686
+Suggests: linux-doc-5.1, crda, grub-pc | extlinux | grub-efi-ia32
+Conflicts: hal, r8168-dkms
+Provides: linux-modules-5.1.0-20.1-liquorix-686-pae
+Filename: stretch/linux-liquorix/linux-image-5.1.0-20.1-liquorix-686-pae_5.1-24~mx17+1_i386.deb
+Size: 49476586
+MD5sum: a0827c989d418809bf932d159241dce1
+SHA1: 942a54bd977a56b36f75de7ebef5a5d642a7533f
+SHA256: 24dd5b3c70491e692a84644872af2f1ff55bcc566bdd1b84434d0715b8c2bf2b
+Section: kernel
+Priority: optional
+Homepage: http://www.liquorix.net/
+Description: Linux 5.1 for modern PCs
+ The Linux kernel 5.1 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension) This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+Original-Maintainer: Steven Barrett <steven@liquorix.net>
+
+Package: linux-image-i386-signed-template
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 2253
+Depends: dpkg-dev
+Filename: stretch/linux-multimedia/linux-image-i386-signed-template_4.19.37-5mx17+1_i386.deb
+Size: 536192
+MD5sum: 1140e46cb66f90a1170668d9e575b06f
+SHA1: fbbd334c3d09faa78d495fc6ff0efe018e4d3371
+SHA256: 7575f2f282ed5470d9222ad7e3829313580b4ac01d475e82fbdb2183cc3b1347
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Template for signed linux-image packages for i386
+ This package is used to control code signing by the Debian signing
+ service.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-kbuild-4.19
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 1227
+Depends: libc6 (>= 2.11), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0)
+Filename: stretch/linux-multimedia/linux-kbuild-4.19_4.19.37-5mx17+1_i386.deb
+Size: 510054
+MD5sum: db3fc3cc6b5a4750482148f979a217c1
+SHA1: 87ef016cc3de64dce54d5fdcd55ed45864143afe
+SHA256: 65b9ffd68dad9fe5db38eaf750617ebda05441c9dbabcd196996acb107b9f727
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Kbuild infrastructure for Linux 4.19
+ This package provides the kbuild infrastructure for the headers packages
+ for Linux kernel version 4.19.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-libc-dev
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 4971
+Provides: linux-kernel-headers
+Filename: stretch/linux-multimedia/linux-libc-dev_4.19.37-5mx17+1_i386.deb
+Size: 1188062
+MD5sum: 25aaa7356fe360a50dcbfd8de116c1ae
+SHA1: 071af81a25e2f5618474414a67bffd3aa702b8e4
+SHA256: 7019a83810fbd570c6d3bc995e1235319d51d2f449b5d370b324939dacbb8af7
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ headers are used by the installed headers for GNU libc and other system
+ libraries.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-perf-4.19
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 5219
+Depends: libaudit1 (>= 1:2.2.1), libbabeltrace-ctf1 (>= 1.5.0~rc1), libc6 (>= 2.14), libdw1 (>= 0.157), libelf1 (>= 0.144), libnuma1 (>= 2.0.11), libopencsd0, libperl5.24 (>= 5.24.0), libpython3.5 (>= 3.5.0~b1), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), perl, python3:any (>= 3.3.2-2~)
+Recommends: linux-base
+Suggests: linux-doc-4.19
+Conflicts: linux-tools-4.19
+Replaces: linux-tools-4.19
+Provides: linux-tools-4.19
+Filename: stretch/linux-multimedia/linux-perf-4.19_4.19.37-5mx17+1_i386.deb
+Size: 1514024
+MD5sum: fa0b7518da6cfb7642136f80a7e9c06d
+SHA1: 7ceb9e1a02885a0141c6e95f184603870bb0d1b2
+SHA256: 1361f5d5261ca791764fd2847b79d04ed526b1304fc1bb8290b47c9d0f2e2162
+Section: devel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Performance analysis tools for Linux 4.19
+ This package contains the 'perf' performance analysis tools for Linux
+ kernel version 4.19.
+ .
+ The linux-base package contains a 'perf' command which will invoke the
+ appropriate version for the running kernel.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-source-4.19
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 104004
+Depends: binutils, xz-utils
+Recommends: libc6-dev | libc-dev, gcc, make, bc, bison, flex, linux-config-4.19
+Suggests: libncurses-dev | ncurses-dev, libqt4-dev, pkg-config
+Filename: stretch/linux-multimedia/linux-source-4.19_4.19.37-5mx17+1_all.deb
+Size: 106518498
+MD5sum: fb08b56d9faf6425a7e11a2a60c07549
+SHA1: dc674c0491d83d54f0f3bcd1ef90b714de3a031a
+SHA256: 70eb47a112f793931069fe981596d1c650fdb6c58cac1e887f6457a1e61c8e34
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Linux kernel source for version 4.19 with Debian patches
+ This package provides source code for the Linux kernel version 4.19. This
+ source closely tracks official Linux kernel releases.  Debian's
+ modifications to that source consist of security fixes, bug fixes, and
+ features that have already been (or are believed to be) accepted by the
+ upstream maintainers.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: linux-support-4.19.0-5
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 1354
+Depends: python3:any (>= 3.3.2-2~)
+Filename: stretch/linux-multimedia/linux-support-4.19.0-5_4.19.37-5mx17+1_all.deb
+Size: 316454
+MD5sum: fc8485ec067b1f20af5519c08898cf35
+SHA1: bea93af681e29a463bd1066664d7906168cef70b
+SHA256: 2d0392add6c417493a61f0c9a77fe68b17c53f0ba28f704ebd8429013ed832e9
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description: Support files for Linux 4.19
+ This package provides support files for the Linux kernel build, e.g.
+ scripts to handle ABI information and for generation of build system meta
+ data.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: lockdep
+Source: linux
+Version: 4.19.37-5mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 275
+Depends: liblockdep4.19
+Recommends: liblockdep-dev
+Filename: stretch/linux-multimedia/lockdep_4.19.37-5mx17+1_all.deb
+Size: 266772
+MD5sum: cb1d1ba95b07f2c0c5151970e036df05
+SHA1: 708d4ec9fc73b6bdfccaac181a73bd0bffd6dd71
+SHA256: 1c82937ce1c77c819df323f255876ee8124d7a09c8744e2eb025ff42fd75eb55
+Section: devel
+Priority: optional
+Multi-Arch: allowed
+Homepage: https://www.kernel.org/
+Description: Runtime locking correctness validator
+ lockdep is a wrapper for programs that use the pthreads API, which detects
+ actual and potential deadlocks and other locking bugs.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: nodejs
+Version: 9.11.2-1nodesource1
+Architecture: i386
+Maintainer: Chris Lea <chl@nodesource.com>
+Installed-Size: 59836
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.2), libstdc++6 (>= 4.4.0), python-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-legacy, npm
+Filename: stretch/nodejs/nodejs_9.11.2-1nodesource1_i386.deb
+Size: 12441982
+MD5sum: 25ddbc441f3a772a89b6047f09f13f83
+SHA1: 6e7c95b353d435c0bb4e0e295f7ee06cc9ba44b1
+SHA256: f42135a23361d4d3112a26df1d352fd3d81bafc383189c5a02e67e5594d0c22f
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: usbip
+Source: linux (4.19.37-5mx17+1)
+Version: 2.0+4.19.37-5mx17+1
+Architecture: i386
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 414
+Depends: usbutils, libc6 (>= 2.7), libudev1 (>= 183), libwrap0 (>= 7.6-4~)
+Filename: stretch/linux-multimedia/usbip_2.0+4.19.37-5mx17+1_i386.deb
+Size: 304614
+MD5sum: d6b4b3b57077995cac1ecd4c56d5f526
+SHA1: 17e58014c3024d230f371acce780357eecdf8330
+SHA256: 6e3410ac8e0136682fd727b4e64ec6cd6f9265750bc88eb653349dbecc65d8dc
+Section: admin
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: USB device sharing system over IP network
+ USB/IP is a system for sharing USB devices over the network.
+ .
+ To share USB devices between computers with their full functionality,
+ USB/IP encapsulates "USB requests" into IP packets and transmits them
+ between computers.
+ .
+ Original USB device drivers and applications can be used for remote USB
+ devices without any modification of them.  A computer can use remote USB
+ devices as if they were directly attached.
+ .
+ Currently USB/IP provides no access control or encryption.  It should only
+ be used in trusted environments.
+ .
+ This package provides the server component 'usbipd' and the client tool
+ 'usbip'.
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
