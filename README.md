@@ -74,6 +74,7 @@ always supported older distros:
 | yarn               | 1.29      | 1.29      | 1.29      | working    |
 | nerolinux          | 4.0.0     | 4.0.0     | 4.0.0     | nerolinux key provided in telegram, or inside venenux debian |
 | samsung drivers    | 2         | 2         | 2         | archived of the universal sansung dreivers for older printers |
+| la-capitaine       | 2.1       | 2.1       | 2.1       | icon and cursor |
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
