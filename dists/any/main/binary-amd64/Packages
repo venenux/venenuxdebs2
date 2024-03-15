@@ -176,6 +176,34 @@ Description: icon pack designed to integrate with most desktop environments
 Original-Maintainer: Igor Dyatlov <dyatlov.igor@gmail.com>
 
 Package: nodejs
+Version: 10.24.1-1nodesource1
+Architecture: amd64
+Maintainer: Ivan Iguaran <ivan@nodesource.com>
+Installed-Size: 78630
+Depends: libc6 (>= 2.9), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.4.0), python-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_10.24.1-1nodesource1_amd64.deb
+Size: 15949164
+MD5sum: 6d9f0e30396cb6c20945ff6de2f9f322
+SHA1: a3bc5a29614eab366bb3644abb1e602b5c8953d5
+SHA256: 4b374d16b536cf1a3963ddc4575ed2b68b28b0b5ea6eefe93c942dfc0ed35177
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
 Version: 11.15.0-1nodesource1
 Architecture: amd64
 Maintainer: Chris Lea <chl@nodesource.com>
@@ -189,6 +217,230 @@ Size: 16162138
 MD5sum: 29b8992be2ad56eec075734d891dfd85
 SHA1: 222e49fbbb28b262e20cb944289e37668b627821
 SHA256: b5b43e843fed6117ba8fea91f796888453832c3d6d8e90eaf6d57216ecb67df4
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 12.22.12-1nodesource1
+Architecture: amd64
+Maintainer: Ivan Iguaran <ivan@nodesource.com>
+Installed-Size: 91343
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_12.22.12-1nodesource1_amd64.deb
+Size: 18158172
+MD5sum: e1c3f5cc11b447493017b159376f41de
+SHA1: 62d0401797d836455806d6c0abff681c8430c54c
+SHA256: 2586363a7444e701cef4796da00e49f0ec876f47bb0a8fedf965321f7300cc46
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 14.16.1-1nodesource1
+Architecture: amd64
+Maintainer: Ivan Iguaran <ivan@nodesource.com>
+Installed-Size: 116659
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_14.16.1-1nodesource1_amd64.deb
+Size: 24698356
+MD5sum: e617e209af7d5bae0899b3fad2c2284a
+SHA1: 4914fc9a924b0495a6928d73de4a6a5f7e7784c8
+SHA256: bd7840640c132556400801123297ab57e275dbe744c1fc7f0f87f7c603067a7f
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 16.20.2-deb-1nodesource1
+Architecture: amd64
+Maintainer: Operations Nodesource <operations@nodesource.com>
+Installed-Size: 124886
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python3-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_16.20.2-deb-1nodesource1_amd64.deb
+Size: 27151966
+MD5sum: 92eda0ed7277d95c87233bf765fa1979
+SHA1: 93e26ab8de596c042c5f0315ad7d52f0d206b763
+SHA256: e53a8e6f641a81d609dcab5723d711de935d9689f1a73052881497d908a292e6
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 17.9.0-deb-1nodesource1
+Architecture: amd64
+Maintainer: Ivan Iguaran <ivan@nodesource.com>
+Installed-Size: 175510
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python3-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_17.9.0-deb-1nodesource1_amd64.deb
+Size: 27075480
+MD5sum: dd44cbe746b12147cbacc7e98d744bc3
+SHA1: 9ead694adee1e63f5cf77a3d95b05cf814b695d5
+SHA256: 359088a519e9a51ce16e61c1eaf3212a4614529fba26a0c23614f2d31b2344fa
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 18.16.0-1nodesource1
+Architecture: amd64
+Maintainer: NodeSource Support <support@nodesource.com>
+Installed-Size: 182276
+Depends: libc6 (>= 2.28), python3, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_18.16.0-1nodesource1_amd64.deb
+Size: 29272264
+MD5sum: d8357477cc80d2aaade632c3dbe0c071
+SHA1: f08648f191c355d7ad3dc7cad83a02895f1d8e04
+SHA256: a002ac2b5cedabcb0f0b5b9060f56d65a2ccd2470bcc1b0f6b1a698de2370cfe
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 18.17.1-deb-1nodesource1
+Architecture: amd64
+Maintainer: Operations Nodesource <operations@nodesource.com>
+Installed-Size: 183918
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libstdc++6 (>= 5.2), python3-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_18.17.1-deb-1nodesource1_amd64.deb
+Size: 28872348
+MD5sum: 9156c1b4d757b2b33d7c0c8366b9c947
+SHA1: f0ba4d1612df34187e541216ae740986e00a5d4b
+SHA256: 2b1b67b3e7ee4c2ef61d2880b72e399356f4037a6012e514d1d2649dd04a4aa7
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 19.9.0-1nodesource1
+Architecture: amd64
+Maintainer: Operations Nodesource <operations@nodesource.com>
+Installed-Size: 185025
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libstdc++6 (>= 5.2), python-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_19.9.0-1nodesource1_amd64.deb
+Size: 29342720
+MD5sum: ffe82ef21f7d3d900c088e0820c3c29f
+SHA1: e987b2884ada5280d767f25c6b967b77f51b07e0
+SHA256: 541ddb397f680159eeedb455902ec252cb1af247fa6c5b440dda8fd7e9c72f4d
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 20.5.1-deb-1nodesource1
+Architecture: amd64
+Maintainer: Operations Nodesource <operations@nodesource.com>
+Installed-Size: 189037
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libstdc++6 (>= 5.2), python3-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: any/nodejs/nodejs_20.5.1-deb-1nodesource1_amd64.deb
+Size: 30331764
+MD5sum: dd6e71d1f04ec0114d3f79ba6054e79b
+SHA1: 0605ca20327d1d58f908bce9bb5ae44c78358d37
+SHA256: 73458dd3d0d562f84e453a21801e9d2a5e08dd026f6409756371b92de6026828
 Section: web
 Priority: optional
 Homepage: https://nodejs.org

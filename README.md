@@ -47,26 +47,26 @@ EOF
 
 And then make the apt update procedure.
 
-## Packages and architecture supported
+## Notable packages and architecture supported
 
 Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 
-| Package            | wheezy      | jessie     | queeze    | notes    |
+| Package            | wheezy      | jessie     | stretch   | notes    |
 | ------------------ | --------- | --------- | --------- | -------- |
-| wget               | 1.13      | 1.13      | 1.13      |          |
+| docker-ci          | 17,18     | 17,18,19  | 19        | containerio package for jessie and stretch |
 
 more to come
 
 #### extra or and non free packages
 
 We provide some minimal nonfree packages that unless gnu or open source crap 
-always supported older distros:
+always supporting older versions and historic packages
+
 
 | Package            | wheezy    | jessie    | stretch   | notes    |
 | ------------------ | --------- | --------- | --------- | -------- |
 | anydesk            | 6.0.0     | 6.0.0     | 6.0.0     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for jessie and stretch on amd64 |
-| nodejs             | 9 or 11   | 9 or 11   | 9 or 16   | like have a 32bit nodejs, cos today there no 32bit builds of |
 | brave-keyring      |   x       |     x     |     x     | need for manual brave install on our customized repos  |
 | google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
 | slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
@@ -76,6 +76,7 @@ always supported older distros:
 | samsung drivers    | 2         | 2         | 2         | archived of the universal sansung dreivers for older printers |
 | la-capitaine       | 2.1       | 2.1       | 2.1       | icon and cursor |
 | yarn               | 1.29      | 1.29      | 1.29      | working    |
+| nodejs+npm         | 9 & 11    | 12 to 16  | 14 to 20  | working, amd64, arm64/armf, and for i386 only v9 |
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
