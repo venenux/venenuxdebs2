@@ -1,0 +1,28 @@
+Package: nodejs
+Version: 9.11.2-1nodesource1
+Architecture: i386
+Maintainer: Chris Lea <chl@nodesource.com>
+Installed-Size: 59836
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.2), libstdc++6 (>= 4.4.0), python-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-legacy, npm
+Filename: wheezy/nodejs/nodejs_9.11.2-1nodesource1_i386.deb
+Size: 12441982
+MD5sum: 25ddbc441f3a772a89b6047f09f13f83
+SHA1: 6e7c95b353d435c0bb4e0e295f7ee06cc9ba44b1
+SHA256: f42135a23361d4d3112a26df1d352fd3d81bafc383189c5a02e67e5594d0c22f
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+

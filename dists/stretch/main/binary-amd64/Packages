@@ -136,855 +136,89 @@ Description: Docker CLI: the open-source application container engine
  for deploying and scaling web apps, databases, and backend services without
  depending on a particular stack or provider.
 
-Package: hyperv-daemons
-Source: linux
-Version: 4.19.37-5mx17+1
+Package: nodejs
+Version: 12.22.12-1nodesource1
 Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 349
-Depends: lsb-base, libc6 (>= 2.4), init-system-helpers (>= 1.18~)
-Filename: stretch/linux-multimedia/hyperv-daemons_4.19.37-5mx17+1_amd64.deb
-Size: 283370
-MD5sum: 0881a107e8b4d105f4473791c9b12495
-SHA1: cceb902b6565a3c5a6a982356fbc4eac2b6a5b30
-SHA256: a0c871d6ad9edd784b143be244a861bb1bbba74302019e824e0b8c281c16ac0b
-Section: admin
+Maintainer: Ivan Iguaran <ivan@nodesource.com>
+Installed-Size: 91343
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: stretch/nodejs/nodejs_12.22.12-1nodesource1_amd64.deb
+Size: 18158172
+MD5sum: e1c3f5cc11b447493017b159376f41de
+SHA1: 62d0401797d836455806d6c0abff681c8430c54c
+SHA256: 2586363a7444e701cef4796da00e49f0ec876f47bb0a8fedf965321f7300cc46
+Section: web
 Priority: optional
-Homepage: https://www.kernel.org/
-Description: Support daemons for Linux running on Hyper-V
- Suite of daemons for Linux guests running on Hyper-V, consisting of
- hv_fcopy_daemon, hv_kvp_daemon and hv_vss_daemon.
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
  .
- hv_fcopy_daemon provides the file copy service, allowing the host to copy
- files into the guest.
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
  .
- hv_kvp_daemon provides the key-value pair (KVP) service, allowing the host
- to get and set the IP networking configuration of the guest.  (This
- requires helper scripts which are not currently included.)
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs
+Version: 14.21.3-deb-1nodesource1
+Architecture: amd64
+Maintainer: Operations Nodesource <operations@nodesource.com>
+Installed-Size: 118419
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python3-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: stretch/nodejs/nodejs_14.21.3-deb-1nodesource1_amd64.deb
+Size: 25424096
+MD5sum: 264ccd32ae370001c3e69d0b09fabe34
+SHA1: b75a59a6c9aa973cf251c780773f23144fc5c7b0
+SHA256: bc8e348a48b376755f2f1a8e07971ffbed4644e0d52b684ff6ba700cd2a8d2ec
+Section: web
+Priority: optional
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
  .
- hv_vss_daemon provides the volume shadow copy service (VSS), allowing the
- host to freeze the guest filesystems while taking a snapshot.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: libbpf-dev
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 377
-Depends: libbpf4.19 (= 4.19.37-5mx17+1)
-Filename: stretch/linux-multimedia/libbpf-dev_4.19.37-5mx17+1_amd64.deb
-Size: 289836
-MD5sum: fecc49e19c6a5501a9c7a533968e348d
-SHA1: 0bfe4da0faa6a782c52d45385dfb39d77a55e025
-SHA256: d5a0174a478e08ecd8ac9d0281dd11588fa8fc6bbb2f6cd61dbcc4c44410491d
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Description: eBPF helper library (development files)
- libbpf is a library for loading eBPF programs and reading and manipulating
- eBPF objects from user-space.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: libbpf4.19
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 344
-Depends: libc6 (>= 2.14), libelf1 (>= 0.131)
-Filename: stretch/linux-multimedia/libbpf4.19_4.19.37-5mx17+1_amd64.deb
-Size: 287334
-MD5sum: 5c8a0b14d2561a7e28e573515c65cdf9
-SHA1: e940a813c84e10c244195339ba1cfe10d791849b
-SHA256: 58c24d65641db562e0a4ce227f924d7eb962ce021aee58cb37dfccf0c833263d
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Description: eBPF helper library (shared library)
- libbpf is a library for loading eBPF programs and reading and manipulating
- eBPF objects from user-space.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: libcpupower-dev
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 284
-Depends: libcpupower1 (= 4.19.37-5mx17+1)
-Conflicts: libcpufreq-dev
-Replaces: libcpufreq-dev
-Provides: libcpufreq-dev
-Filename: stretch/linux-multimedia/libcpupower-dev_4.19.37-5mx17+1_amd64.deb
-Size: 268520
-MD5sum: 9d2d6649eeec760700cc72cfe60b8920
-SHA1: 754b97f2b72e950bb7bcbdf33f4ba2961b801c0e
-SHA256: 685a5ff35c3fbe97ad292883c592b78c0f096f92dd890f54a76809cac0595d7d
-Section: libdevel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: CPU frequency and voltage scaling tools for Linux (development files)
- This package contains the 'power/cpupower' headers and library shared
- objects.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: libcpupower1
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 303
-Depends: libc6 (>= 2.4)
-Filename: stretch/linux-multimedia/libcpupower1_4.19.37-5mx17+1_amd64.deb
-Size: 273784
-MD5sum: 160e4883048706c344ac31fdd24566da
-SHA1: 6f2aee5c22f4a43dbad18cc33395baf32821bcfd
-SHA256: 980e29c8a53dc5ecceb25d6d528bfd77611ab3af228f01513ef96d583e78dd86
-Section: libs
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: CPU frequency and voltage scaling tools for Linux (libraries)
- This package contains the shared library.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: liblockdep-dev
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 354
-Depends: liblockdep4.19 (= 4.19.37-5mx17+1)
-Filename: stretch/linux-multimedia/liblockdep-dev_4.19.37-5mx17+1_amd64.deb
-Size: 290212
-MD5sum: 28ab289cc3ee9cc96c175066056ab5c5
-SHA1: 86776c012dff5eff1184ef8af60b9d7b0abadd8c
-SHA256: e6eef417bfdeca9cbc8e4fe51872cffaa2bc7e54464bb44d98716725407b5d88
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Description: Runtime locking correctness validator (development files)
- liblockdep is a library for programs that use the pthreads API, which can
- be used to detect actual and potential deadlocks and other locking bugs.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: liblockdep4.19
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 320
-Depends: libc6 (>= 2.8)
-Filename: stretch/linux-multimedia/liblockdep4.19_4.19.37-5mx17+1_amd64.deb
-Size: 283324
-MD5sum: 40b4169f0be8e1aca276a7b6f139abd8
-SHA1: ad076f3c57cb5438b4b3ed03b56146bbc0aeba5c
-SHA256: e84d2af7ca38bfcc2a53dc3d229c7347ff4d6f1aef5a7cc1c497ab1514fabeb0
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Description: Runtime locking correctness validator (shared library)
- liblockdep is a library for programs that use the pthreads API, which can
- be used to detect actual and potential deadlocks and other locking bugs.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-compiler-gcc-6-x86
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 273
-Depends: gcc-6 (>= 6.3)
-Filename: stretch/linux-multimedia/linux-compiler-gcc-6-x86_4.19.37-5mx17+1_amd64.deb
-Size: 266650
-MD5sum: 2e6bf35aaba6ed7d118e6fea024b4c74
-SHA1: 744a661b014f8ef3253f3f3f8b55d8ecc9449082
-SHA256: 8bdc41078591940a8bd8de29b09586540ad29e110729504c9b041fb49e9605a7
-Section: kernel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Description: Compiler for Linux on x86 (meta-package)
- This package depends on GCC of the appropriate version and architecture
- for Linux on amd64, i386 and x32.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-config-4.19
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 381
-Recommends: linux-source-4.19
-Filename: stretch/linux-multimedia/linux-config-4.19_4.19.37-5mx17+1_amd64.deb
-Size: 373764
-MD5sum: d7ba99172c0430b2a3caddccaffca5e9
-SHA1: 77d46cdd2742795941bab6318ce4cacccc1fea12
-SHA256: d4e2ce838009165a5f094d512d4ff5ce303a8f6921d941c92a5fcec9656cf030
-Section: kernel
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Description: Debian kernel configurations for Linux 4.19
- This package contains the configuration files used to build the official
- Debian kernel files, but without references to Debian's signing
- certificates.
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
  .
- These can be used as a basis for configuring custom kernels.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
 
-Package: linux-cpupower
-Source: linux
-Version: 4.19.37-5mx17+1
+Package: nodejs
+Version: 16.20.2-deb-1nodesource1
 Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 549
-Depends: libc6 (>= 2.7), libcpupower1 (>= 4.7~rc2-1~exp1), libpci3 (>= 1:3.5.2-1)
-Filename: stretch/linux-multimedia/linux-cpupower_4.19.37-5mx17+1_amd64.deb
-Size: 363688
-MD5sum: 98eb1b234ee930c740abdd4ce61152b4
-SHA1: cdae43c03b2f68ca796dd8da8ff4fbaa4147f2eb
-SHA256: 1e57f6d2a7f3723d0747f94d83dd992a940fa0a2453a16bfa7920ad7964b8437
-Section: admin
+Maintainer: Operations Nodesource <operations@nodesource.com>
+Installed-Size: 124886
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python3-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: stretch/nodejs/nodejs_16.20.2-deb-1nodesource1_amd64.deb
+Size: 27151966
+MD5sum: 92eda0ed7277d95c87233bf765fa1979
+SHA1: 93e26ab8de596c042c5f0315ad7d52f0d206b763
+SHA256: e53a8e6f641a81d609dcab5723d711de935d9689f1a73052881497d908a292e6
+Section: web
 Priority: optional
-Homepage: https://www.kernel.org/
-Description: CPU power management tools for Linux
- The cpupower command allows inspection and control of cpufreq and cpuidle
- tunables for hardware that support these features.  It replaces
- "cpufreq-info" and "cpufreq-set" in cpufrequtils.
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
  .
- The turbostat command reports topology, frequency, idle power-state
- statistics, temperature and power consumption information as provided
- by the CPU.
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
  .
- The x86_energy_perf_policy command sets a general policy on some Intel
- CPU models for the relative importance of performance versus energy
- savings.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-doc-4.19
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 61856
-Filename: stretch/linux-multimedia/linux-doc-4.19_4.19.37-5mx17+1_all.deb
-Size: 16267110
-MD5sum: 996a958d7e7b8b5b1b25336cecff2cc9
-SHA1: 923e365831d8d3409c174cc8b5df6b80daf1f7b6
-SHA256: fae71529e56aee5a14aac9669ab007837aa33533a62f2f2a17a94ee8f176ee1d
-Section: doc
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Description: Linux kernel specific documentation for version 4.19
- This package provides the various README files and HTML documentation for
- the Linux kernel version 4.19.  Plenty of information, including the
- descriptions of various kernel subsystems, filesystems, driver-specific
- notes and the like.  Consult the file
- /usr/share/doc/linux-doc-4.19/Documentation/00-INDEX for the detailed
- description of the contents.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-4.15.0-18.4-liquorix-amd64
-Source: linux-liquorix
-Version: 4.15-16.1~mx17+1
-Architecture: amd64
-Maintainer: Mike Purtell <mmikeinsantarosa@mxlinux.org>
-Installed-Size: 50256
-Depends: libc6 (>= 2.14), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0), libelf-dev, gcc
-Conflicts: r8168-dkms
-Filename: stretch/linux-liquorix/linux-headers-4.15.0-18.4-liquorix-amd64_4.15-16.1~mx17+1_amd64.deb
-Size: 8110310
-MD5sum: 3b270cd4cf06d1476a5ba71edcbb8276
-SHA1: b9081f0eb3ecbb671755be5834a79e76345d6a47
-SHA256: 8d48d9c7a7078719ff32669da24ef6bb7657047eba277da7982c5272c8861188
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Header files for Linux 4.15.0-18.4-liquorix-amd64
- This package provides the architecture-specific kernel header files for
- Linux kernel 4.15.0-18.4-liquorix-amd64, generally used for building
- out-of-tree kernel modules.  These files are going to be installed into
- /usr/src/linux-headers-4.15.0-18.4-liquorix-amd64, and can be used for
- building modules that load into the kernel provided by the
- linux-image-4.15.0-18.4-liquorix-amd64 package.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-headers-4.18.0-20.3-liquorix-amd64
-Source: linux-liquorix
-Version: 4.18-28~mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 51583
-Depends: libc6 (>= 2.14), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0), libelf-dev, gcc
-Conflicts: r8168-dkms
-Filename: stretch/linux-liquorix/linux-headers-4.18.0-20.3-liquorix-amd64_4.18-28~mx17+1_amd64.deb
-Size: 8359696
-MD5sum: 80c66fa914525388f6f71fce73703ea6
-SHA1: 59a824c978c55ca9b9ae3745d3ff6b5f96062b8d
-SHA256: 2a1e822adeb3a20d1642ba91c39a90539636cf827070e54d5b0d55a56ea90744
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Header files for Linux 4.18.0-20.3-liquorix-amd64
- This package provides the architecture-specific kernel header files for
- Linux kernel 4.18.0-20.3-liquorix-amd64, generally used for building
- out-of-tree kernel modules.  These files are going to be installed into
- /usr/src/linux-headers-4.18.0-20.3-liquorix-amd64, and can be used for
- building modules that load into the kernel provided by the
- linux-image-4.18.0-20.3-liquorix-amd64 package.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-headers-4.19.0-5-all
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 273
-Depends: linux-headers-4.19.0-5-all-amd64 (= 4.19.37-5mx17+1)
-Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-all_4.19.37-5mx17+1_amd64.deb
-Size: 266664
-MD5sum: 5d234715fd8aec19ea0953ca82b64cc0
-SHA1: c98bc3cdc0bef98e61836c9fa0f0b258c9eecfb5
-SHA256: 18e30b0d4f03658ab2dda384f60070f82b7b60d4aa2947d1e68bc45d1160b7e7
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: All header files for Linux 4.19 (meta-package)
- This package depends against all architecture-specific kernel header files
- for Linux kernel version 4.19, generally used for building out-of-tree
- kernel modules.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-4.19.0-5-all-amd64
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 273
-Depends: linux-headers-4.19.0-5-amd64 (= 4.19.37-5mx17+1), linux-headers-4.19.0-5-cloud-amd64 (= 4.19.37-5mx17+1), linux-headers-4.19.0-5-rt-amd64 (= 4.19.37-5mx17+1)
-Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-all-amd64_4.19.37-5mx17+1_amd64.deb
-Size: 266682
-MD5sum: 0e9a86db5967162fa9e92df8ca57880e
-SHA1: 331c96ef587b27aab373997970a700fdea2b680c
-SHA256: 23c3e3ba89a8813bd9639ca43860dc70beb90e67eadfd0bb932bf447783750ea
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: All header files for Linux 4.19 (meta-package)
- This package depends against all architecture-specific kernel header files
- for Linux kernel version 4.19, generally used for building out-of-tree
- kernel modules.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-4.19.0-5-amd64
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 4859
-Depends: linux-headers-4.19.0-5-common (= 4.19.37-5mx17+1), linux-kbuild-4.19 (>= 4.19.37-5mx17+1), libelf-dev, gcc-6
-Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-amd64_4.19.37-5mx17+1_amd64.deb
-Size: 750818
-MD5sum: 853c93f567df515c503808072d290295
-SHA1: aaa2cc54c0bb626125cd1c19b3a360bc6e74b8ad
-SHA256: 11cdf7ab796b0bfd0640fabc74717108677188b541a515b5474b58a0b324da97
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Header files for Linux 4.19.0-5-amd64
- This package provides the architecture-specific kernel header files for
- Linux kernel 4.19.0-5-amd64, generally used for building out-of-tree
- kernel modules.  These files are going to be installed into
- /usr/src/linux-headers-4.19.0-5-amd64, and can be used for building
- modules that load into the kernel provided by the
- linux-image-4.19.0-5-amd64 package.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-4.19.0-5-cloud-amd64
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 2629
-Depends: linux-headers-4.19.0-5-common (= 4.19.37-5mx17+1), linux-kbuild-4.19 (>= 4.19.37-5mx17+1), libelf-dev, gcc-6
-Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-cloud-amd64_4.19.37-5mx17+1_amd64.deb
-Size: 508408
-MD5sum: 0525064947639fafda33f54d8a482e99
-SHA1: 00a5433ef1b963350119470f59bce5990dadd49d
-SHA256: 25b07987c705790850b7de30f37622625b34db6fb4d34d4a99f414c14629a125
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Header files for Linux 4.19.0-5-cloud-amd64
- This package provides the architecture-specific kernel header files for
- Linux kernel 4.19.0-5-cloud-amd64, generally used for building out-of-tree
- kernel modules.  These files are going to be installed into
- /usr/src/linux-headers-4.19.0-5-cloud-amd64, and can be used for building
- modules that load into the kernel provided by the
- linux-image-4.19.0-5-cloud-amd64 package.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-4.19.0-5-common
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 49371
-Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-common_4.19.37-5mx17+1_all.deb
-Size: 8222100
-MD5sum: 597cc147ea33e8d72815d923c0c4f9bd
-SHA1: ab7a887ad0150ffc6914106e5b5a8bd121c20d64
-SHA256: a8b26b29e15d889b5a6af54f785c2f08e8daec1d84ecf03d49c0c353174cfe8d
-Section: kernel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Description: Common header files for Linux 4.19.0-5
- This package provides the common kernel header files for Linux kernel
- version 4.19.0-5, generally used for building out-of-tree kernel modules.
- To obtain a complete set of headers you also need to install the
- linux-headers-4.19.0-5-(flavour) package, matching the flavour of the
- kernel you intend the build for.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-4.19.0-5-common-rt
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 36791
-Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-common-rt_4.19.37-5mx17+1_all.deb
-Size: 6434390
-MD5sum: 15e45635695302e1077f04f63fee3095
-SHA1: b549acac4d5ca73212f69cf4899b20a60f9b7aa4
-SHA256: 7e65009eba4d2deb5097d40e280d7678b7af806f13042d97af8a5a951126a134
-Section: kernel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Description: Common header files for Linux 4.19.0-5-rt
- This package provides the common kernel header files for Linux kernel
- version 4.19.0-5 with the PREEMPT_RT featureset, generally used for
- building out-of-tree kernel modules.  To obtain a complete set of headers
- you also need to install the linux-headers-4.19.0-5-(flavour) package,
- matching the flavour of the kernel you intend the build for.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-4.19.0-5-rt-amd64
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 4832
-Depends: linux-headers-4.19.0-5-common-rt (= 4.19.37-5mx17+1), linux-kbuild-4.19 (>= 4.19.37-5mx17+1), libelf-dev, gcc-6
-Filename: stretch/linux-multimedia/linux-headers-4.19.0-5-rt-amd64_4.19.37-5mx17+1_amd64.deb
-Size: 748852
-MD5sum: 752e76fedb93427ba334663868558198
-SHA1: aca23381d581cbdd87cffeffea5403967e86a1b7
-SHA256: 51983f2c394c3dcc0a528796c6517ad87986d28140bb1d218fb7485aa4c91d87
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Header files for Linux 4.19.0-5-rt-amd64
- This package provides the architecture-specific kernel header files for
- Linux kernel 4.19.0-5-rt-amd64, generally used for building out-of-tree
- kernel modules.  These files are going to be installed into
- /usr/src/linux-headers-4.19.0-5-rt-amd64, and can be used for building
- modules that load into the kernel provided by the
- linux-image-4.19.0-5-rt-amd64 package.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-headers-5.10.0-17.1-liquorix-amd64
-Source: linux-liquorix
-Version: 5.10-25~mx17+1
-Architecture: amd64
-Maintainer: andyprough <andyprough@protonmail.com>
-Installed-Size: 74275
-Depends: libbabeltrace-ctf1 (>= 1.5.0~rc1), libc6 (>= 2.22), libcap2 (>= 1:2.10), libdw1 (>= 0.158), libelf1 (>= 0.144), libnuma1 (>= 2.0.11), libpci3 (>= 1:3.5.2-1), libperl5.24 (>= 5.24.0), libpython3.5 (>= 3.5.0~b1), libslang2 (>= 2.2.4), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.3.3), libelf-dev, gcc
-Conflicts: r8168-dkms
-Filename: stretch/linux-liquorix/linux-headers-5.10.0-17.1-liquorix-amd64_5.10-25~mx17+1_amd64.deb
-Size: 11577962
-MD5sum: 6a86efeba0c4960725b57e4a7a15eea9
-SHA1: 69624b4621ae60fb506d8bef90362ebd09a66c7a
-SHA256: bf9d9b6b706bda42f760baae7819caa6a729f7e5b3dec5e6bfc21a4591f95674
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Header files for Linux 5.10.0-17.1-liquorix-amd64
- This package provides the architecture-specific kernel header files for
- Linux kernel 5.10.0-17.1-liquorix-amd64, generally used for building
- out-of-tree kernel modules.  These files are going to be installed into
- /usr/src/linux-headers-5.10.0-17.1-liquorix-amd64, and can be used for
- building modules that load into the kernel provided by the
- linux-image-5.10.0-17.1-liquorix-amd64 package.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-headers-5.14.0-17.1-liquorix-amd64
-Source: linux-liquorix
-Version: 5.14-22~mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 73385
-Depends: libbabeltrace-ctf1 (>= 1.5.0~rc1), libc6 (>= 2.22), libcap2 (>= 1:2.10), libdw1 (>= 0.158), libelf1 (>= 0.144), libnuma1 (>= 2.0.11), libpci3 (>= 1:3.5.2-1), libperl5.24 (>= 5.24.0), libpython3.5 (>= 3.5.0~b1), libslang2 (>= 2.2.4), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.3.3), libelf-dev, gcc
-Conflicts: r8168-dkms
-Filename: stretch/linux-liquorix/linux-headers-5.14.0-17.1-liquorix-amd64_5.14-22~mx17+1_amd64.deb
-Size: 11794760
-MD5sum: 4c9045bb199b3ac7576110c8575388aa
-SHA1: 791ebd2d9a03e1feb380757c4e6e893b6e7c8394
-SHA256: 63baa06b0ff2b8b007631413466d6836f3fe12b7d9daae0a07cf12c7718c76f0
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Header files for Linux 5.14.0-17.1-liquorix-amd64
- This package provides the architecture-specific kernel header files for
- Linux kernel 5.14.0-17.1-liquorix-amd64, generally used for building
- out-of-tree kernel modules.  These files are going to be installed into
- /usr/src/linux-headers-5.14.0-17.1-liquorix-amd64, and can be used for
- building modules that load into the kernel provided by the
- linux-image-5.14.0-17.1-liquorix-amd64 package.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-image-4.15.0-18.4-liquorix-amd64
-Source: linux-liquorix
-Version: 4.15-16.1~mx17+1
-Architecture: amd64
-Maintainer: Mike Purtell <mmikeinsantarosa@mxlinux.org>
-Installed-Size: 294031
-Pre-Depends: debconf | debconf-2.0
-Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
-Recommends: firmware-linux-free
-Suggests: linux-doc-4.15, crda, grub-pc | extlinux | grub-efi-amd64
-Conflicts: hal, r8168-dkms
-Provides: linux-modules-4.15.0-18.4-liquorix-amd64
-Filename: stretch/linux-liquorix/linux-image-4.15.0-18.4-liquorix-amd64_4.15-16.1~mx17+1_amd64.deb
-Size: 53902874
-MD5sum: 52080b4afd5889b2e9302b9efcd42213
-SHA1: 28b83b8365dae047f1df2690c2c68e9009b73c0b
-SHA256: 35b8e39e7128d4cfa062554a47d3e658051c1d422d44b9ee6f4cc6fb4fe36f63
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Linux 4.15 for 64-bit PCs
- The Linux kernel 4.15 and modules for use on PCs with AMD64 or Intel 64
- processors.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-image-4.18.0-20.3-liquorix-amd64
-Source: linux-liquorix
-Version: 4.18-28~mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 291818
-Pre-Depends: debconf | debconf-2.0
-Depends: kmod, debconf (>= 0.5) | debconf-2.0, initramfs-tools | linux-initramfs-tool
-Recommends: firmware-linux-free
-Suggests: linux-doc-4.18, crda, grub-pc | extlinux | grub-efi-amd64
-Conflicts: hal, r8168-dkms
-Provides: linux-modules-4.18.0-20.3-liquorix-amd64
-Filename: stretch/linux-liquorix/linux-image-4.18.0-20.3-liquorix-amd64_4.18-28~mx17+1_amd64.deb
-Size: 53581878
-MD5sum: 358bfd0ce954d77afd27ab3d42b866c6
-SHA1: bfeb251f4f13f9e0d2e7de50ae049c1d3a6ca732
-SHA256: 185a31e1b7d308a3afa59592fe01f3ea187b9a4ac1d6a53673807d7c33343ab6
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Linux 4.18 for 64-bit PCs
- The Linux kernel 4.18 and modules for use on PCs with AMD64 or Intel 64
- processors.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-image-4.19.0-5-amd64-unsigned
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 258849
-Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
-Recommends: firmware-linux-free, apparmor
-Suggests: linux-doc-4.19, debian-kernel-handbook, grub-pc | grub-efi-amd64 | extlinux
-Conflicts: linux-image-4.19.0-5-amd64
-Breaks: initramfs-tools (<< 0.120+deb8u2), xserver-xorg-input-vmmouse (<< 1:13.0.99)
-Replaces: linux-image-4.19.0-5-amd64
-Filename: stretch/linux-multimedia/linux-image-4.19.0-5-amd64-unsigned_4.19.37-5mx17+1_amd64.deb
-Size: 46379666
-MD5sum: 405410a63af179eeb83f90c9d9dc5ea2
-SHA1: 396eb9b11a82aff070fe4c31576e13aabffc5a2e
-SHA256: 284a8e414c646d67a81a7d85fb1d1751366708930c20893e6c183d5c3d185e41
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Linux 4.19 for 64-bit PCs
- The Linux kernel 4.19 and modules for use on PCs with AMD64, Intel 64 or
- VIA Nano processors.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-image-4.19.0-5-cloud-amd64-unsigned
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 66179
-Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
-Recommends: firmware-linux-free, apparmor
-Suggests: linux-doc-4.19, debian-kernel-handbook, grub-pc | grub-efi-amd64 | extlinux
-Conflicts: linux-image-4.19.0-5-cloud-amd64
-Breaks: initramfs-tools (<< 0.120+deb8u2), xserver-xorg-input-vmmouse (<< 1:13.0.99)
-Replaces: linux-image-4.19.0-5-cloud-amd64
-Filename: stretch/linux-multimedia/linux-image-4.19.0-5-cloud-amd64-unsigned_4.19.37-5mx17+1_amd64.deb
-Size: 14899686
-MD5sum: f3533f36e255d5adb4ba840f6bf160d9
-SHA1: 2a0a0f5f74265dfe5ec6cda72e387df904a79616
-SHA256: a21bd99cbbcec02532090e7c10ea95a6a49e28f342bc2df190e4f09b9124be54
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Linux 4.19 for x86-64 cloud
- The Linux kernel 4.19 and modules for use on Amazon EC2, Google Compute
- Engine and Microsoft Azure cloud platforms.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-image-4.19.0-5-rt-amd64-unsigned
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 259805
-Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
-Recommends: firmware-linux-free, apparmor
-Suggests: linux-doc-4.19, debian-kernel-handbook, grub-pc | grub-efi-amd64 | extlinux
-Conflicts: linux-image-4.19.0-5-rt-amd64
-Breaks: initramfs-tools (<< 0.120+deb8u2), xserver-xorg-input-vmmouse (<< 1:13.0.99)
-Replaces: linux-image-4.19.0-5-rt-amd64
-Filename: stretch/linux-multimedia/linux-image-4.19.0-5-rt-amd64-unsigned_4.19.37-5mx17+1_amd64.deb
-Size: 46416878
-MD5sum: ac7472fa5cae2b4117b0d2cfe90b83a6
-SHA1: 41c11008429304fb108730c7e8b471b851ac23bb
-SHA256: 5d03096a7a6579d15452bbe48a8d775995838fa810bd1a401cd6888443357298
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Linux 4.19 for 64-bit PCs, PREEMPT_RT
- The Linux kernel 4.19 and modules for use on PCs with AMD64, Intel 64 or
- VIA Nano processors.
- .
- This kernel includes the PREEMPT_RT realtime patch set.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-image-5.10.0-17.1-liquorix-amd64
-Source: linux-liquorix
-Version: 5.10-25~mx17+1
-Architecture: amd64
-Maintainer: andyprough <andyprough@protonmail.com>
-Installed-Size: 315476
-Depends: kmod, linux-base (>= 4.3~), initramfs-tools | linux-initramfs-tool
-Recommends: irqbalance, firmware-linux-free | linux-firmware, firmware-linux-nonfree | linux-firmware
-Suggests: linux-doc-5.10, crda, grub-pc | extlinux | grub-efi-amd64
-Conflicts: hal, r8168-dkms
-Provides: wireguard-modules
-Filename: stretch/linux-liquorix/linux-image-5.10.0-17.1-liquorix-amd64_5.10-25~mx17+1_amd64.deb
-Size: 61785202
-MD5sum: ac51db9e2945c057b4dfde6ed6c6263e
-SHA1: 5f8f6c130f1f7182646c79ccb215412285e9b0c4
-SHA256: 3377305e77c4b1546c31046670097ae0c5822e07ac435971a113262924ec4e3b
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Linux 5.10 for 64-bit PCs
- The Linux kernel 5.10 and modules for use on PCs with AMD64 or Intel 64
- processors.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-image-5.14.0-17.1-liquorix-amd64
-Source: linux-liquorix
-Version: 5.14-22~mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 328081
-Depends: kmod, linux-base (>= 4.3~), initramfs-tools | linux-initramfs-tool
-Recommends: irqbalance, firmware-linux-free | linux-firmware, firmware-linux-nonfree | linux-firmware
-Suggests: linux-doc-5.14, crda, grub-pc | extlinux | grub-efi-amd64
-Conflicts: hal, r8168-dkms
-Provides: wireguard-modules
-Filename: stretch/linux-liquorix/linux-image-5.14.0-17.1-liquorix-amd64_5.14-22~mx17+1_amd64.deb
-Size: 64846580
-MD5sum: 57169acf6b3144dcbf5b8ba0b9a4cf79
-SHA1: 256ec59412baf76a0ecfc3bc16499360bf3a9db3
-SHA256: 33281a1264669a26ddc11678cf08dcc8d18e76c63b9f01171f588ec33cd15106
-Section: kernel
-Priority: optional
-Homepage: http://www.liquorix.net/
-Description: Linux 5.14 for 64-bit PCs
- The Linux kernel 5.14 and modules for use on PCs with AMD64 or Intel 64
- processors.
-Original-Maintainer: Steven Barrett <steven@liquorix.net>
-
-Package: linux-image-amd64-signed-template
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 1900
-Depends: dpkg-dev
-Filename: stretch/linux-multimedia/linux-image-amd64-signed-template_4.19.37-5mx17+1_amd64.deb
-Size: 522470
-MD5sum: 9ba93d1325ea6f250cbffcb355c7b702
-SHA1: 5b03d466ac543f2c856fdd96c6dd3ec677c221da
-SHA256: 642e4a89d91c7c3b185cfde17d2da35e64947ee36fb161906c3b17d86e348ebb
-Section: kernel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Template for signed linux-image packages for amd64
- This package is used to control code signing by the Debian signing
- service.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-kbuild-4.19
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 1262
-Depends: libc6 (>= 2.14), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0)
-Filename: stretch/linux-multimedia/linux-kbuild-4.19_4.19.37-5mx17+1_amd64.deb
-Size: 503238
-MD5sum: adfe825e8450309a3dae228f4974e6b1
-SHA1: a6ac8a6b5ddc9a8d60d1d0ae493e152499a383a4
-SHA256: 89f191869789d1de72a776613d1e1d3063fc31e22b203abb776db6715f6e98ba
-Section: kernel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Description: Kbuild infrastructure for Linux 4.19
- This package provides the kbuild infrastructure for the headers packages
- for Linux kernel version 4.19.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-libc-dev
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 4971
-Provides: linux-kernel-headers
-Filename: stretch/linux-multimedia/linux-libc-dev_4.19.37-5mx17+1_amd64.deb
-Size: 1188014
-MD5sum: 53615fe67a6e1fdcef48797cbbf7b7d8
-SHA1: d14b74de31957c1fdeadd0b52552fd59f997d12a
-SHA256: b981244ec84dcf0ff190f9446ec681900f3dd77aea27bf13dad257b0161bae11
-Section: devel
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These
- headers are used by the installed headers for GNU libc and other system
- libraries.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-perf-4.19
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 6534
-Depends: libbabeltrace-ctf1 (>= 1.5.0~rc1), libc6 (>= 2.14), libdw1 (>= 0.158), libelf1 (>= 0.144), libnuma1 (>= 2.0.11), libopencsd0, libperl5.24 (>= 5.24.0), libpython3.5 (>= 3.5.0~b1), libslang2 (>= 2.2.4), zlib1g (>= 1:1.1.4), perl, python3:any (>= 3.3.2-2~)
-Recommends: linux-base
-Suggests: linux-doc-4.19
-Conflicts: linux-tools-4.19
-Replaces: linux-tools-4.19
-Provides: linux-tools-4.19
-Filename: stretch/linux-multimedia/linux-perf-4.19_4.19.37-5mx17+1_amd64.deb
-Size: 1586344
-MD5sum: 3341d2a91835166066b21647f3ec2487
-SHA1: afdf1651102d0acd5f9d093f90dc6844d6933172
-SHA256: 881c7b7a5a5d1dbad10ce2c96eaf30194abda08d080677427bcf0b81d14f443f
-Section: devel
-Priority: optional
-Homepage: https://www.kernel.org/
-Description: Performance analysis tools for Linux 4.19
- This package contains the 'perf' performance analysis tools for Linux
- kernel version 4.19.
- .
- The linux-base package contains a 'perf' command which will invoke the
- appropriate version for the running kernel.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-source-4.19
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 104004
-Depends: binutils, xz-utils
-Recommends: libc6-dev | libc-dev, gcc, make, bc, bison, flex, linux-config-4.19
-Suggests: libncurses-dev | ncurses-dev, libqt4-dev, pkg-config
-Filename: stretch/linux-multimedia/linux-source-4.19_4.19.37-5mx17+1_all.deb
-Size: 106518498
-MD5sum: fb08b56d9faf6425a7e11a2a60c07549
-SHA1: dc674c0491d83d54f0f3bcd1ef90b714de3a031a
-SHA256: 70eb47a112f793931069fe981596d1c650fdb6c58cac1e887f6457a1e61c8e34
-Section: kernel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Description: Linux kernel source for version 4.19 with Debian patches
- This package provides source code for the Linux kernel version 4.19. This
- source closely tracks official Linux kernel releases.  Debian's
- modifications to that source consist of security fixes, bug fixes, and
- features that have already been (or are believed to be) accepted by the
- upstream maintainers.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: linux-support-4.19.0-5
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 1354
-Depends: python3:any (>= 3.3.2-2~)
-Filename: stretch/linux-multimedia/linux-support-4.19.0-5_4.19.37-5mx17+1_all.deb
-Size: 316454
-MD5sum: fc8485ec067b1f20af5519c08898cf35
-SHA1: bea93af681e29a463bd1066664d7906168cef70b
-SHA256: 2d0392add6c417493a61f0c9a77fe68b17c53f0ba28f704ebd8429013ed832e9
-Section: devel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Description: Support files for Linux 4.19
- This package provides support files for the Linux kernel build, e.g.
- scripts to handle ABI information and for generation of build system meta
- data.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-
-Package: lockdep
-Source: linux
-Version: 4.19.37-5mx17+1
-Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 275
-Depends: liblockdep4.19
-Recommends: liblockdep-dev
-Filename: stretch/linux-multimedia/lockdep_4.19.37-5mx17+1_all.deb
-Size: 266772
-MD5sum: cb1d1ba95b07f2c0c5151970e036df05
-SHA1: 708d4ec9fc73b6bdfccaac181a73bd0bffd6dd71
-SHA256: 1c82937ce1c77c819df323f255876ee8124d7a09c8744e2eb025ff42fd75eb55
-Section: devel
-Priority: optional
-Multi-Arch: allowed
-Homepage: https://www.kernel.org/
-Description: Runtime locking correctness validator
- lockdep is a wrapper for programs that use the pthreads API, which detects
- actual and potential deadlocks and other locking bugs.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
 
 Package: nodejs
 Version: 18.17.1-deb-1nodesource1
@@ -1014,36 +248,31 @@ Description: Node.js event-based server-side javascript engine
  System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
  HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
 
-Package: usbip
-Source: linux (4.19.37-5mx17+1)
-Version: 2.0+4.19.37-5mx17+1
+Package: nodejs
+Version: 20.5.1-deb-1nodesource1
 Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 404
-Depends: usbutils, libc6 (>= 2.7), libudev1 (>= 183), libwrap0 (>= 7.6-4~)
-Filename: stretch/linux-multimedia/usbip_2.0+4.19.37-5mx17+1_amd64.deb
-Size: 307180
-MD5sum: dc888d0327991d8db428c4ddd231be68
-SHA1: c77040f8ede1874ba17eca7c2e7ee98af8ddeaef
-SHA256: c1f1ac05f4ba911b555e517e810418811ab7b526cdaaaa83558e0006bd217c47
-Section: admin
+Maintainer: Operations Nodesource <operations@nodesource.com>
+Installed-Size: 189037
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libstdc++6 (>= 5.2), python3-minimal, ca-certificates
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
+Filename: stretch/nodejs/nodejs_20.5.1-deb-1nodesource1_amd64.deb
+Size: 30331764
+MD5sum: dd6e71d1f04ec0114d3f79ba6054e79b
+SHA1: 0605ca20327d1d58f908bce9bb5ae44c78358d37
+SHA256: 73458dd3d0d562f84e453a21801e9d2a5e08dd026f6409756371b92de6026828
+Section: web
 Priority: optional
-Homepage: https://www.kernel.org/
-Description: USB device sharing system over IP network
- USB/IP is a system for sharing USB devices over the network.
+Homepage: https://nodejs.org
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
  .
- To share USB devices between computers with their full functionality,
- USB/IP encapsulates "USB requests" into IP packets and transmits them
- between computers.
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
  .
- Original USB device drivers and applications can be used for remote USB
- devices without any modification of them.  A computer can use remote USB
- devices as if they were directly attached.
- .
- Currently USB/IP provides no access control or encryption.  It should only
- be used in trusted environments.
- .
- This package provides the server component 'usbipd' and the client tool
- 'usbip'.
-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
 

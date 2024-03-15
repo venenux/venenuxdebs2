@@ -54,6 +54,7 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 | Package            | wheezy      | jessie     | stretch   | notes    |
 | ------------------ | --------- | --------- | --------- | -------- |
 | docker-ci          | 17,18     | 17,18,19  | 19        | containerio package for jessie and stretch |
+| nodejs+npm         | 9 & 11    | 12 to 16  | 14 to 20  | soon 16 for i386 https://github.com/nodejs/unofficial-builds/issues/122#issuecomment-1998798096 |
 
 more to come
 
