@@ -55,8 +55,7 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 | ------------------ | --------- | --------- | --------- | -------- |
 | docker-ci          | 17,18     | 17,18,19  | 19        | containerio package for jessie and stretch |
 | nodejs+npm         | 9 & 11    | 12 to 16  | 14 to 20  | soon 16 for i386 https://github.com/nodejs/unofficial-builds/issues/122#issuecomment-1998798096 |
-
-more to come
+| slimjet            | 26.0.9.0  | 30.0.5.0  | 37.0.4.0  | 26 was the last version for wheeze, i386 only gets 30 |
 
 #### extra or and non free packages
 
@@ -69,8 +68,7 @@ always supporting older versions and historic packages
 | anydesk            | 6.0.0     | 6.0.0     | 6.0.0     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for jessie and stretch on amd64 |
 | brave-keyring      |   x       |     x     |     x     | need for manual brave install on our customized repos  |
-| google chrome      |  48       | 48/96     |  96       | 48 was the last version for i386 |
-| slimjet            |  26       | 26        |  26       | 26 was the last version for wheeze |
+| slimjet            |   x       | 37/33     | 40/33     | 40 maps google chrome 117, version for i386 is 33 but unstable |
 | codium             |  1.35     |  1.35     |  1.35     |  las version for i386     |
 | yarn               | 1.29      | 1.29      | 1.29      | working    |
 | nerolinux          | 4.0.0     | 4.0.0     | 4.0.0     | nerolinux key provided in telegram, or inside venenux debian |
