@@ -10,8 +10,6 @@ Provides: containerd, runc
 Filename: stretch/docker/containerd.io_1.2.13-2_amd64.deb
 Size: 21392850
 MD5sum: ff7ea03dd94cf3a4c5ed5dc71a135e46
-SHA1: 15735428de32cf7e0e2890aaa021c6e0d551e961
-SHA256: c2f6d8070ccf3813644cd465c2640c0e8f2967ecd01ccecbdcfa4b2acc9c9c92
 Section: devel
 Priority: optional
 Homepage: https://containerd.io
@@ -29,8 +27,6 @@ Provides: containerd, runc
 Filename: stretch/docker/containerd.io_1.3.9-1_amd64.deb
 Size: 24378958
 MD5sum: a22cd3bd3df6331c11eacc219cc6a2ab
-SHA1: 0bb5dee53bcf83be0757dd75ffb767721a6b2539
-SHA256: 87e04f76042b3eb09c4e28f1f741313881c1b3d3496e0ca466aaf0183eb5cea2
 Section: devel
 Priority: optional
 Homepage: https://containerd.io
@@ -48,8 +44,6 @@ Provides: containerd, runc
 Filename: stretch/docker/containerd.io_1.4.3-1_amd64.deb
 Size: 28102422
 MD5sum: e1957d72cfcb23f202ca62891d3cf882
-SHA1: fde1395be9bc54428570d0a49e68f1efe6da53be
-SHA256: 7e9514540e268a5be6c9a905a1bd4c65afb5eb32ae0cab4e5c3118e7812d5297
 Section: devel
 Priority: optional
 Homepage: https://containerd.io
@@ -67,8 +61,6 @@ Replaces: docker-engine
 Filename: stretch/docker/docker-ce_19.03.9~3-0~debian-stretch_amd64.deb
 Size: 22526132
 MD5sum: 6a2368659d94dc8b0b387da9136cb348
-SHA1: 9bf121f6cf8ba18452be27a669f7f5e1498d7a93
-SHA256: 978bc399d96a3417e579424da0f1a2bee2d42949a0430e98a2f399a3bee84802
 Section: admin
 Priority: optional
 Homepage: https://www.docker.com
@@ -96,8 +88,6 @@ Replaces: docker-ce (<< 5:0)
 Filename: stretch/docker/docker-ce-cli_19.03.9~3-0~debian-stretch_amd64.deb
 Size: 41196184
 MD5sum: 3f79e69d726350dc36891c062c4d6092
-SHA1: 28ef321f4232741734a9e56239c592ec6c16e43c
-SHA256: c5a9f032511286fc7062e0c94e6d6a42ef7f7516a495b54c1dbe9080cf6c69d9
 Section: admin
 Priority: optional
 Homepage: https://www.docker.com
@@ -121,8 +111,6 @@ Depends: gnome-themes-standard, gtk-update-icon-cache
 Filename: stretch/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
 Size: 1427564
 MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
-SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
-SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
 Section: gnome
 Priority: optional
 Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
@@ -145,8 +133,6 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Filename: stretch/nodejs/nodejs_12.22.12-1nodesource1_amd64.deb
 Size: 18158172
 MD5sum: e1c3f5cc11b447493017b159376f41de
-SHA1: 62d0401797d836455806d6c0abff681c8430c54c
-SHA256: 2586363a7444e701cef4796da00e49f0ec876f47bb0a8fedf965321f7300cc46
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -173,8 +159,6 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Filename: stretch/nodejs/nodejs_14.21.3-deb-1nodesource1_amd64.deb
 Size: 25424096
 MD5sum: 264ccd32ae370001c3e69d0b09fabe34
-SHA1: b75a59a6c9aa973cf251c780773f23144fc5c7b0
-SHA256: bc8e348a48b376755f2f1a8e07971ffbed4644e0d52b684ff6ba700cd2a8d2ec
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -201,8 +185,6 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Filename: stretch/nodejs/nodejs_16.20.2-deb-1nodesource1_amd64.deb
 Size: 27151966
 MD5sum: 92eda0ed7277d95c87233bf765fa1979
-SHA1: 93e26ab8de596c042c5f0315ad7d52f0d206b763
-SHA256: e53a8e6f641a81d609dcab5723d711de935d9689f1a73052881497d908a292e6
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -229,8 +211,6 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Filename: stretch/nodejs/nodejs_18.17.1-deb-1nodesource1_amd64.deb
 Size: 28872348
 MD5sum: 9156c1b4d757b2b33d7c0c8366b9c947
-SHA1: f0ba4d1612df34187e541216ae740986e00a5d4b
-SHA256: 2b1b67b3e7ee4c2ef61d2880b72e399356f4037a6012e514d1d2649dd04a4aa7
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -257,8 +237,6 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Filename: stretch/nodejs/nodejs_20.5.1-deb-1nodesource1_amd64.deb
 Size: 30331764
 MD5sum: dd6e71d1f04ec0114d3f79ba6054e79b
-SHA1: 0605ca20327d1d58f908bce9bb5ae44c78358d37
-SHA256: 73458dd3d0d562f84e453a21801e9d2a5e08dd026f6409756371b92de6026828
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -284,8 +262,6 @@ Provides: www-browser
 Filename: stretch/slimjet/slimjet-37.0.4.0_amd64.deb
 Size: 86056684
 MD5sum: b030479c05441585fc353111a52fb7b9
-SHA1: 9bb47f05357f0b2bfeaf7f60dc11435afa386b05
-SHA256: 89f9ab80f761a0eae2019e69102d41f91367f545e41597ab02dae43f41d51edc
 Section: web
 Priority: optional
 Homepage: http://www.slimjet.com

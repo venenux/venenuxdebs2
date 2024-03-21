@@ -7,8 +7,6 @@ Depends: gnome-themes-standard, gtk-update-icon-cache
 Filename: wheezy/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
 Size: 1427564
 MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
-SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
-SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
 Section: gnome
 Priority: optional
 Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
@@ -31,8 +29,6 @@ Provides: nodejs-dev, nodejs-legacy, npm
 Filename: wheezy/nodejs/nodejs_9.11.2-1nodesource1_i386.deb
 Size: 12441982
 MD5sum: 25ddbc441f3a772a89b6047f09f13f83
-SHA1: 6e7c95b353d435c0bb4e0e295f7ee06cc9ba44b1
-SHA256: f42135a23361d4d3112a26df1d352fd3d81bafc383189c5a02e67e5594d0c22f
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -58,8 +54,6 @@ Provides: www-browser
 Filename: wheezy/slimjet/slimjet-26.0.9.0_i386.deb
 Size: 60217518
 MD5sum: 3b839bfc4ad7aecd63c378aa878c4bfe
-SHA1: d985a1b122a41a29a1a4b926f9558a97f03e7559
-SHA256: 38586f6872d731111b4c19adca26de224420a1656e5a26c87c2a223f17eb81d3
 Section: web
 Priority: optional
 Homepage: http://www.slimjet.com
