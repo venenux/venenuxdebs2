@@ -56,6 +56,7 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 | docker-ci          | 17,18     | 17,18,19  | 19        | containerio package for jessie and stretch |
 | nodejs+npm         | 9 & 11    | 12 to 16  | 14 to 20  | soon 16 for i386 https://github.com/nodejs/unofficial-builds/issues/122#issuecomment-1998798096 |
 | slimjet            | 26.0.9.0  | 30.0.5.0  | 37.0.4.0  | 26 was the last version for wheeze, i386 only gets 30 |
+| la-capitaine       | 2.1       | 2.1       | 2.1       | icon and cursor like mac os |
 
 #### extra or and non free packages
 
@@ -73,7 +74,6 @@ always supporting older versions and historic packages
 | yarn               | 1.29      | 1.29      | 1.29      | working    |
 | nerolinux          | 4.0.0     | 4.0.0     | 4.0.0     | nerolinux key provided in telegram, or inside venenux debian |
 | samsung drivers    | 2         | 2         | 2         | archived of the universal sansung dreivers for older printers |
-| la-capitaine       | 2.1       | 2.1       | 2.1       | icon and cursor |
 | yarn               | 1.29      | 1.29      | 1.29      | working    |
 | nodejs+npm         | 9 & 11    | 12 to 16  | 14 to 20  | working, amd64, arm64/armf, and for i386 only v9 |
 

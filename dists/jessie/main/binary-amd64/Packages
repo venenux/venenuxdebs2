@@ -258,6 +258,27 @@ Description: Docker CLI: the open-source application container engine
  for deploying and scaling web apps, databases, and backend services without
  depending on a particular stack or provider.
 
+Package: la-capitaine-icon-theme
+Version: 0.6.0-2-0.1~mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 24265
+Depends: gnome-themes-standard, gtk-update-icon-cache
+Filename: jessie/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
+Size: 1427564
+MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
+SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
+SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
+Section: gnome
+Priority: optional
+Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
+Description: icon pack designed to integrate with most desktop environments
+ .
+ The set of icons takes inspiration from the latest iterations of macOS
+ and Google's Material Design through the use of visually pleasing gradients,
+ shadowing, and simple icon geometry.
+Original-Maintainer: Igor Dyatlov <dyatlov.igor@gmail.com>
+
 Package: nodejs
 Version: 12.22.12-1nodesource1
 Architecture: amd64
