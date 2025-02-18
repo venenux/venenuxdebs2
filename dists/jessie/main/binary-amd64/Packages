@@ -10,6 +10,8 @@ Provides: containerd, runc
 Filename: jessie/docker/containerd.io_1.2.13-2_amd64.deb
 Size: 21392850
 MD5sum: ff7ea03dd94cf3a4c5ed5dc71a135e46
+SHA1: 15735428de32cf7e0e2890aaa021c6e0d551e961
+SHA256: c2f6d8070ccf3813644cd465c2640c0e8f2967ecd01ccecbdcfa4b2acc9c9c92
 Section: devel
 Priority: optional
 Homepage: https://containerd.io
@@ -27,6 +29,8 @@ Provides: containerd, runc
 Filename: jessie/docker/containerd.io_1.2.6-3_amd64.deb
 Size: 22610446
 MD5sum: 032bc450224b31b17f88230bc430e00b
+SHA1: a6c9c3014dfe65b685a7e835253a32b5784d5365
+SHA256: 7191efbaf8f915b0a5ac8100b2f1911ab5a2b9d50019a58c8d3e182cb3295fcb
 Section: devel
 Priority: optional
 Homepage: https://containerd.io
@@ -44,6 +48,8 @@ Replaces: docker-engine
 Filename: jessie/docker/docker-ce_17.12.0~ce-0~debian_amd64.deb
 Size: 30206248
 MD5sum: 0e2e405d17cbf165a493cab428b59da3
+SHA1: 6fb1ed08ac476a2b1ebd676adb53cd032e0fd1a8
+SHA256: d27a7996242906501fab98943cb406016d9bd7c44445cdea7d7286bda520ba51
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -70,6 +76,8 @@ Replaces: docker-engine
 Filename: jessie/docker/docker-ce_17.12.1~ce-0~debian_amd64.deb
 Size: 25047346
 MD5sum: 8ac5cbe268deb0030544f1f7df697baf
+SHA1: 18938382f0b1176a6eb7152f1fa848f05820c435
+SHA256: 48317f3ca3246edd8031c0304c55055a4a6f23f63448fd454b36907f318bd839
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -96,6 +104,8 @@ Replaces: docker-engine
 Filename: jessie/docker/docker-ce_18.06.2~ce~3-0~debian_amd64.deb
 Size: 39686058
 MD5sum: d1205ea4d2ccfa30eabdb32128f65041
+SHA1: 1a2500311230aff37aa81dd1292a88302fb0a2e1
+SHA256: 77ce4267f77cf001b5c8a2d3845dee07c11b223cf13674a96794407b8d34f8fd
 Section: admin
 Priority: optional
 Homepage: https://www.docker.com
@@ -122,6 +132,8 @@ Replaces: docker-engine
 Filename: jessie/docker/docker-ce_18.06.3~ce~3-0~debian_amd64.deb
 Size: 39704654
 MD5sum: 1c12794f2c24ab9f663d1ba5ada4833f
+SHA1: 058bcd4b055560866b8cad978c7aa224694602da
+SHA256: 19aeb2d165053055b53c1de414af0f5108ce8fb786b17874f65eb5e6dea90592
 Section: admin
 Priority: optional
 Homepage: https://www.docker.com
@@ -148,6 +160,8 @@ Replaces: docker-engine
 Filename: jessie/docker/docker-ce_18.09.0~ce~0.4.tp4-0~debian_amd64.deb
 Size: 18672390
 MD5sum: 6a22c4cd729aac0281e7f3d2513b29f7
+SHA1: 44b17969c7486669c5ca40ae74a682e3d6e5dda3
+SHA256: aaba4cbc374cf582562c978982b544d3a8de17bdd6259bcebb58488717f45505
 Section: admin
 Priority: optional
 Homepage: https://docker.com
@@ -174,6 +188,8 @@ Replaces: docker-engine
 Filename: jessie/docker/docker-ce_18.09.0~ce~0.5.tp5-0~debian_amd64.deb
 Size: 18661630
 MD5sum: 450932423e56570d33b28d37c0dafbc3
+SHA1: 18f171cd4c37b89fb671fa12230cb913915df8f9
+SHA256: 9d8d69296a95b081a9b6c96d489af90a17985169faabc88b64af44195ac6ea89
 Section: admin
 Priority: optional
 Homepage: https://docker.com
@@ -199,6 +215,8 @@ Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-doc
 Filename: jessie/docker/docker-ce-cli_18.09.0~ce~0.4.tp4-0~debian_amd64.deb
 Size: 12981050
 MD5sum: accb7b258291eb57ac028167e29124d3
+SHA1: e0f5d29ec52cf9fff4d11c58f9ddbbb5c7522345
+SHA256: cc2b212d341deff206e65507ad71131694a726df27e69a424c5f63ffde1dab16
 Section: admin
 Priority: optional
 Homepage: https://docker.com
@@ -224,6 +242,8 @@ Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-doc
 Filename: jessie/docker/docker-ce-cli_18.09.0~ce~0.5.tp5-0~debian_amd64.deb
 Size: 12912088
 MD5sum: 22798bcfbf23781f72c790d52c65fb3b
+SHA1: 9f2d3b3093b4cd794ebc99c7a717d9dc3962afa1
+SHA256: 3d30e0e4413dafbf2297946906b6fecd4907e3eb97cd5ead1f715d4fd73da8de
 Section: admin
 Priority: optional
 Homepage: https://docker.com
@@ -247,6 +267,8 @@ Depends: gnome-themes-standard, gtk-update-icon-cache
 Filename: jessie/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
 Size: 1427564
 MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
+SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
+SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
 Section: gnome
 Priority: optional
 Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
@@ -269,6 +291,8 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Filename: jessie/nodejs/nodejs_12.22.12-1nodesource1_amd64.deb
 Size: 18158172
 MD5sum: e1c3f5cc11b447493017b159376f41de
+SHA1: 62d0401797d836455806d6c0abff681c8430c54c
+SHA256: 2586363a7444e701cef4796da00e49f0ec876f47bb0a8fedf965321f7300cc46
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -295,6 +319,8 @@ Provides: nodejs-dev, nodejs-legacy, npm
 Filename: jessie/nodejs/nodejs_13.14.0-1nodesource1_amd64.deb
 Size: 24265230
 MD5sum: 471da63d2e7cf2f508fe834619ab81c9
+SHA1: 9ea9c9a5a87f0bec179b607c243e36baa3c26e5a
+SHA256: c914b268b78cbd387430c7ecce1b90952e84aa5d7ca548db39533c2fbe77b16f
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -321,6 +347,8 @@ Provides: nodejs-dev, nodejs-legacy, npm
 Filename: jessie/nodejs/nodejs_14.16.1-1nodesource1_amd64.deb
 Size: 24698356
 MD5sum: e617e209af7d5bae0899b3fad2c2284a
+SHA1: 4914fc9a924b0495a6928d73de4a6a5f7e7784c8
+SHA256: bd7840640c132556400801123297ab57e275dbe744c1fc7f0f87f7c603067a7f
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -347,6 +375,8 @@ Provides: nodejs-dev, nodejs-legacy, npm
 Filename: jessie/nodejs/nodejs_15.14.0-1nodesource1_amd64.deb
 Size: 25557882
 MD5sum: 14e7d8d63631a2ab4e6ab8863577d686
+SHA1: fd57da0b4e2f94c6a3109087f09e4bb145303ea4
+SHA256: 58e25ad468addecedd0ffff5b838c6d93d63c1464d0fe75afa6e2c0e550b4f41
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -373,6 +403,8 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Filename: jessie/nodejs/nodejs_16.20.2-deb-1nodesource1_amd64.deb
 Size: 27151966
 MD5sum: 92eda0ed7277d95c87233bf765fa1979
+SHA1: 93e26ab8de596c042c5f0315ad7d52f0d206b763
+SHA256: e53a8e6f641a81d609dcab5723d711de935d9689f1a73052881497d908a292e6
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -387,6 +419,29 @@ Description: Node.js event-based server-side javascript engine
  System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
  HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
 
+Package: nomachine
+Version: 6.9.2-1
+Architecture: amd64
+Maintainer: NoMachine S.a.r.l. <info@nomachine.com>
+Installed-Size: 187048
+Conflicts: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine-enterprise-client
+Replaces: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine
+Filename: jessie/nomachine/nomachine_6.9.2_1_amd64.deb
+Size: 46753672
+MD5sum: 86fe9a0f9ee06ee6fce41aa36674f727
+SHA1: f5b32e0b38d36a547298ef2c69d8e6f3ea3cbc69
+SHA256: 1393e520de72ff1f38feb27e77ae29dc51a175d3a60d4e6fc916a2fda0acc2ac
+Section: net
+Priority: optional
+Description: Fast and secure remote access system
+ NoMachine is a fast and secure remote access system and terminal server
+ service. It provides a full set of administration tools that make it a complete
+ desktop virtualization solution for you or for your organization.
+ .
+ This package includes all programs and libraries necessary to
+ transform your machine into a server in the cloud or a remote
+ desktop client according to your needs.
+
 Package: slimjet
 Version: 30.0.5.0
 Architecture: amd64
@@ -398,6 +453,8 @@ Provides: www-browser
 Filename: jessie/slimjet/slimjet_30.0.5.0_amd64.deb
 Size: 66731502
 MD5sum: e7b5c00742885d8cc3c03f4a6ead3cdf
+SHA1: 801e0609bb85b041b97dac31767634eb88485e7a
+SHA256: 1b0135d7149623fee51c915f9dbfd3885580c2964037ba4b754ea350616e7982
 Section: web
 Priority: optional
 Homepage: http://www.slimjet.com

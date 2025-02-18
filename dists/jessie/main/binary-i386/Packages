@@ -7,6 +7,8 @@ Depends: gnome-themes-standard, gtk-update-icon-cache
 Filename: jessie/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
 Size: 1427564
 MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
+SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
+SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
 Section: gnome
 Priority: optional
 Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
@@ -29,6 +31,8 @@ Provides: nodejs-dev, nodejs-legacy, npm
 Filename: jessie/nodejs/nodejs_9.11.2-1nodesource1_i386.deb
 Size: 12441982
 MD5sum: 25ddbc441f3a772a89b6047f09f13f83
+SHA1: 6e7c95b353d435c0bb4e0e295f7ee06cc9ba44b1
+SHA256: f42135a23361d4d3112a26df1d352fd3d81bafc383189c5a02e67e5594d0c22f
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -43,6 +47,29 @@ Description: Node.js event-based server-side javascript engine
  System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
  HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
 
+Package: nomachine
+Version: 6.12.3-8
+Architecture: i386
+Maintainer: NoMachine S.a.r.l. <info@nomachine.com>
+Installed-Size: 191816
+Conflicts: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine-enterprise-client
+Replaces: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine
+Filename: jessie/nomachine/nomachine_6.12.3_8_i386.deb
+Size: 46902940
+MD5sum: 4a4ccd01cc668ee65a930400103fcc7c
+SHA1: ff5c5aa9ec9f058469ff494e7663efb5f967d78c
+SHA256: e64f3b5a630f86f71ca4c3aed02b71cc1da318db5566872a100105fe0187bf4a
+Section: net
+Priority: optional
+Description: Fast and secure remote access system
+ NoMachine is a fast and secure remote access system and terminal server
+ service. It provides a full set of administration tools that make it a complete
+ desktop virtualization solution for you or for your organization.
+ .
+ This package includes all programs and libraries necessary to
+ transform your machine into a server in the cloud or a remote
+ desktop client according to your needs.
+
 Package: slimjet
 Version: 30.0.5.0
 Architecture: i386
@@ -54,6 +81,8 @@ Provides: www-browser
 Filename: jessie/slimjet/slimjet_30.0.5.0_i386.deb
 Size: 65820544
 MD5sum: 60fac520dea4b92a86437dc05f39e546
+SHA1: fd75a1cb7d7b535753db4458cb993f702e518e67
+SHA256: 14fe4e7164e5c72b1736138b04a05d3a050ba675c46d1d03c61399cdc8ef75da
 Section: web
 Priority: optional
 Homepage: http://www.slimjet.com

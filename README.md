@@ -57,6 +57,7 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 | nodejs+npm         | 9 & 11    | 12 to 16  | 14 to 20  | soon 16 for i386 https://github.com/nodejs/unofficial-builds/issues/122#issuecomment-1998798096 |
 | slimjet            | 26.0.9.0  | 30.0.5.0  | 37.0.4.0  | 26 was the last version for wheeze, i386 only gets 30 |
 | la-capitaine       | 2.1       | 2.1       | 2.1       | icon and cursor like mac os |
+| nomachine          | 6.7.6     | 6.9.2     | 8.8.1     | remote desktop protocol for i386 and amd64 |
 
 #### extra or and non free packages
 
@@ -70,7 +71,7 @@ always supporting older versions and historic packages
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for jessie and stretch on amd64 |
 | brave-keyring      |   x       |     x     |     x     | need for manual brave install on our customized repos  |
 | slimjet            |   x       | 37/33     | 40/33     | 40 maps google chrome 117, version for i386 is 33 but unstable |
-| codium             |  1.35     |  1.35     |  1.35     |  las version for i386     |
+| codium             | 1.35      |  1.35     |  1.35     |  las version for i386     |
 | yarn               | 1.29      | 1.29      | 1.29      | working    |
 | nerolinux          | 4.0.0     | 4.0.0     | 4.0.0     | nerolinux key provided in telegram, or inside venenux debian |
 | samsung drivers    | 2         | 2         | 2         | archived of the universal sansung dreivers for older printers |

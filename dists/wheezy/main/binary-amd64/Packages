@@ -10,6 +10,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_17.12.1~ce-0~debian_amd64.deb
 Size: 43882702
 MD5sum: dd4133a24ba7eaea6195a97929b38317
+SHA1: 797685b1672f529054b1ef9a453c7551460d4b31
+SHA256: 034b05813f8428172f0650c7675c76bfaedca5c2f413bea0723e97642287ed20
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -36,6 +38,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_17.12.1~ce~rc1-0~debian_amd64.deb
 Size: 43879776
 MD5sum: 174d00f1532e495b6d0b33319d3f4bd2
+SHA1: d566fc8cb0e26fa079c051203f221e7f5070ae83
+SHA256: 08f21dd672240593cf2781d0e2cf7fdc3e7ff883dc77e115147f7e7a65b144ac
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -62,6 +66,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_17.12.1~ce~rc2-0~debian_amd64.deb
 Size: 43881758
 MD5sum: 64e3063b76be33e18f90bea8a234d66e
+SHA1: 9487c39adbf9703be627ade8269cf954714ad675
+SHA256: d51ce7a9da7bc4bd3c9a62731be5a0edcdf62539d030be229bee6f710c002a4d
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -88,6 +94,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_18.03.1~ce-0~debian_amd64.deb
 Size: 50230674
 MD5sum: f7820af7cd913acddf67ff775bf39ae3
+SHA1: 629aa9f89b0a45620556cd5f012eddab67e58583
+SHA256: 85747507b8fadbb2d4390711b11f7e94d330527d81bccb31eec19b02e06004a9
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -114,6 +122,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_18.05.0~ce~2.1.rc1-0~debian_amd64.deb
 Size: 50394808
 MD5sum: de1cc106d2b954f30b304f2bb3ec2478
+SHA1: a71d76fb4d5cfd913aead5e7cdd53604a28cc517
+SHA256: e4497b127c0f30261375669ab353d4af6e9d3f0ad64159128e06161745d3e13c
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -140,6 +150,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_18.05.0~ce~3-0~debian_amd64.deb
 Size: 50384656
 MD5sum: 2089018bf02a7a7a24832a01ae4a5f67
+SHA1: 99c9b393d29aac5128eaa6b9d0864ada9d4212da
+SHA256: 263ce0e743f8d902c40ee85e25e894b0988d46e19420fae63aef731f4d77733a
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -166,6 +178,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_18.05.0~ce~dev~git20180423.164130.0.8b92797-0~debian_amd64.deb
 Size: 50399708
 MD5sum: 12809286706d6ae6d62e004b7b5acf31
+SHA1: b1150c803ca6d3335aaac1ea3af811b8327558c4
+SHA256: 39a42d8fb0170b56c82363d1094a8827d0901a5abee4a2f9eae55376eed13d88
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -192,6 +206,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_18.05.0~ce~dev~git20180424.170523.0.605ac64-0~debian_amd64.deb
 Size: 50398994
 MD5sum: bed63a38188cc7339948c6bb84d84f68
+SHA1: 1bb1c6d29e07b52b7410bac15f2f5edeaef2acd4
+SHA256: 58ddf7634c61d9c5a9cd3cb545df44bb4dded0dae69079ca7e201355da32627f
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -218,6 +234,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_18.06.0~ce~dev~git20180515.170736.0.e191ac7-0~debian_amd64.deb
 Size: 50422844
 MD5sum: 35158c0d2988b737bf6a54a143c2da98
+SHA1: d77ea29431471938b0bbf27d7317c328bcd7f062
+SHA256: 217a6f94f4111f6a57ab900d1c7c80da18de63ace7a6fd4e482342c31ca745a8
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -244,6 +262,8 @@ Replaces: docker-engine
 Filename: wheezy/docker/docker-ce_18.06.0~ce~dev~git20180517.170510.0.3f80548-0~debian_amd64.deb
 Size: 50422682
 MD5sum: bf86c54bbeb6d87e9d71bc2c2171d61b
+SHA1: 08c6ab302d394409fcdd24ee3fa4e856232d3b31
+SHA256: 025d9ee18a17b004b156f010f3dbbba9838712de47f784090c81a4c4bbe8e2c0
 Section: admin
 Priority: optional
 Homepage: https://dockerproject.org
@@ -267,6 +287,8 @@ Depends: gnome-themes-standard, gtk-update-icon-cache
 Filename: wheezy/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
 Size: 1427564
 MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
+SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
+SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
 Section: gnome
 Priority: optional
 Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
@@ -289,6 +311,8 @@ Provides: nodejs-dev, nodejs-legacy, npm
 Filename: wheezy/nodejs/nodejs_10.24.1-1nodesource1_amd64.deb
 Size: 15949164
 MD5sum: 6d9f0e30396cb6c20945ff6de2f9f322
+SHA1: a3bc5a29614eab366bb3644abb1e602b5c8953d5
+SHA256: 4b374d16b536cf1a3963ddc4575ed2b68b28b0b5ea6eefe93c942dfc0ed35177
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -315,6 +339,8 @@ Provides: nodejs-dev, nodejs-legacy, npm
 Filename: wheezy/nodejs/nodejs_11.15.0-1nodesource1_amd64.deb
 Size: 16162138
 MD5sum: 29b8992be2ad56eec075734d891dfd85
+SHA1: 222e49fbbb28b262e20cb944289e37668b627821
+SHA256: b5b43e843fed6117ba8fea91f796888453832c3d6d8e90eaf6d57216ecb67df4
 Section: web
 Priority: optional
 Homepage: https://nodejs.org
@@ -329,6 +355,29 @@ Description: Node.js event-based server-side javascript engine
  System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
  HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
 
+Package: nomachine
+Version: 6.7.6-11
+Architecture: amd64
+Maintainer: NoMachine S.a.r.l. <info@nomachine.com>
+Installed-Size: 184764
+Conflicts: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine-enterprise-client
+Replaces: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine
+Filename: wheezy/nomachine/nomachine_6.7.6_11_amd64.deb
+Size: 46151758
+MD5sum: 4d94be64f52b4b5d726da7d2610feeaa
+SHA1: 89389570130b77be26cad81bfa504d9d6fa9809a
+SHA256: 3bfc7bc0f286ebc70f8a51930414a1da468e1a03a96ed3159bf608abac5cedfb
+Section: net
+Priority: optional
+Description: Fast and secure remote access system
+ NoMachine is a fast and secure remote access system and terminal server
+ service. It provides a full set of administration tools that make it a complete
+ desktop virtualization solution for you or for your organization.
+ .
+ This package includes all programs and libraries necessary to
+ transform your machine into a server in the cloud or a remote
+ desktop client according to your needs.
+
 Package: slimjet
 Version: 26.0.9.0
 Architecture: amd64
@@ -340,6 +389,8 @@ Provides: www-browser
 Filename: wheezy/slimjet/slimjet_26.0.9.0_amd64.deb
 Size: 64305668
 MD5sum: 388e2d78e8d241a4847bed0465b5272c
+SHA1: d2b3a6873b28a0a4bba865b4b5249acc771a4100
+SHA256: 59f4a0d60a2ffd8f1a445811ddce4d34bb1ad0f57334bf5cc609d604e725e323
 Section: web
 Priority: optional
 Homepage: http://www.slimjet.com
